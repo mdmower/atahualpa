@@ -1,0 +1,2685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Atahualpa 3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-19 02:51+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bytes For All <lmmmuc@gmail.com>\n"
+"Language-Team: Bytesforall.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\_BYTESFORALL.com\\wordpress\\FIRST-OWN-THEME-1.01\\atahualpa3.1\n"
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:3
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:3
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:9
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:5
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:29
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:22
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:26
+#, php-format
+msgid "%1$s to %2$s"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:29
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:22
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:26
+msgid "No Comments"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:29
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:22
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:26
+msgid "1 Comment"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:33
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:139
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/index.php:234
+msgid "Pages:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:59
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:57
+msgid "Gravatar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:73
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:71
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_comment_walker.php:109
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:80
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:116
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:78
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:119
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_comment_walker.php:114
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:80
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:116
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:78
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:119
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_comment_walker.php:114
+msgid "F jS, Y"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:87
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:119
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:85
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:122
+msgid "Edit"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:160
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:173
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:162
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:171
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:195
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:173
+msgid "Leave a Reply"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:175
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:187
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:177
+#, php-format
+msgid "You must be %slogged in</a> to post a comment."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:186
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:206
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:188
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:187
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:207
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:189
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:187
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:207
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:189
+msgid "Logout &raquo;"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:194
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:214
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:196
+msgid "author"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:194
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:214
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:196
+msgid "Name "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:194
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:198
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:214
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:218
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:196
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:200
+msgid "(required)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:198
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:218
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:200
+msgid "email"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:198
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:218
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:200
+msgid "Mail (will not be published) "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:202
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:222
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:204
+msgid "url"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:202
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:222
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:204
+msgid "Website"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:209
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:229
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:211
+msgid "<strong>XHTML:</strong> You can use these tags:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments-paged.php:218
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:238
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/legacy.comments.php:220
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:71
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:86
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:102
+msgid " &middot; Reply"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:72
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:87
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:103
+msgid "Log in to Reply"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:195
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/comments.php:198
+msgid "Cancel"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/footer.php:16
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/footer.php:22
+msgid " queries. "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/footer.php:16
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/footer.php:22
+msgid " seconds."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:162
+msgid " Options"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:162
+msgid "Atahualpa Theme Options"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:167
+msgid " settings saved."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:168
+msgid " settings reset."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:195
+msgid "START"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:196
+msgid "SEO"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:197
+msgid "Body, Text &amp; Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:198
+msgid "Layout"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:199
+msgid "Favicon"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:200
+msgid "Header"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:201
+msgid "Header Image"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:202
+msgid "RSS Feed Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:203
+msgid "Page Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:204
+msgid "Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:205
+msgid "Center"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:206
+msgid "Next/Previous Navigation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:207
+msgid "Sidebars"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:208
+msgid "Widgets"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:209
+msgid "Post/Page Info Items"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:210
+msgid "Post/Page Styling"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:211
+msgid "Posts or Excerpts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:212
+msgid "\"Read More\" tag"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:213
+msgid "Comments"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:214
+msgid "Footer"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:215
+msgid "Tables"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:216
+msgid "Forms"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:217
+msgid "Blockquotes"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:218
+msgid "Images"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:219
+msgid "HTML/CSS Inserts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:220
+msgid "Archives Page"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:237
+msgid ""
+"<label for=\"Post Info Items\">Post Info Items</label><br /><br />\n"
+"\tConfigure a <strong>Kicker</strong>, a <strong>Byline</strong> and a <strong>Footer</strong> for posts and pages by arranging these <strong>Post Info Items</strong>. \n"
+"\t<br /><br />Some of these post info items have one or several <strong>parameters</strong>: \n"
+"<ul>\n"
+"\t<li>You can leave parameters empty but do not remove their single quotes, even if the parameter is empty.</li>\n"
+"\t<li>Replace the parameter <code>delimiter</code> with what you want to put between the list items of the tag or category list, i.e. a comma.</li>\n"
+"\t<li>Replace the parameters <code>before</code> and <code>after</code> with what you want to display before or after that info item. If an item has these \"before/after\" parameters, use them instead of \n"
+"\thard coding text before and after that item: Example: Use <br /><code>%tags-linked('<i>Tags: </i>', '<i>, </i>', '<i> - </i>')%</code><br />instead of<br /><code>Tags: %tags-linked('', '<i>, </i>', '')% - </code></li>\n"
+"\t<li>Replace the parameter <code>linktext</code> with the link text for that item.</li>\n"
+"</ul>\n"
+"HTML and <strong>icons</strong> can be used, inside of parameters, too, just not inside the date item:\n"
+"<ul>\n"
+"<li><code>&lt;image(someimage.gif)&gt;</code> to include an image. <em>Note: The image item doesn't have quotes</em></li>\n"
+"<li>To use your own images, upload them to /[theme-folder]/images/icons/</li>\n"
+"</ul>\n"
+"\t<h3>Icons</h3>\n"
+"<strong>Currently available images (Once you uploaded yours they will be listed here):</strong><br /><br />"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:269
+msgid ""
+"<h3>Examples</h3>\n"
+"Examples for <strong>Post Bylines</strong>:\n"
+"<ul>\n"
+"\t<li><code>By %author%, on %date('<i>F jS, Y</i>')%</code></li>\n"
+"\t<li><code>&lt;strong&gt;%author-linked%&lt;/strong&gt; posted this in &lt;strong&gt;%categories-linked('<i>, </i>')%&lt;/strong&gt; on &lt;em&gt;%date('<i>F jS, Y</i>')%&lt;/em&gt;</code></li>\n"
+"\t<li><code>&lt;image(user.gif)&gt; %author-linked% &lt;image(date.gif)&gt; %date('<i>l, jS \\of F Y \\a\t h:i:s A</i>')%</code></li>\n"
+"\t</ul>\n"
+"Examples for <strong>Post Footers</strong>:\n"
+"\t<ul>\n"
+"\t<li><code>%tags-linked('<i>&lt;strong&gt;Tags:&lt;/strong&gt; </i>', '<i>, </i>', '<i> &amp;mdash; </i>')% &lt;strong&gt;Categories:&lt;/strong&gt; %categories-linked('<i>, </i>')% &amp;mdash; %comments('<i>Nobody has commented yet, kick it off...</i>', '<i>One comment so far</i>', '<i>% people had their say - be the next!</i>', '<i>Sorry, but comments are closed</i>')% &amp;mdash;  \n"
+"\t%wp-print% &amp;mdash; %wp-email% &amp;mdash; %sociable% &amp;mdash; %wp-postviews%</code></li>\n"
+"\t</ul>\n"
+"\t\n"
+"\t<h3>Post Info Items</h3>\n"
+"\tList of available post info items:\n"
+"<br /><h4>%author%</h4>\n"
+"Prints the name of the author of the post.\n"
+"<br /><h4>%author-linked%</h4>\n"
+"Prints the name of the author of the post, and links it to a page listing all posts by that author.\n"
+"<br /><h4>%date('F jS, Y')%</h4>\n"
+"Prints the date and/or time the post was published at. Many configuration options at <a href='http://www.php.net/date'>PHP Date</a>. \n"
+"Because most letters of the alphabet represent a certain date/time output function, you will have to <strong>escape</strong> each letter that you want to display LITERALLY, for instance, to \n"
+"include words like <strong>at</strong>, <strong>on</strong>, or <strong>the</strong> somewhere <strong>inside</strong> the date output. <strong>Escaping</strong> a letter means to put a backslash <strong>\\</strong> right before that letter. \n"
+"That will tell PHP that you mean the actual letter and not the corresponding date function.<br /><br />\n"
+"<strong>How to escape literal strings</strong>\n"
+"<ul><li>on -> <code>&#092;o&#092;n</code></li>\n"
+"<li>of -> <code>&#092;of</code> &nbsp;&nbsp;<em>(Note how the the lowercase <strong>f</strong> didn't get a backslash. That's because <strong>f</strong> is one of the letters of the alphabet that does not represent a PHP date function)</em></li>\n"
+"<li>at -> <code>&#092;a&#092;t</code></li>\n"
+"<li>the -> <code>&#092;t&#092;h&#092;e</code></li>\n"
+"<li>The arrows just illustrate how to change a word to display it literally inside a date function, don't use them</li>\n"
+"</ul>\n"
+"<strong>Examples:</strong>\n"
+"\t<ul>\n"
+"\t<li><code>%date('<i>F j, Y, &#092;a&#092;t g:i a</i>')%</code> displays: December 10, 2008, at 5:16 pm <br />\n"
+"\t<em>Note how the letters <strong>a</strong> and <strong>t</strong> of the word <strong>at</strong> are <strong>escaped</strong> with backslashes \n"
+"\tto display them literally instead of being interpreted as a PHP date function.</em>\n"
+"\t</li>\n"
+"\t<li><code>%date('<i>F j, Y, g:i a</i>')%</code> displays: December 10, 2008, 5:16 pm\n"
+"\t</li>\n"
+"\t<li><code>%date('<i>m.d.y</i>')%</code> displays: 10.12.08\n"
+"\t</li>\n"
+"\t</ul>\n"
+"<br /><h4>%category%</h4>\n"
+"Prints the name of the <strong>first</strong> category the post is filed under.\n"
+"<br /><h4>%category-linked%</h4>\n"
+"Prints the name of the <strong>first</strong> category the post is filed under and links the name to that category page.\n"
+"<br /><h4>%categories('delimiter')%</h4>\n"
+"Prints the names of <strong>all</strong> categories the post is filed under, separated by delimiter.\n"
+"<br /><strong>Example:</strong> <code>%categories('<i>, </i>')%</code>\n"
+"<br /><h4>%categories-linked('delimiter')%</h4>\n"
+"Prints the names of <strong>all</strong> categories the post is filed under, separated by delimiter, and links each name to the respective category page.\n"
+"<br /><strong>Example:</strong> <code>%categories-linked('<i> | </i>')%</code>\n"
+"<br /><h4>%tags('before', 'delimiter', 'after')%</h4>\n"
+"Prints the names of all tags attached to the post, separated by delimiter.\n"
+"<br /><strong>Example:</strong> <code>%tags('<i>Tags: </i>', '<i>, </i>', '')%</code>\n"
+"<br /><h4>%tags-linked('before', 'delimiter', 'after')%</h4>\n"
+"Prints the names of all tags attached to the post, separated by delimiter, and links each name to the respective tag page.\n"
+"<br /><strong>Example:</strong> <code>%tags-linked('<i>Tagged with: </i>', '<i> - </i>', '<i>. </i>')%</code>\n"
+"<br /><h4>%comments('No comments', '1 comment', '% comments', 'Comments closed')%</h4>\n"
+"Prints a link to the comment section of the post. The link text depends on the comment count & status (open/closed). \n"
+"<br /><br /><strong>When using this item, provide 4 text strings for the 4 possible comment states:</strong> <ul>\n"
+"<li>Replace <code>'No Comments'</code> with your link text for posts that have no comments yet</li>\n"
+"<li>Replace <code>'1 comment'</code> with your text for posts with 1 comment</li>\n"
+"<li>Replace <code>'% comments'</code> with your text for posts with 2 or more comments. The <code>%</code> (percent) character \n"
+"will be replaced with the comment count. Use that character in your own text, too, unless you do not want to display the comment count.</li>\n"
+"<li>Replace <code>'Comments closed'</code> with your text for posts where comments are closed.</li>\n"
+"</ul>\n"
+"<br /><strong>Example:</strong> <code>%comments('<i>Leave your comment</i>', '<i>One comment so far</i>', '<i>% people had their say - chime in!</i>', '<i>Sorry, but comments are closed</i>')%</code>\n"
+"<br /><h4>%comments-rss('linktext')%</h4>\n"
+"Prints a link to the RSS feed of the post's comments, with <em>linktext</em> as the link text.\n"
+"<br /><strong>Example:</strong> <code>%comments-rss('<i>Subscribe to the comments of this post</i>')%</code>\n"
+"<br /><h4>%trackback%</h4>\n"
+"Prints the trackback URL of the post, without linking it.\n"
+"<br /><h4>%trackback-linked('linktext')%</h4>\n"
+"Prints a link to the trackback URL of the post, with <em>linktext</em> as the link text.\n"
+"<br /><strong>Example:</strong> <code>%trackback-linked('<i>Trackback this Post</i>')%</code>\n"
+"<br /><h4>%print('linktext')%</h4>\n"
+"Prints a link with <em>linktext</em> as the link text, which, when clicked, will start printing the content of the center column of the current page, without header, sidebars and footer.\n"
+"<br /><strong>Example:</strong> <code>%print('<i>Print this Page</i>')%</code>\n"
+"<br /><h4>%edit('before', 'linktext', 'after')%</h4>\n"
+"Prints a direct edit link for the post, IF the current viewer is permitted to edit posts, with <em>linktext</em> as the link text.\n"
+"<br /><strong>Example:</strong> <code>%edit('<i> - </i>', '<i>Edit This Post</i>', '')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:352
+msgid "Prints a link to a print preview page of the post. A configurable alternative to the theme's own basic print function (which prints right away, without preview page)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:354
+msgid ""
+"Customize the output at the <a title=\"If this link doesn't work, go to 'Settings' (top right) -> 'Print'\" \n"
+"href=\"options-general.php?page=wp-print/print-options.php\">WP-Print Options Page</a>."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:356
+msgid "To use this item, you must first install (= upload) and activate the plugin \"<a href=\"http://wordpress.org/extend/plugins/wp-print/\">WP-Print</a>\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:358
+msgid "Prints a link to a form where visitors can e-mail the post to others."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:360
+msgid ""
+"Customize the output at the <a title=\"If this link doesn't work, click on 'E-Mail' at the top of the current page, then 'E-Mail Options'\" \n"
+"href=\"admin.php?page=wp-email/email-options.php\">WP-Email Options Page</a>.<br />\n"
+"<strong>Settings:</strong> <ul><li>Change settings in the section \"E-Mail Styles\" to customize the output of this item</li>\n"
+"<li>Make other changes as you see fit</li>\n"
+"<li>Click \"Save Changes\"</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:365
+msgid "To use this item, you must first install (= upload) and activate the plugin \"<a href=\"http://wordpress.org/extend/plugins/wp-email/\">WP-Email</a>\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:367
+msgid "Prints how many times the post was viewed."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:369
+msgid ""
+"Customize the output at the <a title=\"If this link doesn't work, go to 'Settings' (top right) -> 'Post Views'\" \n"
+"href=\"options-general.php?page=wp-postviews/postviews-options.php\">WP-PostViews Options Page</a>.<br />\n"
+"<strong>Settings:</strong> <ul><li>Change \"Views Template\" to customize the output of this item</li>\n"
+"<li>Make other changes as you see fit</li>\n"
+"<li>Click \"Save Changes\"</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:374
+msgid "To use this item, you must first install (= upload) and activate the plugin \"<a href=\"http://wordpress.org/extend/plugins/wp-postviews/\">WP-PostViews</a>\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:377
+msgid "Prints stars or other graphics showing the vote/rating of a post, and lets visitors rate the post."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:379
+msgid ""
+"Customize the output at the <a title=\"If this link doesn't work, click on 'Ratings' at the top of the current page\" \n"
+"href=\"admin.php?page=wp-postratings/postratings-manager.php\">WP-PostRatings Options Page</a>.<br />\n"
+"<strong>Settings:</strong> <ul><li>Delete <code>%RATINGS_TEXT%</code> from the bottom of the textarea named \"Ratings Vote Text:\"</li>\n"
+"<li>Delete <code>%RATINGS_TEXT%</code> from the bottom of the textarea named \"Ratings None:\"</li>\n"
+"<li>Make other changes as you see fit</li>\n"
+"<li>Click \"Save Changes\"</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:385
+msgid "To use this item, you must first install (= upload) and activate the plugin \"<a href=\"http://wordpress.org/extend/plugins/wp-postratings/\">WP-PostRatings</a>\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:388
+msgid "Prints little icons, linking the post to social bookmark sites."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:390
+msgid ""
+"Customize the output at the <a title=\"If this link doesn't work, go to 'Settings' (top right) -> 'Sociable'\" \n"
+"href=\"options-general.php?page=Sociable\">Sociable Options Page</a>.<br />\n"
+"<strong>Settings:</strong> <ul><li>\"Tagline:\" - Will be ignored</li><li>\"Position:\" - Uncheck all boxes</li><li>\"Use CSS:\" - Uncheck this</li>\n"
+"<li>\"Open in new window:\" - Check or uncheck, will be used</li><li>Click \"Save Changes\"</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:394
+msgid "To use this item, you must first install (= upload) and activate the plugin \"<a href=\"http://wordpress.org/extend/plugins/sociable/\">Sociable</a>\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:413
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:531
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:547
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:572
+msgid "Default: "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:415
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:531
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:547
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:572
+msgid "blank"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:442
+msgid "List items and links inside"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Left Margin for whole Item"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Left Border Width for Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Left Border Color for Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Left Border Hover Color for Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Left Padding for Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Link Text Weight"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Link Text Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:445
+msgid "Link Text Hover Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:505
+msgid "Homepage"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:506
+msgid "Front Page (*)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:507
+msgid "Single Posts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:508
+msgid "\"Page\" pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:510
+msgid "Category Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:511
+msgid "Archive Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:512
+msgid "Tag Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:513
+msgid "Search Results"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:515
+msgid "Author Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:516
+msgid "\"Not Found\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:517
+msgid "Attachments"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:591
+msgid "Save changes"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:597
+msgid "Reset"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:608
+#, php-format
+msgid "<br />Powered by %1$sWordPress</a> &middot; %2$sWP Themes</a> by BFA"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions.php:609
+msgid "Web Hosting"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/index.php:314
+msgid "Not Found"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/index.php:315
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_calendar_widget.php:13
+msgid "A calendar of your blog's posts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_calendar_widget.php:14
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_calendar_widget.php:15
+msgid "Calendar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_comment_walker.php:106
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_comment_walker.php:116
+msgid " &middot; Edit"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_footer.php:15
+msgid "Login"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_footer.php:17
+msgid "Logout"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_footer.php:26
+msgid "Register"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_footer.php:36
+msgid "Site Admin"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_meta_tags.php:38
+msgid "l, F jS, Y"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_meta_tags.php:40
+msgid "F Y"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_meta_tags.php:46
+msgid "404 - Page not found"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:115
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:122
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:286
+msgid "Title:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:117
+msgid "Prepend"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:118
+msgid "Append &nbsp;&nbsp;&nbsp;Category Name to Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:120
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:124
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:288
+msgid "Show"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:121
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:125
+msgid "posts not older than"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:121
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:125
+msgid "days and with at least"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_in_cat.php:122
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:126
+msgid "comment(s)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:129
+msgid "And display the list on:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:132
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:321
+msgid "Single Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:133
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:322
+msgid "\"Page\" Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:136
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:325
+msgid "Search Result Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_popular_posts.php:138
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:327
+msgid "404 Not Found Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:161
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:163
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:165
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:167
+msgid "On: "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:169
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:171
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:173
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:175
+msgid " on: "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:190
+msgid "No comments."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:288
+msgid " comments like this:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:289
+msgid "<a href=\"#\" title=\"On: Post Title\">Author Name</a>: Comment Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:290
+msgid "Author Name: <a href=\"#\" title=\"On: Post Title\">Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:291
+msgid "<a href=\"#\">Author Name</a>: <a href=\"#\" title=\"On: Post Title\">Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:292
+msgid "<a href=\"#\" title=\"On: Post Title\">Author Name: Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:293
+msgid "<a href=\"#\" title=\"Comment Text\">Author Name</a> on: Post Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:294
+msgid "Author Name on: <a href=\"#\" title=\"Comment Text\">Post Title</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:295
+msgid "<a href=\"#\" title=\"Comment Text\">Author Name</a> on: <a href=\"#\">Post Title</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:296
+msgid "<a href=\"#\" title=\"Comment Text\">Author Name on: Post Title</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:297
+msgid "<a href=\"#\" title=\"Author Name\">Post Title</a>: Comment Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:298
+msgid "Post Title: <a href=\"#\" title=\"Author Name\">Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:299
+msgid "<a href=\"#\">Post Title</a>: <a href=\"#\" title=\"Author Name\">Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:300
+msgid "<a href=\"#\" title=\"Author Name\">Post Title: Comment Text</a>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:302
+msgid "Point the first link to:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:303
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:307
+msgid "the Author's Homepage (if any)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:304
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:308
+msgid "the Comment"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:305
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:309
+msgid "the Post"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:306
+msgid "Point the second link (if any) to:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:311
+msgid "Set the link to the Author Homepage to \"Nofollow\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:313
+msgid "Limit the comment text to"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:313
+msgid "letters"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:313
+msgid "words"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:313
+msgid "add \"...\" if the actual comment is longer than that."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:315
+msgid "Make the Author Name"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:315
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:316
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:317
+msgid "Bold"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:315
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:316
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:317
+msgid "Emphasized"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:316
+msgid "Make the Comment Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:317
+msgid "Make the Post Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_recent_comments.php:319
+msgid "Display the list on:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_search_widget.php:13
+msgid "Search for:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_search_widget.php:15
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_search_widget.php:23
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_search_widget.php:24
+msgid "Search"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_search_widget.php:22
+msgid "A search form for your blog"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:85
+msgid "You may have to save this widget once (Click \"Done\" and \"Save Changes\") before you can edit the text fields bewow...<br /><br />"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:86
+msgid "Optional: Title:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:90
+msgid "Text for Email section"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:90
+#, php-format
+msgid " (HTML allowed. Email subscribe URL = %email-url)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:95
+msgid "Optional: Text inside Email input field:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:99
+msgid "Text for Email submit button:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:104
+msgid "Text for Posts RSS section"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:104
+msgid " (HTML allowed. Posts feed URL = %posts-url)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:109
+msgid "Text for Comments RSS section"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:109
+#, php-format
+msgid " (HTML allowed. Comments feed URL = %comments-url)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:114
+msgid "Feedburner Email ID:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:117
+msgid ""
+"<strong>How to find the feed ID for this site at Feedburner:</strong><br />\n"
+"You must have a Feedburner account, and you must have created a feed for this site (\"My Feeds\" -> \"Burn a feed right this instant\"). \n"
+"Login to your Feedburner account, click \"My Feeds\" -> Title of the feed in question -> Publicize -> Email Subscriptions -> Check out the two textareas. \n"
+"Both contain the ID somewhere in the text. In the bigger textarea it appears as \"...?ffid=<strong>XXXXXXX</strong>\", \n"
+"in the smaller one as \"?feedId=<strong>XXXXXXX</strong>\". <strong>XXXXXXX</strong> is the number that you need to put here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:126
+msgid "Subscribe widget for RSS and Email"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:128
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_subscribe.php:129
+msgid "BFA Subscribe"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_text_widget.php:90
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_text_widget.php:92
+msgid "Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:3
+msgid "To add your own header image(s), upload one or several images with any file names <code>anything.[jpg|gif|png]</code> i.e. <code>hfk7wdfw8.gif</code>, <code>IMAGE_1475.jpg</code>, <code>bla.png</code> to /wp-content/themes/[theme-name]/images/header/ through FTP. You will need a \"FTP Client\" software such as <a href=\"http://filezilla-project.org/download.php\">Filezilla</a> (free), the Firefox extension <a href=\"https://addons.mozilla.org/de/firefox/addon/684\">FireFTP</a> (free) or <a href=\"http://www.smartftp.com/download/\">SmartFTP</a> ($36.95)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:4
+msgid "To upload your own header images, you'll need to prepare your header image(s) on your harddrive first. Rename your header images to <code>atahualpa_header_X.[jpg|gif|png|bmp]</code> (Example: <code>atahualpa_header_1.jpg</code>, <code>atahualpa_header_3.png</code>, <code>atahualpa_header_182.gif</code>) and then, upload them to your WordPress site through the WordPress Editor</strong>. <br /><br />There may be no \"upload\" tab in the admin area though. In that case, start as if you were going to add an image to a post: Go to Admin -> Manage -> Posts, and click on the title of an existing post to open the editor. Click on the \"Add Media\" link, and in the next window click on the \"Choose files to upload\" button. That will open a window on your local computer where you can find and select the header image (which you've already renamed as described before) on your local harddrive. Select \"Full Size\" and, do NOT click on \"Insert into Post\" but click on \"Save all changes\" instead. Now reload your Homepage and the new header image should appear. If you want more than one header image (to have them rotate) simply repeat all these steps. The theme will autmatically recognize all images that are named <code>atahualpa_header_X.[jpg|png|gif]</code>. If there's only one image, then it'll be your single, \"static\" header image. If there's more than one image, then the theme will rotate them with every pageview."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:5
+msgid "To show your own graphic, upload an image to <strong>/wp-content/themes/atahualpa3/images/</strong> and put the file name of the image into this field. <br /><br /><strong>Example:</strong><br /><code>myownlogo.gif</code><br /><br />Make sure you have <strong>no spaces</strong> or exotic characters in the image file name. Your Windows or Mac Computer may display them but the hosting server probably won't. The image file can have a .gif, .jpg, .jpeg, .png or .bmp extension."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:6
+msgid "To show your own graphic, upload an image through the WordPress Editor. There may be no \"upload\" tab in your WordPress version. To upload the image start as if you were going to add an image to a post: Go to Admin -> Manage -> Posts, and click on the title of an existing post to open the editor. Click on the \"Add Media\" link, and in the next window click on the \"Choose files to upload\" button. That will open a window on your local computer where you can select the image on your local harddrive. After you've selected the image, choose \"Full Size\" and, instead of clicking on \"Insert into Post\", click on \"Save all changes\". Then put the file name of your image into this field, i.e. <code>my-new-logo.jpg</code> and click \"Save changes\" at the bottom fo this page. Now reload your Homepage and your new logo should appear instead of the default one.<br /><br />Make sure you have no spaces or exotic characters in the image file name. Your Windows or Mac Computer may display them but the hosting server probably won't. The image file can have a .gif, .jpg, .jpeg, .png or .bmp extension."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:15
+msgid "go to Site Admin -> Pages -> Edit"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:16
+msgid "go to Site Admin -> Posts -> Categories"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:17
+msgid "Appearance"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:20
+msgid "go to Site Admin -> Manage -> Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:21
+msgid "go to Site Admin -> Manage -> Categories"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:22
+msgid "Design (\"Presentation\" in WP 2.3 and older)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:29
+msgid "Thank you for using Atahualpa"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:33
+msgid "<br />Atahualpa is a solid theme that works on all popular browsers and screen sizes.<br />Discuss the Atahualpa theme at the <a href=\"http://forum.bytesforall.com/\">Bytes For All Forum</a>.<br /><h3>Crafting a theme like this...</h3>...takes a <strong>lot</strong> of time: Please donate, no matter how small the amount may be.<br />See the \"Donate\" links at <a href=\"http://wordpress.bytesforall.com/\">wordpress.bytesforall.com</a> and <a href=\"http://forum.bytesforall.com/\">forum.bytesforall.com</a><br /><br />Additional ways to support the author: Answer other's questions about the theme at the <a href=\"http://forum.bytesforall.com/\">BFA Forum</a><br />and the <a href=\"http://wordpress.org/search/atahualpa?forums=1\">WordPress.org Forum</a>, and vote for Atahualpa over at <a href=\"http://wordpress.org/extend/themes/atahualpa\">WordPress Themes</a>. <br /><h3>Caching the theme</h3>Due to its many features Atahualpa may be slightly slower than a theme without options. Like any other theme<br />Atahualpa will be fast with a caching plugin such as <a href=\"http://mnm.uib.es/gallir/wp-cache-2/\">WP Cache 2</a> (easy installation) or <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/\">WP Super Cache</a>. <br /><h3>Customizing with CSS</h3>For greater flexibility many site elements have to be styled with CSS rather than color pickers and select menus. But the theme takes care of the layout and cross-browser related issues and leaves only the fun part of CSS for you: borders, colors, fonts, padding (inner spacing) and margin (outer spacing). <h3>CSS usage instructions</h3><ul><li>You'll only be editing what's between the brackets, the part in red: <code>selector {<i>property:value; property2:value2;</i>}</code></li><li>Finish every property:value pair with a semicolon <code>;</code> unless the descripton, the example or the default settings indicate that a semicolon <code>;</code> should not be added. </li><li>To add completely new styles (incl. selectors &amp; brackets), add them as \"CSS insert\", see menu tab <strong>HTML/CSS Inserts</strong></li><li>More about CSS at the <a href=\"http://www.w3schools.com/css/css_syntax.asp\">W3 Schools</a></li></ul><h3>Plugins</h3>Enhance your site with <a href=\"http://wordpress.org/extend/plugins/\">plugins</a>. Atahualpa should work with just about any plugin and has plug &amp; play support for these: <a href=\"http://txfx.net/code/wordpress/subscribe-to-comments/\">Subscribe to Comments</a>, <a href=\"http://www.keyvan.net/code/paged-comments/\">Paged Comments</a>, <a href=\"http://aboutme.lmbbox.com/lmbbox-plugins/lmbbox-comment-quicktags/\">LMB Box Comment Quicktags</a>, <a href=\"http://lesterchan.net/portfolio/programming/php/\">WP-PageNavi</a>, <a href=\"http://lesterchan.net/portfolio/programming/php/\">WP-Email</a>, <a href=\"http://lesterchan.net/portfolio/programming/php/\">WP-Print</a>, <a href=\"http://lesterchan.net/portfolio/programming/php/\">WP-PostViews</a> and <a href=\"http://wordpress.org/extend/plugins/sociable/\">Sociable</a>. Tested with <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/\">WP Super Cache</a>, <a href=\"http://mnm.uib.es/gallir/wp-cache-2/\">WP Cache 2</a> and <a href=\"http://wordpress.org/extend/plugins/wp-syntax/\">WP-Syntax</a>. Atahualpa automatically recognizes 12 popular SEO plugins (incl. All-in-one-SEO and Headspace2) and disables its own SEO features to avoid conflicts.<br /><h3>Optional: Static CSS file</h3>After you've made all your customizations, you could (but don't need to) replace the dynamic CSS file with a static one to increase your site's speed by 0.x seconds and also lower CPU and memory usage on your web hosting server.<ul><li>Click the following link to open the dynamically generated CSS file in your browser:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:33
+msgid "<li>Copy all the contents of that page and paste it into the file <strong>atahualpa3/style.css</strong> on your local computer.</li><li>Upload the modified <strong>style.css</strong> as <strong>wp-content/themes/atahualpa3/style.css</strong> to your web hosting account</li><li>In <strong>atahualpa3/header.php</strong> on your local computer, change <code>&lt;link rel=\"stylesheet\" href=\"&lt;?php bloginfo('stylesheet_url'); ?&gt;.php\" type=\"text/css\" /&gt;</code> to <code>&lt;link rel=\"stylesheet\" href=\"&lt;?php bloginfo('stylesheet_url'); ?&gt;\" type=\"text/css\" /&gt;</code> (note the missing <code>.php</code> in the modified header.php)</li><li>Upload the modified <strong>header.php</strong> as <strong>wp-content/themes/atahualpa3/header.php</strong> to your web hosting account</li><li>That's it. Should you ever want to start customizing the CSS again, add the now missing <code>.php</code> back to the above-mentioned line in <strong>header.php</strong></li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:35
+msgid "Use Bytes For All SEO options?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:41
+msgid "<strong>Leave this at \"No\" if you're using ANY SEO plugin</strong> such as \"All-in-one-SEO\", or any plugin that deals with meta tags in some way. If both a SEO plugin and the theme's SEO functions are activated, the meta tags of your site may get messed up, which might affect your search engine rankings. <br /><br />If you leave this at \"No\", the next SEO options (except the last one, \"Nofollow RSS...\") will become obsolete, you may just skip them. <br /><br /><em>Note: Even if you set this to \"Yes\", the SEO functions listed below (except \"Nofollow RSS...\") will NOT be activated IF the theme recognizes that a SEO plugin is activated.</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:43
+msgid "Homepage Meta Description"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:49
+msgid "Type 1-3 sentences, about 20-30 words total. Will be used as Meta Description for (only) the homepage. If left blank, no Meta Description will be added to the homepage.<br /><br />HTML: No<br />Single and double quotes: Yes"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:51
+msgid "Homepage Meta Keywords"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:57
+msgid "Type 5-30 words or phrases, separated by comma. Will be used as the Meta Keywords for (only) the homepage. If left blank, no Meta Keywords will be added to the homepage.<br /><br />HTML: No<br />Single and double quotes: Technically, Yes, but search engines might object to it. Probably better to avoid quotes here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:59
+msgid "Meta Title Tag format"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:65
+msgid "Show the blog title in front of or after the page title, in the meta title tag of every page? Or, show only the page title?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:67
+msgid "Meta Title Tag Separator"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:73
+msgid "If you chose to include the blog title in the meta title (the option above), choose here what to put <strong>between</strong> the page and the blog title (or vice versa):<br /><br /> 1<code> &#171; </code> &nbsp;  &nbsp;  2<code> &#187; </code> &nbsp;  &nbsp;  3<code> &#58; </code> &nbsp;  &nbsp;  4<code>&#58; </code> &nbsp;  &nbsp;  5<code> &#62; </code> &nbsp;  &nbsp;  6<code> &#60; </code> &nbsp;  &nbsp;  7<code> &#45; </code><br /><br />8<code> &#8249; </code> &nbsp;  &nbsp;  9<code> &#8250; </code> &nbsp;  &nbsp;  10<code> &#8226; </code> &nbsp; &nbsp;  11<code> &#183; </code> &nbsp; &nbsp;  12<code> &#151; </code> &nbsp; &nbsp;  13<code> &#124;&nbsp;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:75
+msgid "Noindex Date Archive Pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:81
+msgid "Include meta tag \"noindex, follow\" into date based archive pages? The purpose is to keep search engines from spidering duplicate content from your site."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:83
+msgid "Noindex Category pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:89
+msgid "Include meta tag \"noindex, follow\" into category pages? Same purpose as above."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:91
+msgid "Noindex Tag pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:97
+msgid "Include meta tag \"noindex, follow\" into tag pages? Same purpose as above."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:99
+msgid "Nofollow RSS, trackback & admin links?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:105
+msgid "Make RSS, trackback & admin links \"nofollow\"? Same purpose as above."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:109
+msgid "Body Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:114
+msgid "The styles you set here will apply to everything that doesn't get its own style. <br /><br /><strong>Examples:</strong> <br /><br />Setting a background image for the body:<br /><code>background: url(images/backgr.gif) repeat top left;</code><br />To use your own image upload it to <code>/wp-content/themes/[theme-name]/images/</code><br /><br />To put space above and below the layout:<br /><code>padding-top: 20px; padding-bottom: 20px;</code><br /><br />Set padding here, instead of margin on the layout container (see tab \"Layout\") because that won't work for the bottom, in Internet Explorer."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:116
+msgid "Link Default Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:121
+msgid "All hex color codes."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:123
+msgid "Link Hover Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:128
+msgid "Color of links when \"hovering\" over them with the mouse pointer. All hex color codes."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:130
+msgid "Link Default Decoration"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:136
+msgid "Underline links or not, in their default state?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:138
+msgid "Link Hover Decoration"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:144
+msgid "When the mouse pointer hovers over a link, underline it or not?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:146
+msgid "Link Text Bold or Not"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:152
+msgid "Make link text bold or not?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:156
+msgid "Layout WIDTH and type (FLUID or FIXED)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:164
+msgid "Layout MIN width"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:170
+msgid "OPTIONAL, and for FLUID layouts only: You may set a MINIMUM width (in pixels) for fluid layouts, to limit the resizing behaviour.<br /><br /><strong>Example:</strong> <code>770</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:172
+msgid "Layout MAX width"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:178
+msgid "OPTIONAL, and for FLUID layouts only: You may set a MAXIMUM width (in pixels) for fluid layouts, to limit the resizing behaviour.<br /><br /><strong>Example:</strong> <code>1250</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:180
+msgid "Layout Container Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:185
+msgid "Style the layout container here. The layout container holds the whole page including header, sidebars, center column and footer. <ul><li>Don't use <code>margin</code> here. margin-left and margin-right are needed to center the layout container. There's also no real need for left/right margin. You can get space on the left and right of the layout with a layout-width such as 98%. And instead of <code>margin-top</code> and <code>margin-bottom</code> use padding on the body (see menu tab \"Body, Text & Links\")</li><li>Left/Right padding must be set separately in the next option. It will be ignored (set to 0) here.</li></ul><strong>Example:</strong><br /><br /><code>border: solid 2px #cccccc;<br />padding: 10px;</code> (This effectively only affects top/bottom padding)<br /><code>background: #ffffff;<br />-moz-border-radius: 10px;<br />-khtml-border-radius: 10px;<br />-webkit-border-radius: 10px;<br />border-radius: 10px;</code><br /><br />NOTE: The rounded corners won't be round in Internet Explorer."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:187
+msgid "Layout Container Padding Left/Right"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:193
+msgid "If you want left/right padding on the layout container, put the pixel value here. The Theme needs this as a separate style, in order to include it in the min/max width calculation. <strong>Example:</strong> <code>20</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:203
+msgid "Put the file name of the favicon here, i.e. <code>fff-sport_soccer.ico</code>. To use your own graphic, upload a <code>your-file-name.ico</code> to <strong>/atahualpa3/images/favicon/</strong><br /><br />Leave blank to show no favicon.<br /><br /><em>If the icon doesn't show: In some browsers such as IE6 you might have to clear cache and history and restart the browser</em><br /><br /><em>1-favicon.ico - 44-favicon.ico are available as big .png files (up to 128x128) at <a href=\"http://www.icon-king.com/projects/nuvola/\">Nuvola Icon Set</a> if you want to create a matching logo.</em><br /><br /><em>NOTE: If you create your own favicon: Simply renaming a .gif, .png or jpg file won't work in Internet Explorer. <code>.ico</code> is an actual file format. Create a 32 bit .png (optional: with transparent background) and a size of 16x16 pixels and convert it into an <code>.ico</code> file with a software such as <a href=\"http://www.towofu.net/soft-e/\">@Icon Sushi</a></em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:207
+msgid "Configure Header Area"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:213
+msgid "Choose from 6 header items to arrange a custom header area:<ul><li><code>%pages</code> - The horizontal drop down menu bar for \"Page\" pages</li><li><code>%cats</code> - The horizontal drop down menu bar for categories</li><li><code>%logo</code> - The logo area, including the logo icon, the blog title & description, the search box and the RSS/Email icons</li><li><code>%image</code> - The rotating (or static) header image with the (optional) opacity overlay left & right and an (optional) overlayed blog title & blog tagline</li><li><code>%bar1</code> - A horizontal bar, to be used as decoration on top, bottom of between header items. Can be used multiple times.</li><li><code>%bar2</code> - A second horizontal bar, that can be styled differently. Can be used multiple times.</li></ul>You can style and configure these header items individually further down on this page, and on the menu tabs \"Page Menu Bar\" and \"Category Menu Bar\". <br /><br />This section here is just for the overall configuration of the header area.<br /><br />List the header items you want to display, in the order you want to display them.<br /><br />Examples:<ul><li><code>%image %bar1 %logo %bar1 %pages</code></li><li><code>%pages %image %cats</code></li><li><code>%bar1 %logo %cats %bar2 %pages %bar1</code></li>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:215
+msgid "Logo Area: Styling"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:220
+msgid "Style the header's logo area. The logo area is the container that holds the logo / logo icon, the blog title, the blog tagline, the search box and the RSS/Email icons. The height of the logo area will be determined by its content. If you want more height, set the height here. You can set the height, borders and the background. Avoid margin and padding for this container - it's a table.<br /><br /><strong>Example:</strong><br /><code>height: 150px;<br />background: #eeeeee;<br />border: solid 1px #000000;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:222
+msgid "Show Logo Image?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:227
+msgid "Show a logo in the logo area? Leave blank to show no logo. To test this, put <code>huge-logo.gif</code> here and set both \"Show Blog Title\" and \"Show Blog Tagline\" to \"No\" below. <br /><br />"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:229
+msgid "Logo Image: Styling"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:234
+msgid "Style the logo here, i.e. give it a border or move it around by applying margins.<br /><br /><strong>Example:</strong><br /><br /><code>margin: 30px 30px 30px 30px;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:236
+msgid "Show Blog Title?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:242
+msgid "You can remove the blog title, i.e. if you want to have just a (bigger) graphical logo instead of a small logo icon plus the blog title in HTML. If you set this to \"No\" you'll probably want to remove the Blog Tagline as well (see below)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:244
+msgid "Blog Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:249
+msgid "Style the blog title."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:251
+msgid "Blog Title: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:256
+msgid "The blog title in hover state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:258
+msgid "Show Blog Tagline?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:264
+msgid "You can remove the blog tagline here. The blog tagline is the short blog description under the blog title. It can be set at Settings -> General -> Tagline."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:266
+msgid "Blog Tagline"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:271
+msgid "Style the blog tagline."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:273
+msgid "Show search box?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:279
+msgid "You can remove the search box from the header here.<br /><br /><em>To put a search box into one of the sidebars, go to Site Admin -> "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:279
+msgid " -> Widgets, and add the \"Search\" widget to one of the sidebars.</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:281
+msgid "Search box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:286
+msgid "Style the searchbox in the header."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:288
+msgid "Text in header search box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:294
+msgid "Show pre-filled text in the header search box, such as <code>Type + Enter to search</code> ?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:296
+msgid "Horizontal Bar 1: Styling"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:301
+msgid "2 (empty) horizontal bars are available, both of which you can style differently and use once or multiple times as additional styling elements for the header area. These bars will span the whole layout width. You can style their background color, height and all 4 borders (top, right, bottom, left)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:303
+msgid "Horizontal Bar 2: Styling"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:308
+msgid "Style the 2nd horizontal bar here. You can use each one of these bars multiple times (or not at all)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:312
+msgid "Header Images"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:316
+msgid "<br />All header images are located in /[theme-name]/images/header. All images in that directory will be rotated. If you don't want rotating header images, leave only one image in that directory. <ul><li>If you chose a fixed width layout, the image(s) should be as wide as your layout width.</li><li>If you chose a fluid layout, the images should be as wide as your \"max width\" setting.</li><li>If you chose no \"max-width\" setting, your images should be as wide as the widest screen resolution (of your visitors) you want to cater for. 1280 pixels is common today, so the images should be that wide or wider. The next common screen widths are 1440, 1600, 1680 and 1920 pixels. </li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:318
+msgid "Make header image clickable?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:324
+msgid "Select \"Yes\" to make the header image clickable and to link it to the homepage."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:326
+msgid "Header Image: Height"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:332
+msgid "Visible height of the header image(s), <strong>in pixels</strong>. Change this value to show a taller or less tall area of the header image(s). <br /><br /><em>This value does not need to match the actual height of your header image(s). In fact, all your header images could have different (actual) heights. Only the top XXX (= value that you set here) pixels of each image will be shown, the rest will be hidden. </em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:334
+msgid "Header Image: Alignment"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:340
+msgid "The aligned edge or end of the image will be the fixed part, and the image will be cut off from the opposite edge or end if it doesn't fit into the visitor's browser viewport. <br /><br /><strong>Example:</strong> If you choose \"Top Left\" as the alignment, then the image(s) will be cut off from the opposite edge, which would be \"Bottom Right\" in this case."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:342
+msgid "Opacity LEFT: Value"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:348
+msgid "Opacity overlay for the LEFT hand side of the header image. Choose 0 to remove the Opacity."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:350
+msgid "Opacity LEFT: Width"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:356
+msgid "Width of the Opacity overlay for the LEFT hand side of the header image, <strong>in pixels</strong>. To match this to the left sidebar's width, add up the left sidebar's width plus its left and right paddings, if you've set any."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:358
+msgid "Opacity LEFT: Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:363
+msgid "Color of the Opacity overlay for the LEFT hand side of the header image."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:365
+msgid "Opacity RIGHT: Value"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:371
+msgid "Opacity overlay for the RIGHT hand side of the header image. Choose 0 to remove the Opacity."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:373
+msgid "Opacity RIGHT: Width"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:379
+msgid "Width of the Opacity overlay for the RIGHT hand side of the header image, <strong>in pixels</strong>. To match this to the right sidebar's width, add up the left sidebar's width plus its left and right paddings, if you've set any."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:381
+msgid "Opacity RIGHT: Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:386
+msgid "Color of the Opacity overlay for the RIGHT hand side of the header image."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:388
+msgid "Overlay Blog TITLE over Header Image(s)?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:394
+msgid "An alternative location for the blog title."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:396
+msgid "Overlay Blog TAGLINE over Header Image(s)?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:402
+msgid "An alternative location for the blog tagline."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:404
+msgid "Overlayed Blog Title/Tagline Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:409
+msgid "The overlayed blog title and blog tagline will be in a div container. Move that container around by changing the <code>margin-top</code> and <code>margin-left</code> values. To right-align the overlayed container, add <code>float: right;</code> and replace <code>margin-left</code> with <code>margin-right</code>. To center it, add <code>float:none; margin-left:auto; margin-right:auto; margin-top: 30px; text-align:center;</code><br /><br />You can add background color, borders and padding, too.<br /><br /><strong>Example:</strong><br /><br /><code>margin-top: 30px;<br />margin-left: 30px;<br />width: 300px;<br />padding: 7px;<br />background: #ffffff;<br />border: solid 2px #000000;<br />filter: alpha(opacity=60);<br />-moz-opacity:.60;<br />opacity:.60;<br />-moz-border-radius: 7px;<br />-khtml-border-radius: 7px;<br />-webkit-border-radius: 7px;<br />border-radius: 7px;</code><br /><br />Leave <code>width: ...;</code> out to let the box adjust to the width of the blog title or tagline.<br /><br />To change the styles of the blog title or the blog tagline individually, see the menu tab \"Header\"."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:413
+msgid "RSS settings"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:417
+msgid "<br />Choose from 4 types of RSS links:<ul><li>Subscribe to the Posts feed</li><li>Subscribe to the Comments feed</li><li>Subscribe by Email, via Feedburner</li><li>Subscribe to the comments of a single post</li></ul>There are 4 different locations to place these RSS links:<ul><li>On the right hand side of the logo area: Small buttons and/or text links.<br />Configuration: Menu tab \"RSS Settings\" (the page you're looking at right now)</li><li>In a sidebar, via the widget \"BFA Subscribe\". Bigger buttons and text, plus a Email form field.<br />Configuration: Site Admin -> Design (\"Presentation\" in WP 2.3 and older) -> Widgets -> BFA Subscribe.</li><li>In the footer area: Text links.<br />Configuration: Menu tab \"Footer\".</li><li>Above or below a post: Buttons and/or Text links<br />Configuration: Menu tab \"Post/Page Info Items\".</li></ul>After you've configured everything...<ul><li>... the \"Subscribe by Email\" link will go to Feedburner</li><li>... the \"Subscribe by Email\" form field will be submitted to Feedburner</li><li>... but all Posts and Comments Feed links will still go to the default WordPress RSS links</li></ul><strong>If you want to redirect all the Posts and Comments RSS links to Feedburner, you will need to install the <a href=\"http://www.google.com/support/feedburner/bin/answer.py?answer=78483&topic=13252\">Feedburner Feedsmith</a> plugin.</strong> <em>Note: When copying and pasting your Feedburner feed URL from your Feedburner account into the options page of Feedsmith here on your blog, make sure there is <strong>no space</strong> at the end of the URL or Feedburner account name.</em><br /><br />This theme does not send RSS subscribers (other than Email subscribers) straight away to Feedburner, because...<ul><li>... that would not cover existing subscribers</li><li>... Feedsmith is a global solution that covers each and any RSS link on your site, including those a third party plugin may add</li><li>... with a Feedsmith redirection readers subscribe to the URLs that you control (http://www.yourdomain.com/feed/). Should you ever want to stop using Feedburner, simply uninstall the Feedsmith plugin and you'll keep all your subscribers - they just won't be redirected anymore.</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:419
+msgid "RSS Box Width"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:424
+msgid "Give the box containing the RSS buttons/links a fixed width, <strong>in pixels</strong>, to keep them in one line, to avoid early wrapping. You shouldn't make this wider than needed for the given content."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:426
+msgid "Show Post Feed icon?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:432
+msgid "Show the Post RSS Feed icon on the right hand side of the logo area?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:434
+msgid "Post Feed Link Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:439
+msgid "Leave blank to show no Post Feed Text Link in the logo area."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:441
+msgid "Post Feed Link \"Title\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:447
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:470
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:493
+msgid "This is not the link anchor text (that was one option above), but the link \"title\", a text that will pop up when the mouse points at the link."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:449
+msgid "Show Comment Feed icon?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:455
+msgid "Show the Comment RSS Feed icon on the right hand side of the logo area?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:457
+msgid "Comment Feed Link Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:462
+msgid "Leave blank to show no Comment Feed Text Link in the logo area."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:464
+msgid "Comment Feed Link \"Title\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:472
+msgid "Show Feedburner Email icon?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:478
+msgid "Show a Feedburner \"Subscribe by Email\" icon on the right hand side of the logo area?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:480
+msgid "Feedburner Email Link Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:485
+msgid "Leave blank to show no \"Subscribe by Email\" Text Link in the logo area"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:487
+msgid "Feedburner Email Link \"Title\""
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:495
+msgid "Feedburner ID for this site?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:501
+msgid "If you chose to show the Feedburner \"Subscribe by Email\" link, put the ID of the Feedburner feed for this site here. <br /><br /><strong>How to find the feed ID for this site at Feedburner:</strong><br /><br />You must have a Feedburner account, and you must have created a feed for this site (\"My Feeds\" -> \"Burn a feed right this instant\")<ul><li>Login to your <a href=\"http://www.feedburner.com\">Feedburner</a> account</li><li>Click \"My Feeds\" -> \"[Title of the feed/site in question]\" -> \"Publicize\" -> \"Email Subscriptions\"</li><li>Check out the two textareas. Both contain the ID somewhere in the text. In the bigger textarea it appears as <code>...?ffid=<i>xxxxxxx</i>...</code>, in the smaller one as <code>...?feedId=<i>xxxxxxx</i>...</code></li><li><code><i>xxxxxxx</i></code> is the number that you need to put here</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:505
+msgid "Home link in Page Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:510
+msgid "<ul><li>Leave this blank to have no \"Home\" link in the page menu bar</li><li>Or, put text here to include a link to your homepage into the page menu bar</li><li>The text doesn't have to be \"Home\", it can be anything</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:512
+msgid "Exclude pages from Page Menu Bar?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:518
+msgid "<ul><li>Leave blank to include all pages in the page menu bar</li><li>To exclude certain pages from the page menu bar, put their ID's into this field, separated by comma</li></ul><strong>Example:</strong> <code>13,29,102,117</code><br /><br />To get the ID of a page, go to Site Admin -> Manage -> Pages, point your mouse at the title of the page in question, and watch your browser's status bar (it's at the bottom) for an URL ending on \"...action=edit&post=<strong>XX</strong>\". <strong>XX</strong> is the ID of the page."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:520
+msgid "Depth of Page Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:526
+msgid "<ul><li>Choose 0 to include ALL levels of pages (top level, sub pages, sub sub pages...) in the page menu bar</li><li>Choose a number between 1 and 10 to include only the respective amount of page levels</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:528
+msgid "Sorting order of Page Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:534
+msgid "<ul><li><code>menu_order</code> - Sort the pages chronologically, as you created them (Change the page order at Manage -> Pages -> Click on page title -> Page Order)</li><li><code>post_title</code> - alphabetically</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:536
+msgid "Title tags in Page Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:542
+msgid "Include a \"title\" tag for each item in the page menu? These will pop up when hovering over a menu item."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:544
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:660
+msgid "Border around all menu items"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:549
+msgid "Every item of the menu bar, plus the menu bar itself, will be wrapped into this border. To have no borders in the first level, give it the same color as the background color for first level items. Don't use semicolons here.<br /><br />Note: Leave the border width at 1px, match colors if you want to make it dissapear."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:551
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:667
+msgid "Background color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:556
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:672
+msgid "Background color for menu items in their default state and the menu bar itself."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:559
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:674
+msgid "Background color: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:564
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:679
+msgid "Background color for menu items in hover state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:566
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:681
+msgid "Background color: Parent"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:571
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:686
+msgid "Background color for parent menu item while hovering over its sub menu."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:573
+msgid "Font Size &amp; Face"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:579
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:694
+msgid "Set both the font size and the font face for the menu items. Enclose font face names with a space in quotes, i.e.:<br /><code>12px \"comic sans ms\", \"courier new\", arial, sans-serif</code><br /><br />Don't use semicolons here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:581
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:696
+msgid "Link Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:586
+msgid "Color of the link text."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:588
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:703
+msgid "Link Color: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:593
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:708
+msgid "Color of the link text in hover state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:595
+msgid "Transform text in Page Menu Bar?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:601
+msgid "You can transform the link titles in the page menu bar."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:603
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:718
+msgid "White or Black Arrows as Sub Menu Indicator?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:609
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:724
+msgid "If a menu item has sub menus, it will be indicated with down/right arrows. Choose the color for these arrows."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:611
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:726
+msgid "Width of Sub Menus"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:617
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:732
+msgid "The width of top level items will adjust to the width of the links inside, but the sub menus need a defined width, <strong>in \"em\"</strong>."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:621
+msgid "Home link in Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:626
+msgid "<ul><li>Leave this blank to have no \"Home\" link in the category menu bar</li><li>Or, put text here to include a link to your homepage into the category menu bar</li><li>The text doesn't have to be \"Home\", it can be anything</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:628
+msgid "Exclude categories from Category Menu Bar?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:634
+msgid "<ul><li>Leave blank to include all categories in the category menu bar</li><li>To exclude certain categories put their ID into this field, separated by comma</li></ul><strong>Example:</strong> <code>13,29,102,117</code><br /><br />To get the ID of a category, go to Site Admin -> Manage -> Categories, point your mouse at the title of the category in question, and watch your browser's status bar (it's at the bottom) for an URL ending on \"...action=edit&cat_ID=<strong>XX</strong>\". <strong>XX</strong> is the ID of the category."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:636
+msgid "Depth of Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:642
+msgid "<ul><li>Choose 0 to include ALL levels of categories (top level, sub cats, sub sub cats...) in the category menu bar</li><li>Choose a number between 1 and 10 to include only the respective amount of category levels</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:644
+msgid "Sorting order of Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:650
+msgid "<ul><li><code>ID</code> - Sort the categories chronologically, as you created them</li><li><code>name</code> - alphabetically</li><li><code>count</code> - by number of posts</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:652
+msgid "Title tags in Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:658
+msgid "Include a \"title\" tag for each item in the category menu bar? Title tags are the little boxes that pop up when hovering over a menu item. Setting this to yes makes sense if you've set a \"description\" for each category (Manage -> Categories -> Click on category name). Otherwise the title tag will just repeat the category name."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:665
+msgid "Every item of the menu bar, plus the menu bar itself, will be wrapped into this border. To have no borders in the first level, give it the same color as the background color for first level items. Don't use semicolons here. <br /><br />Note: Leave the border width at 1px, match colors if you want to make it dissapear."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:688
+msgid "Font for Category Menu Bar"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:701
+msgid "Color of the link text in default state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:710
+msgid "Transform text in Category Menu Bar?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:716
+msgid "You can transform the link titles in the category menu bar."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:736
+msgid "Center column style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:741
+msgid "Style the center column here. The center column is the container for everything in the middle: All posts (including \"page\" posts) and the next/prev navigation."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:746
+msgid "NEWER / OLDER orientation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:752
+msgid "Show the link to the NEWER post/page on the LEFT or the RIGHT hand side of the navigation bar(s)?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:754
+msgid "Home link in Nav. on MULTI post pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:759
+msgid "On multi post pages, show a \"Home\" link between the 2 links pointing to the previous and the next page?<ul><li>Leave blank to show no \"Home\" link</li><li>Or, put any text here to use it as the text for the link to the homepage</li><li>If you use the WP-PageNavi plugin, this setting becomes obsolete as then the page numbers of WP-PageNavi will be displayed instead of the default next/prev links</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:761
+msgid "Home link in Nav. on SINGLE post pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:766
+msgid "On single post pages, show a \"Home\" link between the 2 links pointing to the previous and the next post?<ul><li>Leave blank to show no \"Home\" link</li><li>Or, put any text here to use it as the text for the link to the homepage</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:768
+msgid "\"Newer Page\" link on MULTI post pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:775
+msgid "You can use single and double quotes, and HTML. Examples:<ul><li><code>&lt;br /&gt;</code> for line breaks</li><li><code>&lt;strong&gt; ... &lt;/strong&gt;</code> to make text <strong>bold</strong></li><li><code>&lt;em&gt; ... &lt;/em&gt;</code> to make text <em>italic</em></li><li><code>&amp;nbsp;</code> to include a non-breaking space</li><li><code>&amp;raquo;</code> for a right angle quote <span style=\"font-size: 25px\">&raquo;</span></li><li><code>&amp;laquo;</code> for a left angle quote <span style=\"font-size: 25px\">&laquo;</span></li><li><code>&amp;rsaquo;</code> for a right single angle quote <span style=\"font-size: 25px\">&rsaquo;</span></li><li><code>&amp;lsaquo;</code> for a left single angle quote <span style=\"font-size: 25px\">&lsaquo;</span></li><li><code>&amp;rarr;</code> for a right arrow <span style=\"font-size: 25px\">&rarr;</span></li><li><code>&amp;larr;</code> for a left arrow <span style=\"font-size: 25px\">&larr;</span></li></ul><em>NOTE: If you use WP-PageNavi then this and the next setting become obsolete</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:777
+msgid "\"Older Page\" link on MULTI post pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:784
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:815
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:824
+msgid "See above for HTML examples."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:786
+msgid "\"Newer Post\" link on SINGLE post pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:793
+msgid "See above for HTML examples.<br /><br />To include the linked title of the newer post, use <code>%link</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:795
+msgid "\"Older Post\" link on SINGLE post pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:802
+msgid "See above for HTML examples.<br /><br />To include the linked title of the older post, use <code>%link</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:808
+msgid "\"Newer Comments\" link for COMMENTS navigation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:817
+msgid "\"Older Comments\" link for COMMENTS navigation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:826
+msgid "Location of Paged COMMENTS Navigation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:832
+msgid "Show the Next/Previous comments navigation above or below the comments?<br /><br /><em>Note: Up to WP 2.7 Beta 3 Wordpress did show neither pagination nor the \"Newer\" link ABOVE the comments, only BELOW the comments. This may work in later versions...</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:834
+msgid "Style the COMMENTS ABOVE Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:839
+msgid "Style the box that contains the next/previous navigation for comments, when it is above the comments."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:841
+msgid "Style the COMMENTS BELOW Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:846
+msgid "Style the box that contains the next/previous navigation for comments, when it is below the comments."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:848
+msgid "Show Page Numbers (Pagination) for COMMENTS Navigation"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:854
+msgid "Instead of the regular Newer Comments / Older Comments links you can show the page numbers plus previous/next links. Your settings for \"Newer Comments\" link and \"Older Comments\" link from above will be used as the next/previous link texts."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:860
+msgid "Location of Next/Previous Page Navigation on MULTI Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:866
+msgid "On multi post pages, show the Next/Previous navigation on top (above all posts), at the bottom (below all posts), or on top AND at the bottom?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:868
+msgid "Location of Next/Previous Post Navigation on SINGLE Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:874
+msgid "On single post pages, show the Next/Previous navigation on top, in the middle (between the post and the comments), or at the bottom?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:876
+msgid "Style the Navigation TOP Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:881
+msgid "Style the box that contains the next/previous navigation, when it is at the top."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:883
+msgid "Style the Navigation MIDDLE Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:888
+msgid "Style the box that contains the next/previous navigation, when it is in the middle."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:890
+msgid "Style the Navigation BOTTOM Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:895
+msgid "Style the box that contains the next/previous navigation, when it is at the bottom."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:899
+msgid "LEFT sidebar: Display on:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:915
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:949
+msgid "(*) \"Front Page\" will only affect WP 2.5 and newer: For those newer WP versions, IF you select a static \"Page\" page as the home page, then \"Front Page\" becomes the actual homepage, while the \"Homepage\" will be the home page for Posts (but not the whole blog). If no static front page is selected, Homepage and Front Page will be the same."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:917
+msgid "LEFT sidebar: Don't display on Pages:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:923
+msgid "To turn off the left sidebar on <strong>individual</strong> pages, put the ID's of those pages here, separated by comma<br /><br /><strong>Example:</strong><br /><code>29,8,111</code><br /><br />To get the ID of a page, "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:925
+msgid "LEFT sidebar: Don't display on Categories:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:931
+msgid "To turn off the left sidebar on <strong>individual</strong> categories, put the ID's of those categories here, separated by comma<br /><br /><strong>Example:</strong><br /><code>13,5,87</code><br /><br />To get the ID of a category, "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:933
+msgid "RIGHT sidebar: Display on:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:951
+msgid "RIGHT sidebar: Don't display on Pages:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:957
+msgid "To turn off the right sidebar on <strong>individual</strong> pages, put the ID's of those pages here, separated by comma<br /><br /><strong>Example:</strong><br /><code>29,8,111</code><br /><br />To get the ID of a page, "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:959
+msgid "RIGHT sidebar: Don't display on Categories:"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:965
+msgid "To turn off the right sidebar on <strong>individual</strong> categories, put the ID's of those categories here, separated by comma<br /><br /><strong>Example:</strong><br /><code>13,5,87</code><br /><br />To get the ID of a category, "
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:965
+msgid ", point your mouse at the title of the category in question, and watch your browser's status bar (it's at the bottom) for an URL ending on \"...action=edit&cat_ID=<strong>XX</strong>\". <strong>XX</strong> is the ID of the category."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:967
+msgid "LEFT sidebar WIDTH"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:973
+msgid "Width of the left sidebar in pixels. <strong>Example:</strong> <code>165</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:975
+msgid "RIGHT sidebar WIDTH"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:981
+msgid "Width of the right sidebar in pixels. <strong>Example:</strong> <code>220</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:983
+msgid "LEFT sidebar style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:988
+msgid "Style the LEFT sidebar here. Usually all content in a sidebar would be inside of widgets, so there should be no need to set text styles for the sidebar. The widgets can be styled separately, see the menu tabs above."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:990
+msgid "RIGHT sidebar style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:995
+msgid "Style the RIGHT sidebar here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:999
+msgid "Widget Container"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1004
+msgid "The widget container contains the \"Widget Title\" (-Box) and the \"Widget Content\" (-Box), both of which you can style independently."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1006
+msgid "Widget Title Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1011
+msgid "The Widget Title box contains the widget title. Text, calendar and search widgets may have no title if you chose none. In that case there will be no Widget Title box in the widget container."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1013
+msgid "Widget Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1018
+msgid "Style the Widget Title Font."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1020
+msgid "Widget Content Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1025
+msgid "The widget Content box contains all the widget content except the title."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1027
+msgid "Widget List Items"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1041
+msgid "List items and links in widgets."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1043
+msgid "Widget List Items, 2nd level"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1057
+msgid "Second level list items and links in widgets."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1059
+msgid "Widget List Items, 3rd and lower level"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1073
+msgid "Third and lower level list items and links in widgets."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1075
+msgid "Adjust SELECT menu font size"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1081
+msgid "In <strong>Internet Explorer</strong>, \"Select\" drop down menus will be cut off if one or more of the select menu items (in this case: category titles) are too long. <br /><br />To avoid this, set a (small) fixed pixel font size for the select menu items here, such as <strong>11px</strong> (11 pixels) if you feel (or see, because you use IE) that your select menus might be too wide for the set sidebar width. (OR: Make your sidebar wider)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1085
+msgid "KICKER: Homepage"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1090
+msgid "Leave blank to display no kicker on posts on the homepage.<br /><strong>Example:</strong> <code>%category%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1092
+msgid "KICKER: Multi Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1097
+msgid "Leave blank to display no kicker on posts on multi post pages.<br /><strong>Example:</strong> <code>%category-linked%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1099
+msgid "KICKER: Single Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1104
+msgid "Leave blank to display no kicker on posts on single post pages.<br /><strong>Example:</strong> <code>%category-linked%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1106
+msgid "KICKER: \"Page\" Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1111
+msgid "Leave blank to display no kicker on \"page\" pages.<br /><em>NOTE: \"Page\" pages don't have categories or tags</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1113
+msgid "BYLINE: Homepage"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1118
+msgid "Leave blank to display no byline on posts on the homepage.<br /><strong>Example:</strong> <code>By %author%, on %date('<i>F jS, Y</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1120
+msgid "BYLINE: Multi Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1125
+msgid "Leave blank to display no byline on posts on multi post pages.<br /><strong>Example:</strong> <code>By %author%, on %date('<i>F jS, Y</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1127
+msgid "BYLINE: Single Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1132
+msgid "Leave blank to display no byline on posts on single post pages.<br /><strong>Example:</strong> <code>By %author%, on %date('<i>F jS, Y</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1134
+msgid "BYLINE: \"Page\" Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1139
+msgid "Leave blank to display no byline on \"page\" pages.<br /><em>NOTE: \"Page\" pages don't have categories or tags</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1141
+msgid "FOOTER: Homepage"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1146
+msgid "Leave blank to display no footer on posts on the homepage.<br /><strong>Example:</strong> <code>%tags-linked('<i>&lt;strong&gt;Tags:&lt;/strong&gt; </i>', '<i>, </i>', '<i> - </i>')% &lt;strong&gt;Categories:&lt;/strong&gt; %categories-linked('<i>, </i>')%&lt;br /&gt;%comments('<i>Leave a comment</i>', '<i>One comment so far</i>', '<i>% comments - be the next!</i>', '<i>Comments are closed</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1148
+msgid "FOOTER: Multi Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1153
+msgid "Leave blank to display no footer on posts on multi post pages.<br /><strong>Example:</strong> <code>%tags-linked('<i>&lt;strong&gt;Tags:&lt;/strong&gt; </i>', '<i>, </i>', '<i> - </i>')% &lt;strong&gt;Categories:&lt;/strong&gt; %categories-linked('<i>, </i>')%&lt;br /&gt;%comments('<i>Leave a comment</i>', '<i>One comment so far</i>', '<i>% comments - be the next!</i>', '<i>Comments are closed</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1155
+msgid "FOOTER: Single Post Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1160
+msgid "Leave blank to display no footer on posts on single post pages.<br /><strong>Example:</strong> <code>%tags-linked('<i>&lt;strong&gt;Tags:&lt;/strong&gt; </i>', '<i>, </i>', '<i> - </i>')% &lt;strong&gt;Categories:&lt;/strong&gt; %categories-linked('<i>, </i>')%&lt;br /&gt;%comments('<i>Leave a comment</i>', '<i>One comment so far</i>', '<i>% comments - be the next!</i>', '<i>Comments are closed</i>')%</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1162
+msgid "FOOTER: \"Page\" Pages"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1167
+msgid "Leave blank to have no footer on \"page\" pages.<br /><em>NOTE: \"Page\" pages don't have categories or tags</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1171
+msgid "POST Container"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1176
+msgid "Style <strong>the container</strong> that contains the whole post/page."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1178
+msgid "POST Container: STICKY"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1183
+msgid "Additional styles for <strong>the container</strong> when it is <strong>STICKY</strong>. This works only in WP 2.7 and newer. In WP 2.7, posts can be marked as \"sticky\" which will make them stay on the top of the homepage."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1185
+msgid "KICKER Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1190
+msgid "Style <strong>the box</strong> that contains the post/page \"kicker\", <strong>and the text</strong> inside, except the links."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1192
+msgid "KICKER Box: Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1197
+msgid "Style <strong>the links</strong> in the kicker box."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1199
+msgid "KICKER Box: Links: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1204
+msgid "Style <strong>the links</strong> in the kicker box, in their <strong>hover</strong> state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1206
+msgid "HEADLINE Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1211
+msgid "Style <strong>the box</strong> that contains the post/page title. The text inside (= the post/page title) will be styled in the next section."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1213
+msgid "HEADLINE Box: Text"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1218
+msgid "Style <strong>the post/page titles, when they are NOT links</strong>, but regular text (= on single post pages and \"page\" pages)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1220
+msgid "HEADLINE Box: Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1225
+msgid "Style <strong>the post/page titles, when they ARE links</strong> (= on multi post pages such as home, archive, category, tag, search...). \"Page\" page titles are usually never links, but they might become links, i.e. if you expand WordPress' search capabilities with a plugin."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1227
+msgid "HEADLINE Box: Links: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1232
+msgid "Style the <strong>hover</strong> state of <strong>post/page titles</strong>, when they are links."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1234
+msgid "BYLINE Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1239
+msgid "Style <strong>the box</strong> that contains the post/page byline, <strong>and the text</strong> inside, except the links."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1241
+msgid "BYLINE Box: Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1246
+msgid "Style <strong>the links</strong> in the byline box."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1248
+msgid "BYLINE Box: Links: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1253
+msgid "Style <strong>the links</strong> in the byline box, in their <strong>hover</strong> state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1255
+msgid "BODY Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1260
+msgid "Style <strong>the box</strong> that contains the post/page main text (= the \"body copy\"). The text and links in the post/page main text box can be styled on the main tab \"Text & Link Styling\"."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1262
+msgid "FOOTER Box"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1267
+msgid "Style <strong>the box</strong> that contains the post/page footer, <strong>and the text</strong> inside, except the links."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1269
+msgid "FOOTER Box: Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1274
+msgid "Style <strong>the links</strong> in the footer box."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1276
+msgid "FOOTER Box: Links: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1281
+msgid "Style <strong>the links</strong> in the footer box, in their <strong>hover</strong> state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1286
+msgid "Posts or excerpts on HOME page?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1292
+msgid "Show full posts or only excerpts, on the Homepage?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1294
+msgid "Posts or excerpts on CATEGORY pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1300
+msgid "Show full posts or only excerpts, on Category pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1302
+msgid "Posts or excerpts on ARCHIVE pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1308
+msgid "Show full posts or only excerpts, on (date based) Archive pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1310
+msgid "Posts or excerpts on TAG pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1316
+msgid "Show full posts or only excerpts, on Tag pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1318
+msgid "Posts or excerpts on SEARCH RESULT pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1324
+msgid "Show full posts or only excerpts, on Search Result pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1326
+msgid "Posts or excerpts on AUTHOR pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1332
+msgid "Show full posts or only excerpts, on Author pages?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1336
+msgid "Read More"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1343
+msgid "Configure the \"Read More\" text here. The text you put here will be displayed whenever you use <code>&lt;!--more--&gt;</code> in a post, either by manually inserting that tag into a post or by using the more button (see images below). This is a more fine-grained method of generating post excerpts than setting the post display type to \"Excerpts\" (see menu tab \"Posts or Excerpts\"). <br /><br />Whenever you insert <code>&lt;!--more--&gt;</code> into a post or page, only the text before that tag will be displayed on multi-post-pages while the whole post will be displayed on its dedicated single post page. <br /><br />Use <code>%post-title%</code> to include the post title in the \"More\" text.<br /><br /> Example:<br /> <code>Continue reading \"&lt;strong&gt;%post-title%&lt/strong&gt;\" &amp;raquo;</code><br /><br />You can use single and double quotes, and HTML. Examples:<ul><li><code>&lt;br /&gt;</code> for line breaks</li><li><code>&lt;strong&gt; ... &lt;/strong&gt;</code> to make text <strong>bold</strong></li><li><code>&lt;em&gt; ... &lt;/em&gt;</code> to make text <em>italic</em></li><li><code>&amp;nbsp;</code> to include a non-breaking space</li><li><code>&amp;raquo;</code> for a right angle quote <span style=\"font-size: 25px\">&raquo;</span></li><li><code>&amp;laquo;</code> for a left angle quote <span style=\"font-size: 25px\">&laquo;</span></li><li><code>&amp;rsaquo;</code> for a right single angle quote <span style=\"font-size: 25px\">&rsaquo;</span></li><li><code>&amp;lsaquo;</code> for a left single angle quote <span style=\"font-size: 25px\">&lsaquo;</span></li><li><code>&amp;rarr;</code> for a right arrow <span style=\"font-size: 25px\">&rarr;</span></li><li><code>&amp;larr;</code> for a left arrow <span style=\"font-size: 25px\">&larr;</span></li></ul>The WordPress editor buttons to insert the \"Read More\" tag into a post or page. They look different depending on whether you're in Visual or HTML mode.<br /><br >"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1347
+msgid "Highlight Author comments?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1353
+msgid "Highlight author (blog owner) comments with a different background color?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1355
+msgid "Color for Author comment highlighting"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1360
+msgid "If you chose Yes above, set the background color for author comments here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1362
+msgid "Regular Comment Background Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1367
+msgid "Background color for comments"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1369
+msgid "Alternating Comment Background Color"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1374
+msgid "Background color for every second comment. Choose the same color as one option above if you want the same background color for all comments."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1376
+msgid "Border between single comments"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1381
+msgid "Style the line that separates every comment from the next. No semicolon here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1383
+msgid "Comment Author Name Size"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1389
+msgid "Font size of comment author names relative to base font size."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1391
+msgid "Allow comments on \"Page\" pages, too?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1397
+msgid "Set to Yes to have a comment form (and comments if any) on \"Page\" pages, too, and not only on Post pages."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1399
+msgid "Separate trackbacks/pings from comments?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1405
+msgid "For WP 2.6 and older: List comments, trackbacks and pings in the order they come in, or put all trackbacks and pings below the comments?<br /><br /><em>Note: This works well with the theme's own functions but not if you use the plugin <a href=\"http://wordpress.org/extend/plugins/paged-comments/\">Paged Comments</a> or Wordpress 2.7</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1407
+msgid "Avatar Size"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1413
+msgid "The size of avatars, in pixels. 55 means 55 x 55 pixels. Choose 0 here to show no avatars (or turn them off in the WordPress admin panel if your WP version has built in avatar support)."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1415
+msgid "Avatar Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1420
+msgid "Style avatars. The lines with \"radius\" create rounded corners in Firefox and Safari."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1422
+msgid "Comment display order"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1428
+msgid "For WP 2.6 and older: To list comments in reverse order choose \"Newest on top\". In WP 2.7+ you can set this at Settings -> Discussion."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1432
+msgid "Footer Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1437
+msgid "Style the footer box and the text inside."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1439
+msgid "Footer Style: Links"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1444
+msgid "Style the links in the footer."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1446
+msgid "Footer Style: Links: Hover"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1451
+msgid "Style the links in the footer in hover state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1453
+msgid "Footer: Content"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1459
+msgid "Content in the footer area. You can use (X)HTML and these placeholders ...<ul><li><code>%current-year%</code> to display the current year</li><li><code>%page-XX%</code> to display the full link for a specific page. Replace XX with the ID of the page you want to display the link for.</li><li><code>%home%</code> to display a full link to the homepage.</li><li><code>%loginout%</code> to display a full Login/Logout link</li><li><code>%admin%</code> to display a full link to the admin area. (Will only be displayed for logged in users.)</li><li><code>%register%</code> to display a full register link</li><li><code>%rss%</code> to display (only) the URL for the RSS feed. This is not a full link, just the URL. Use something like <code>&lt;a href=\"%rss%\" rel=\"nofollow\"&gt;Posts Feed&lt;/a&gt;</code></li><li><code>%comments-rss%</code> to display (only) the URL for the Comments RSS feed. This is not a full link, just the URL. Use something like <code>&lt;a href=\"%comments-rss%\" rel=\"nofollow\"&gt;Comments Feed&lt;/a&gt;</code>. (The BFA SEO option \"Nofollow RSS\" will not work here - nofollow would have to be included manually as shown in these examples).</li><li>In HTML, <span style=\"font-size:24px\">&copy;</span> can be displayed with <code>&amp;copy;</code>, <span style=\"font-size:24px\">&trade;</span> with <code>&amp;trade;</code> and <span style=\"font-size:24px\">&reg;</span> with <code>&amp;reg;</code></li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1461
+msgid "Show number of queries &amp; timer?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1467
+msgid "Show the amount of database queries and the time required to render the given page, at the bottom of every page? This can be useful to see how certain settings or plugins add to the page rendering time."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1469
+msgid "Show the 2nd footer link to BFA?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1475
+msgid "If you remove this link, please consider a donation to BFA. Every amount is appreciated. To donate, visit <a href=\"wordpress.bytesforall.com\">wordpress.bytesforall.com</a> or <a href=\"forum.bytesforall.com\">forum.bytesforall.com</a> and look for \"Donate\" links and buttons."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1479
+msgid "Table Caption Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1484
+msgid "The table caption (if you use any) is (usually) the first row in a table.<br /><br /><strong>Example:</strong><br /><br /><code>&lt;table&gt;<br /><i>&lt;caption&gt;Results May 2008&lt;/caption&gt;</i><br />&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Address&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;<br />&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Previous&lt;/td&gt;&lt;td&gt;Next&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;<br />&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;John&lt;/td&gt;&lt;td&gt;Smallville&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;<br />&lt;/table&gt;</code><br /><br /><em>Note how the table footer <code>tfoot</code> comes <strong>before</strong> the body <code>tbody</code></em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1486
+msgid "Table Header Cells"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1491
+msgid "Style the table header cells <code>&lt;th&gt;</code> ... <code>&lt;/th&gt;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1493
+msgid "Table Body Cells"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1498
+msgid "Style the regular table cells <code>&lt;td&gt;</code> ... <code>&lt;/td&gt;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1500
+msgid "Table Footer Cells"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1505
+msgid "You can style the table footer cells individually.<br /><br /><em>Or else they'll get the same style as the Table Body Cells.</em>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1507
+msgid "Zebra stripe all tables?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1513
+msgid "Add a different style to every second row in <strong>all</strong> tables in posts and pages?<br /><br />Alternatively, set this to \"No\" and add the class <code>zebra</code> to individual tables that you want to zebra stripe. Example: <br /><br /><code>&lt;table class=\"zebra\"&gt; ... &lt;/table&gt;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1515
+msgid "Zebra row TD style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1520
+msgid "If you chose to zebra stripe tables, set the style for the cells in every second row here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1522
+msgid "Hover effect for all tables?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1528
+msgid "Change the style of table rows when the mouse pointer hovers over them, for <strong>all</strong> tables in posts and pages?<br /><br />Alternatively, set this to \"No\" and add the class <code>hover</code> to individual tables that you want to apply the hover effect on. Example: <br /><br /><code>&lt;table class=\"hover\"&gt; ... &lt;/table&gt;</code><br /><br />Multiple classes can be added, too, i.e. to add both the zebra and the hover effect to an individual table:<br /><br /><code>&lt;table class=\"zebra hover\"&gt; ... &lt;/table&gt;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1530
+msgid "Hover row TD style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1535
+msgid "If you chose to use a hover efect for table rows, set the style for the cells in hovered table rows here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1539
+msgid "Form fields: Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1544
+msgid "Style the text input fields and textareas in forms. Remove the \"background\" line if you don't want the shadows inside of text fields and texareas. <br /><br />Other available shadows are <code>inputbackgr-red.gif</code>, <code>inputbackgr-green.gif</code> and <code>inputbackgr-blue.gif</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1546
+msgid "Highlight form fields?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1552
+msgid "Highlight form input fields when they get focus (when someone clicks into the field)?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1554
+msgid "Highlight form fields: Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1559
+msgid "If you chose \"Yes\" above, style the highlighted state of input fields here."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1561
+msgid "Submit Buttons: Default Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1566
+msgid "Style submit buttons in their <strong>default</strong> state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1568
+msgid "Submit Buttons: Hover Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1573
+msgid "Style submit buttons in their <strong>hover</strong> state."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1577
+msgid "Blockquotes: Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1582
+msgid "Style blockquotes. <br /><br /><strong>Example:</strong><br /><br /><code>font: italic 1.1em georgia, serif;<br />color: #336699;<br />padding: 0 1em;<br />background: #c9dbed;<br />border: dashed 5px #336699;</code><br /><br />Example Screenshot is from IE7. It will look different on non-IE browsers."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1584
+msgid "Blockquotes in blockquotes: Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1589
+msgid "Style blockquotes inside of blockquotes."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1593
+msgid "Images in Posts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1598
+msgid "Style images in posts, when they have no caption.<br /><br />The lines with \"radius\" create rounded corners in Firefox and Safari.<br /><br />To remove the border around images, delete everything in this box."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1600
+msgid "Images in Posts: Caption Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1605
+msgid "Style the caption box for images in posts, that have a caption.<br /><br />The lines with \"radius\" create rounded corners in Firefox and Safari.<br /><br />To remove the border around images with caption, delete everything in this box."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1607
+msgid "Caption Text: Style"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1612
+msgid "Style the caption text."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1616
+msgid "HTML Inserts: Header"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1622
+msgid "Add code here (JavaScript, HTML, CSS) that you want to put into the header section of the website, between <code>&lt;head&gt;</code> and <code>&lt;/head&gt;</code>."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1624
+msgid "HTML Inserts: Body Tag"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1630
+msgid "Add code here that you want to add to the opening body tag <code>&lt;body&gt;</code> of the website.<br /><br /><strong>Example:</strong><br /><br /><code>onLoad=\"alert('The page is loading... now!')\"</code><br />would result in an output of<br /><code>&lt;body <i>onLoad=\"alert('The page is loading... now!')\"</i>&gt;</code><br />instead of the regular<br /><code>&lt;body&gt;</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1632
+msgid "HTML Inserts: Body Top"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1638
+msgid "Add code here (JavaScript, HTML, CSS) that you want to put into the body section of the website, between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>, right after <code>&lt;body&gt;</code>."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1640
+msgid "HTML Inserts: Body Bottom"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1646
+msgid "Add code here (JavaScript, HTML, CSS) that you want to put into the body section of the website, between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>, right before <code>&lt;/body&gt;</code>.<br /><br /><strong>Google Analytics</strong> code would go here, and most other tracking code probably too."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1648
+msgid "CSS Inserts"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1654
+msgid "Add CSS code here that you want to append to the theme's CSS file. <strong>Example</strong><br /><br /><code>.newclass {<br />color: #123456;<br />border: solid 1px #000000;<br />font-family: arial, \"comic sans ms\", sans-serif;<br />}</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1658
+msgid "Archives Page ID"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1664
+msgid "This theme has no Archives page by default but you can create a custom one:<ul><li>Put the ID of an existing page into this field to make that page the Archives page.</li><li>This can be an empty page or a page with content.</li><li>If the page has content, the archives will be appended at the bottom.</li></ul>An Archives page is a \"Page\" page listing the links to (usually: monthly) archives and the categories, similar to a sitemap, but usually without a list of \"Page\" pages. The difference to the archive links or select menu in the sidebar is that the links will be displayed as regular content in the middle column"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1666
+msgid "Show Archives by Date?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1672
+msgid "Show archives by date?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1674
+msgid "Archives by Date: Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1679
+msgid "The headline for the yearly/monthly/daily/postbypost archives"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1681
+msgid "Archives by Date: Type"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1687
+msgid "List the date based archives by year, month, week, day or post by post?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1689
+msgid "Archives by Date: Limit"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1694
+msgid "Optional: Limit the amount of date based archive links. Leave blank for no limit. <strong>Example:</strong> <code>30</code>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1696
+msgid "Archives by Date: Show post count?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1702
+msgid "Show the post count for each date based archive link? Won't be used if you chose \"postbypost\" above."
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1704
+msgid "Show Archives by Category?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1710
+msgid "Show archives by category?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1712
+msgid "Archives by Category: Title"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1717
+msgid "The headline for the category archives"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1719
+msgid "Archives by Category: Show post count?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1725
+msgid "Display the post count after each category link?"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1727
+msgid "Archives by Category: Depth"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1733
+msgid "Limit the depth of category levels to be displayed. Choose 0 to display all categories (= no depth limit)"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1735
+msgid "Archives by Category: Order by"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1741
+msgid "Sort the category archive links by <ul><li><strong>ID</strong> - chronologically</li><li><strong>name</strong> - alphabetically</li><li><strong>count</strong> - post count</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1743
+msgid "Archives by Category: Order"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1749
+msgid "Sort the category list<ul><li><strong>ASC</strong> - ascending</li><li><strong>DESC</strong> - descending</li></ul>"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1751
+msgid "Archives by Category: Feed Link"
+msgstr ""
+
+#: C:\_BYTESFORALL.com\wordpress\FIRST-OWN-THEME-1.01\atahualpa3.1/functions/bfa_theme_options.php:1757
+msgid "Show a linked RSS icon after each category link?"
+msgstr ""
+
