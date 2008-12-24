@@ -1,0 +1,2352 @@
+/*  
+Theme Name: Atahualpa
+Theme URI: http://wordpress.bytesforall.com/
+Description: Build your own unique and professional WordPress theme with 180 theme options, drop down menus, integrated feedburner, auto image resizing, 4 extra widgets and many other features. For WP 2.2-2.7 and WPMU.
+Version: 3.1.6
+Author: BFA WebDesign
+Author URI: http://www.bytesforall.com/
+Tags: white, one-column, two-columns, three-columns, fixed-width, flexible-width,  custom-colors, custom-header, theme-options, left-sidebar, right-sidebar, threaded-comments, sticky-post
+ */
+ 
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignleft {
+	float: left;
+	}
+
+.alignright {
+	float: right;
+	}
+	
+/* v  v  v  to create a static CSS file DELETE everything below this line and paste the new output of 
+yousite.com/.../style.css.php below this line:  v  v  v */
+
+
+
+/* ------------------------------------------------------------------
+---------- BASE LAYOUT ----------------------------------------------
+------------------------------------------------------------------ */
+body {
+	text-align: center;  /* centering the page container, 
+							text-align will be reset to left 
+							inside the container */
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif;
+font-size: 0.8em;
+color: #000000;
+background: #ffffff;	}
+
+a:link, a:visited, a:active {
+	color: #666666; 
+	font-weight: bold; 
+	text-decoration: none; 
+	}
+	
+a:hover {
+	color: #cc0000;
+	font-weight: bold; 
+	text-decoration: underline; 
+	}
+		
+ul, ol, dl, p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+
+ul ul, ul ol, ol ul, ol ol {
+	/* kill margins on sub-lists */
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+h1 {font-size: 2.15em; font-weight: bold;}
+h2 {font-size: 1.85em; font-weight: bold;}
+h3 {font-size: 1.6em; font-weight: bold; }
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+
+code, pre {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1em;
+	}
+
+pre {
+	overflow: auto;
+	word-wrap: normal;
+	padding-bottom: 1.5em;
+	overflow-y: hidden;
+	width: 99%;
+	}
+
+
+abbr[title], acronym[title] {
+	border-bottom: 1px dotted;
+	}
+	
+hr {
+	display: block;
+	height: 2px;
+	border: none;
+	margin: 0.5em auto;
+	color: #cccccc;
+	background-color: #cccccc;
+	}
+
+table {
+	font-size: 100%; /* use the body's font size in tables, too */
+	}	
+
+
+/* ------------------------------------------------------------------
+---------- BREAK LONG STRINGS ---------------------------------------
+------------------------------------------------------------------ */
+
+.post, ul.commentlist li, ol.commentlist li {
+	word-wrap: break-word; /* break long strings in IE6+ and Safari2+ 
+							in posts and comments */
+	}
+
+pre, .wp_syntax {
+	word-wrap: normal; /* reset "break-word" for pre & wp-syntax */
+	}
+
+	
+/* ------------------------------------------------------------------
+---------- WRAPPER, CONTAINER & LAYOUT ------------------------------
+------------------------------------------------------------------ */
+
+/*-------------------- WRAPPER for MIN / MAX width --------*/
+
+
+div#wrapper {
+	text-align: center;  
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 99%;
+		}
+
+
+
+/*-------------------- CONTAINER for VISUAL styles --------*/
+
+div#container {
+	padding: 0;		width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; /* resetting the "text-align: center" of "wrapper" */
+	display: block;
+	}
+
+/*-------------------- LAYOUT to keep it all together -----*/
+	
+table#layout {
+	font-size: 100%;
+	width: 100%;
+	max-width: 100%;
+	table-layout: fixed;
+	}
+
+.colone {width: 200px;}
+.coltwo {width: 100%; min-width:200px;}
+.colthree {width: 200px;}
+	
+	
+/* ------------------------------------------------------------------
+---------- HEADER ---------------------------------------------------
+------------------------------------------------------------------ */
+
+
+/*-------------------- HEADER CONTAINER -------------------*/
+
+td#header {
+	width: auto;
+	padding: 0;
+	}
+
+
+/*-------------------- LOGO AREA --------------------------*/
+
+table#logoarea, 
+table#logoarea tr, 
+table#logoarea td {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: 0;
+	}
+
+table#logoarea {
+	width: 100%;
+	max-width: 100%;
+		}
+	
+
+/*-------------------- LOGO -------------------------------*/
+
+.logo {
+	display: block;
+	margin: 0 10px 0 0;	}
+
+td.logoarea-logo {
+	width: 1%;
+	}
+
+	
+/*-------------------- BLOG TITLE -------------------------*/
+
+h1.blogtitle {
+	display: block;
+	/*white-space: nowrap;*/
+	margin: 0;
+padding:0;
+letter-spacing:-1px;
+line-height: 1.0em;
+font-family: tahoma, arial, sans-serif;
+font-size: 240%;	}
+	
+h1.blogtitle a:link, 
+h1.blogtitle a:visited, 
+h1.blogtitle a:active {
+	text-decoration: none;
+	color: #666666;
+	}
+	
+h1.blogtitle a:hover {
+	text-decoration: none;
+	color: #000000;
+	}
+
+
+/*-------------------- BLOG TAGLINE -----------------------*/
+
+p.tagline { 
+	margin: 0;
+padding: 0;
+font-size:1.2em;
+font-weight: bold;
+color: #666666;	}
+
+	
+td.feed-icons {
+	white-space: no-wrap; 
+	}
+
+div.rss-box {
+	height: 1%; 
+	display: block; 
+	padding: 10px 0 10px 10px; 
+	margin: 0;
+	width: 280px;
+	}
+	
+/*-------------------- COMMENTS FEED ICON -----------------*/
+
+.comments-icon {
+	background: transparent url(images/comment-feed-small.gif) no-repeat scroll 0;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px 0 0;
+	padding-left: 27px;
+	/*display: inline-block;*/
+	display: block;
+	text-decoration: none;
+	float: right;
+	white-space: nowrap;
+	}
+
+
+/*-------------------- POSTS FEED ICON --------------------*/
+
+.posts-icon {
+	background: transparent url(images/post-feed-small.gif) no-repeat scroll 0;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px 0 0;
+	padding-left: 25px;
+	/*display: inline-block;*/
+	display: block;
+	text-decoration: none;
+	float: right;
+	white-space: nowrap;
+	}
+
+
+	
+	
+/*-------------------- SEARCH BOX IN HEADER ---------------*/	
+
+td.search-box {
+	height: 1%;
+	}
+	
+.searchbox {
+	border-top: 1px dashed #ccc;
+border-right: 1px dashed #ccc;
+border-bottom: 0;
+border-left: 1px dashed #ccc;
+width: 200px;
+margin: 0;
+padding: 0;	}
+
+.searchbox-form {
+	margin: 5px 10px 5px 10px;
+	}
+
+
+
+/*-------------------- HORIZONTAL BARS --------------------*/
+
+.horbar1, 
+.horbar2 { 
+	font-size: 1px;
+	clear: both; 
+	display: block;
+	position: relative;
+	padding: 0; 
+	margin: 0;
+	width: 100%; 
+	}
+
+.horbar1 {
+	height: 5px;
+background: #ffffff;
+border-top: dashed 1px #cccccc;	}
+	
+.horbar2 { 
+	height: 5px;
+background: #ffffff;
+border-bottom: dashed 1px #cccccc;	}	
+
+
+.header-image-container {
+	position: relative; 
+	margin: 0; 
+	padding: 0; 
+	height: 150px; 
+	/* background: (= header image) will be added in bfa_header_config.php */
+		}
+
+	
+
+
+/*-------------------- OPACITY LEFT -----------------------*/
+
+.opacityleft {
+	background-color: #ffffff; 
+	position: absolute; 
+	z-index: 2; 
+	top: 0; 
+	left: 0; 
+	height: 150px;
+	width: 200px; 
+	filter: alpha(opacity=40);
+	-moz-opacity:.40;
+	opacity:.40;
+	}
+
+
+/*-------------------- OPACITY RIGHT ----------------------*/	
+.opacityright {
+	background-color: #ffffff; 
+	position: absolute; 
+	z-index: 2; 
+	top: 0; 
+	right: 0; 
+	height: 150px;
+	width: 200px; 
+	filter: alpha(opacity=40);
+	-moz-opacity:.40;
+	opacity:.40;
+	}
+
+
+		
+/* ------------------------------------------------------------------
+---------- LEFT SIDEBAR ---------------------------------------------
+------------------------------------------------------------------ */
+
+td#left {
+	vertical-align: top;
+	border-right: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;	}
+
+	
+/* ------------------------------------------------------------------
+---------- RIGHT SIDEBAR --------------------------------------------
+------------------------------------------------------------------ */
+
+td#right {
+	vertical-align: top;
+	border-left: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;	}
+
+	
+/* ------------------------------------------------------------------
+---------- CENTER COLUMN --------------------------------------------
+------------------------------------------------------------------ */
+
+td#middle {
+	vertical-align: top;
+	width: 100%;
+	max-width: 100%;		
+	overflow: auto;
+	background-color: #fff;
+	padding: 10px 15px;	}
+
+	
+/* ------------------------------------------------------------------
+---------- FOOTER ---------------------------------------------------
+------------------------------------------------------------------ */
+
+td#footer {
+	width: auto;
+	background-color: #ffffff;
+border-top: dashed 1px #cccccc;
+padding: 10px;
+text-align: center;
+color: #777777;
+font-size: 95%;	}
+
+td#footer a:link, td#footer a:visited, td#footer a:active {
+	text-decoration: none;
+color: #777777;
+font-weight: normal;	}
+
+td#footer a:hover {
+	text-decoration: none;
+color: #777777;
+font-weight: normal;	}
+	
+/* ------------------------------------------------------------------
+---------- WIDGETS --------------------------------------------------
+------------------------------------------------------------------ */
+
+div.widget {
+	display: block;
+	width: auto;  /* without this IE will stretch too-wide select 
+					menus but not the other widgets. With 100% IE
+					will remove sidebar borders if select menu is
+					too wide */
+	margin: 0 0 15px 0;	}
+
+div.widget-title {
+	display: block;
+	width: auto;
+		}
+
+div.widget-title h3 {
+	padding:0;
+	margin:0;
+		}	
+	
+div.widget-content {
+	display: block;
+	width: auto;
+		}
+
+	
+/* ------------------------------------------------------------------
+---------- Select MENUS INSIDE OF WIDGETS -------------------------
+------------------------------------------------------------------ */
+
+/* if a select menu is too wide to fit into the sidebar (because one 
+ or several of its option titles are too long) then it will be cut off
+ in IE 6 & 7 */
+
+div.widget select { 
+	 
+	width: 98%; 		/* auto won't work in Safari */
+	margin-top: 5px;
+}	
+	
+	
+/* ------------------------------------------------------------------
+---------- LISTS INSIDE OF WIDGETS ----------------------------------
+------------------------------------------------------------------ */
+
+.widget ul {
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: auto;
+	}
+
+/*------------- list items with 1 link per item -----------*/
+	
+.widget ul li {
+	margin: 2px 0 2px 0;  
+	display: block;
+	margin: 2px 0 2px 0px;
+	}
+
+.widget ul li ul li {
+	margin: 2px 0 2px 5px;  
+	}
+
+.widget ul li ul li ul li {
+	margin: 2px 0 2px 5px;  
+	}
+	
+.widget ul li a:link, 
+.widget ul li a:visited, 
+.widget ul li a:active {
+	text-decoration: none; 
+	font-weight: normal; 
+	padding: 0 0 0 5px; 
+	color: #666666; 
+	border-left: solid 7px #cccccc; 
+	}
+
+.widget ul li ul li a:link, 
+.widget ul li ul li a:visited, 
+.widget ul li ul li a:active {
+	padding: 0 0 0 5px; 
+	color: #666666; 
+	border-left: solid 7px #cccccc; 
+	}
+
+.widget ul li ul li ul li a:link, 
+.widget ul li ul li ul li a:visited, 
+.widget ul li ul li ul li a:active {
+	padding: 0 0 0 5px; 
+	color: #666666; 
+	border-left: solid 7px #cccccc; 
+	}
+
+	
+.widget ul li a:hover {
+	color: #000000; 
+	border-left: solid 7px #000000; 
+	}
+
+.widget ul li ul li a:hover {
+	color: #000000; 
+	border-left: solid 7px #000000; 
+	}
+
+.widget ul li ul li ul li a:hover {
+	color: #000000; 
+	border-left: solid 7px #000000; 
+	}
+	
+.widget ul li a:link, 
+.widget ul li a:visited, 
+.widget ul li a:active,
+.widget ul li a:hover {
+	display: block;   /* if we set this to inline-block, we cannot
+						overwrite it to "inline" for the comments widgets, for IE */
+	height: 1%;   /* IE needs this */
+	}
+
+/* the archive widgets get inline-blick so post counts won't wrap
+into the next line. In FF2 items that don't fit into a single line 
+will overflow the sidebar but that is unlikely as the longest item 
+would be "[month name] (post count)" */
+.widget_categories ul li a:link, 
+.widget_categories ul li a:visited, 
+.widget_categories ul li a:active,
+.widget_categories ul li a:hover,
+.widget_archive ul li a:link, 
+.widget_archive ul li a:visited, 
+.widget_archive ul li a:active,
+.widget_archive ul li a:hover {
+	display: -moz-inline-box; /* Firefox 2 doesn't know default "inline-block" */
+	display: inline-block !important;  
+	}
+
+/* We cannot use inline-block for the category widget because unlike the archive 
+widget the category widget items may need to wrap on top of (possibly) being 
+displayed hierarchically. If "post count" is not displayed then it's easy: use "block". 
+With post count turned on we'll display it inline, because inline-block
+will cause it to overflow in FF2 and look bad in IE, too, if the item needs to wrap*/
+.widget_categories ul li a:link, 
+.widget_categories ul li a:visited, 
+.widget_categories ul li a:active,
+.widget_categories ul li a:hover {
+	display: inline !important;  
+	}
+	
+/*------------- list items with 2 links or link & text ----*/
+/* different styles for the default Recent Comments widget,
+the BFA Recent Comments widget and the Get Recent Comments widget */
+
+/* The Get Recent Comments widget's first level (= Post Title)
+doesn't get a border or padding */
+div#get_recent_comments_wrap ul li {
+	padding: 0px;
+	display: block; 
+	border-left: 0px;
+	}
+
+div#get_recent_comments_wrap ul li ul li {
+	margin-left: 0px;
+	}
+	
+/* Get Recent comments 2nd level, others 1st level: */
+div#get_recent_comments_wrap ul li ul li,
+.widget_recent_comments ul li, 
+.widget_simple_recent_comments ul li {
+	padding: 0 0 0 5px; 
+	display: block; 
+	border-left: solid 7px #cccccc; 
+	}
+
+/* Get Recent comments 3rd level, others 2nd level: */	
+div#get_recent_comments_wrap ul li ul li ul li, 
+.widget_recent_comments ul li ul li, 
+.widget_simple_recent_comments ul li ul li {
+	padding: 0 0 0 5px; 
+	border-left: solid 7px #cccccc; 
+	}
+
+.widget_recent_comments ul li ul li ul li, 
+.widget_simple_recent_comments ul li ul li ul li {
+	padding: 0 0 0 5px; 
+	border-left: solid 7px #cccccc; 
+	}	
+	
+/*- with sfhover for IE6 because it doesn't know li:hover -*/
+
+div#get_recent_comments_wrap ul li ul li:hover, 
+.widget_recent_comments ul li:hover, 
+.widget_simple_recent_comments ul li:hover, 
+div#get_recent_comments_wrap ul li ul li.sfhover, 	
+.widget_recent_comments ul li.sfhover, 
+.widget_simple_recent_comments ul li.sfhover {	
+	border-left: solid 7px #000000; 
+	}
+
+div#get_recent_comments_wrap ul li ul li ul li:hover, 
+.widget_recent_comments ul li ul li:hover, 
+.widget_simple_recent_comments ul li ul li:hover, 	
+div#get_recent_comments_wrap ul li ul li ul li.sfhover, 
+.widget_recent_comments ul li ul li.sfhover, 
+.widget_simple_recent_comments ul li ul li.sfhover {	
+	border-left: solid 7px #000000; 
+	}
+
+.widget_recent_comments ul li ul li ul li:hover, 
+.widget_simple_recent_comments ul li ul li ul li:hover, 	
+.widget_recent_comments ul li ul li ul li.sfhover, 
+.widget_simple_recent_comments ul li ul li ul li.sfhover {	
+	border-left: solid 7px #000000; 
+	}
+	
+/*--- comments get the border on the li instead of the a --*/
+
+div#get_recent_comments_wrap ul li a:link, 
+div#get_recent_comments_wrap ul li a:visited, 
+div#get_recent_comments_wrap ul li a:active, 
+div#get_recent_comments_wrap ul li a:hover,
+.widget ul li.recentcomments a:link, 
+.widget ul li.recentcomments a:visited, 
+.widget ul li.recentcomments a:active, 
+.widget ul li.recentcomments a:hover,
+.widget ul li.bfarecentcomments a:link, 
+.widget ul li.bfarecentcomments a:visited, 
+.widget ul li.bfarecentcomments a:active, 
+.widget ul li.bfarecentcomments a:hover { 	
+	border-left: 0px !important; 
+	display: inline !important; 
+	padding: 0px !important; 
+	margin: 0px !important; 
+	}
+
+
+
+/* ------------------------------------------------------------------
+---------- BFA SUBSCRIBE WIDGET -------------------------------------
+------------------------------------------------------------------ */
+
+table.subscribe {
+	width: 100%;
+	}
+	
+table.subscribe td.email-text {
+	padding: 0 0 5px 0;
+	vertical-align: top;
+	}
+
+table.subscribe td.email-field {
+	padding: 0;
+	width: 100%;
+	}
+	
+table.subscribe td.email-button {
+	padding: 0 0 0 5px;
+	}
+	
+table.subscribe td.post-text {
+	padding: 7px 0 0 0;
+	vertical-align: top;
+	}
+	
+table.subscribe td.comment-text {
+	padding: 7px 0 0 0;
+	vertical-align: top;
+	}
+	
+	
+/* ------------------------------------------------------------------
+---------- POSTS ----------------------------------------------------
+------------------------------------------------------------------ */
+
+/*-------------------- POST CONTAINER ---------------------*/
+
+div.post {
+	display: block;
+	margin: 0 0 30px 0;
+	}
+
+/* additonal styles for sticky posts */
+.sticky {
+		}
+
+/*-------------------- POST KICKER ------------------------*/
+
+div.post-kicker {
+	margin: 0 0 5px 0;
+	}
+
+div.post-kicker a:link, 
+div.post-kicker a:visited, 
+div.post-kicker a:active {
+	color: #000000;
+text-decoration: none;
+text-transform: uppercase;	}
+
+div.post-kicker a:hover {
+	color: #cc0000;	}
+
+	
+/*-------------------- POST HEADLINE ----------------------*/
+
+div.post-headline {
+		}
+
+div.post-headline h2 {
+	margin: 0;
+	padding: 0;
+	padding: 0;
+margin: 0;
+	}
+
+div.post-headline h2 a:link, 
+div.post-headline h2 a:visited, 
+div.post-headline h2 a:active {
+	color: #666666;
+text-decoration: none;
+	}
+
+div.post-headline h2 a:hover {
+	color: #000000;
+text-decoration: none;
+	}
+
+	
+/*-------------------- POST BYLINE ------------------------*/
+	
+div.post-byline {
+	margin: 5px 0 10px 0;	}
+
+div.post-byline a:link, 
+div.post-byline a:visited, 
+div.post-byline a:active {
+		}
+
+div.post-byline a:hover {
+		}
+
+	
+/*-------------------- POST BODY COPY ---------------------*/
+	
+div.post-bodycopy {
+		}
+	
+div.post-bodycopy p {
+	margin: 1em 0;
+	padding: 0;
+	display: block;
+	/* The rule below would create hor. scrollbars in Firefox, 
+	which would be better than overflowing long strings, but the
+	downside is that text won't float around images anymore. 
+	Uncomment this if you don't float images anyway */
+	/* overflow: auto; */
+	}
+
+/*-------------------- POST PAGINATION --------------------*/
+
+div.post-pagination {
+	/*border: solid 1px brown;*/
+	}
+
+	
+/*-------------------- POST FOOTER ------------------------*/
+	
+div.post-footer {
+	clear:both; 
+	display: block;
+	margin: 0;
+padding: 5px;
+background: #eeeeee;
+color: #666;
+line-height: 18px;	}
+
+div.post-footer a:link, 
+div.post-footer a:visited, 
+div.post-footer a:active {
+	color: #333;
+font-weight: normal;
+text-decoration: none;	}	
+
+div.post-footer a:hover {
+	color: #333;
+font-weight: normal;
+text-decoration: underline;	}
+
+	
+/*-------------------- ICONS in KICKER, BYLINE & FOOTER ---*/
+
+div.post-kicker img, 
+div.post-byline img, 
+div.post-footer img {
+	border: 0;
+	padding: 0;
+	margin: 0 0 -1px 0;
+	background: none;
+	}
+	
+span.post-ratings {
+	display:inline-block; 	/* postratings set to "span" by the 
+							theme, instead of default "div", to 
+							make them display inline. Adding 
+							inline-block and nowrap to avoid 
+							line wrapping of single voting stars. */
+	width: auto;
+	white-space: nowrap;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- PAGE NAVIGATION NEXT/PREVIOUS ----------------------------
+------------------------------------------------------------------ */
+
+.navigation-top {
+	display: block; 
+	width: 100%; 
+	margin: 0 0 10px 0;
+padding: 10px 0 10px 0;
+border-bottom: dashed 1px #ccc;	}
+
+.navigation-middle {
+	display: block; 
+	width: 100%; 
+	margin: 10px 0 20px 0;
+padding: 10px 0 10px 0;
+border-top: dashed 1px #ccc;
+border-bottom: dashed 1px #ccc;	}
+	
+.navigation-bottom {
+	display: block; 
+	width: 100%; 
+	margin: 20px 0 0 0;
+padding: 10px 0 10px 0;
+border-top: dashed 1px #ccc;	}
+
+.navigation-comments-above {
+	display: block; 
+	width: 100%; 
+	margin: 0 0 10px 0;
+padding: 10px 0 10px 0;	}
+	
+.navigation-comments-below {
+	display: block; 
+	width: 100%; 
+	margin: 0 0 10px 0;
+padding: 10px 0 10px 0;	}
+	
+.older {
+	float: left; 
+	width: 49%; 
+	text-align: left; 
+	margin:0; 
+	padding:0;
+	}
+	
+.newer {
+	float:right; 
+	width: 49%; 
+	text-align: right; 
+	margin:0; 
+	padding:0; 
+	}	
+
+.older-home {
+	float: left; 
+	width: 45%; 
+	text-align: left; 
+	margin:0; 
+	padding:0;
+	}
+
+.newer-home {
+	float:right; 
+	width: 45%; 
+	text-align: right; 
+	margin:0; 
+	padding:0; 
+	}	
+
+.home {
+	float: left; 
+	width: 9%; 
+	text-align: center;  
+	margin:0; 
+	padding:0;
+	}
+
+	
+/* ------------------------------------------------------------------
+---------- FORMS ----------------------------------------------------
+------------------------------------------------------------------ */
+
+form, .feedburner-email-form {
+	margin: 0; 
+	padding: 0; 
+	}
+
+fieldset {
+	border: 1px solid #cccccc; 
+	width: auto; 
+	padding: 0.35em 0.625em 0.75em;
+	display: block; 
+	}
+	
+legend { 
+	color: #000000; 
+	background: #f4f4f4; 
+	border: 1px solid #cccccc; 
+	padding: 2px 6px; 
+	margin-bottom: 15px; 
+	}
+	
+form p {
+	margin: 5px 0 0 0; 
+	padding: 0; 
+	}
+	
+label {
+	margin-right: 0.5em; 
+	font-family: arial;
+	cursor: pointer; 
+	}
+
+/* input.TextField for WP-Email */
+input.text, 
+input.password, 
+input.file,
+input.TextField, 
+textarea {
+	padding: 3px;
+	color: #000000;
+border-top: solid 1px #333333;
+border-left: solid 1px #333333;
+border-right: solid 1px #999999;
+border-bottom: solid 1px #cccccc;
+background: url(images/inputbackgr.gif) no-repeat top left;		}
+
+textarea {
+	width: 96%; 
+	}
+
+
+input.inputblur {
+	color: #777777;
+	width: 95%;
+	}
+
+input.inputfocus {
+	color: #000000;
+	width: 95%;
+	}	
+	
+input.highlight, textarea.highlight {
+	background: #e8eff7;
+border-color: #37699f;	}
+
+/* .Button for WP-Email */
+.button, .Button {
+	padding: 0 2px;
+	height: 24px;
+	line-height: 16px;
+	background-color: #777777;
+color: #ffffff;
+border: solid 2px #555555;
+font-weight: bold;	}
+	
+.buttonhover {
+	padding: 0 2px;
+	cursor: pointer;
+	background-color: #6b9c6b;
+color: #ffffff;
+border: solid 2px #496d49;	}
+	
+	
+/* ------------------------------------------------------------------
+---------- SEARCH FORM ----------------------------------------------
+------------------------------------------------------------------ */
+
+table.searchform {
+	width: 100%;
+	}
+
+table.searchform td.searchfield {
+	padding: 0;
+	width: 100%;
+	}
+	
+table.searchform td.searchbutton {
+	padding: 0 0 0 5px;
+	}
+
+	
+/* ------------------------------------------------------------------
+---------- BLOCKQUOTES ----------------------------------------------
+------------------------------------------------------------------ */
+
+blockquote {
+	height: 1%;
+	display: block;
+	clear: both;
+	color: #555555;
+padding: 1em 1em;
+background: #f4f4f4;
+border: solid 1px #e1e1e1;	
+	}
+	
+blockquote blockquote {
+	height: 1%;
+	display: block;
+	clear: both;
+	color: #444444;
+padding: 1em 1em;
+background: #e1e1e1;
+border: solid 1px #d3d3d3;	}
+
+
+/* ------------------------------------------------------------------
+---------- TABLES & CALENDAR ----------------------------------------
+------------------------------------------------------------------ */
+
+/*-------------------- TABLES IN POSTS --------------------*/
+
+.post table {
+	border-collapse: collapse;
+	background-color: #ffffff;
+	margin: 10px 0;
+	}
+	
+.post table caption {
+	width: auto;
+	margin: 0 auto;
+	background: #eeeeee;
+border: #999999;
+padding: 4px 8px;
+color: #666666;	}
+	
+.post table th {
+	background: #888888;
+color: #ffffff;
+font-weight: bold;
+font-size: 90%;
+padding: 4px 8px;
+border: solid 1px #ffffff;
+text-align: left;	}
+	
+.post table td {
+	padding: 4px 8px;
+background-color: #ffffff;
+border-bottom: 1px solid #dddddd;
+text-align: left;	}
+
+.post table tfoot td {
+		}
+	
+.post table tr.alt td {
+	background: #f4f4f4;	}
+
+.post table tr.over td {
+	background: #e2e2e2;	}
+
+
+/*-------------------- CALENDAR WIDGET --------------------*/
+
+#calendar_wrap {
+	padding: 0;
+	border: none;
+	}
+	
+table#wp-calendar {
+	width: 100%; 
+	font-size:90%;
+	border-collapse: collapse;
+	background-color: #ffffff;
+	margin: 0 auto;
+	}
+
+table#wp-calendar caption {
+	width: auto;
+	background: #eeeeee;
+	border: none;;
+	padding: 3px;
+	margin: 0 auto;
+	font-size: 1em;
+	}
+
+table#wp-calendar th {
+	border: solid 1px #eeeeee;
+	background-color: #999999;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 2px;
+	text-align: center;
+	}
+	
+table#wp-calendar td {
+	padding: 0;
+	line-height: 18px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	text-align: center;
+	}
+
+table#wp-calendar tfoot td {
+	border: solid 1px #eeeeee;
+	background-color: #eeeeee;
+	}
+	
+table#wp-calendar td a {
+	display: block;
+	background-color: #eeeeee;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- COMMENTS -------------------------------------------------
+------------------------------------------------------------------ */
+
+ol.commentlist {
+	margin: 15px 0 25px 0;
+	list-style-type: none;
+	padding: 0;
+	border-top: dotted 1px #cccccc;
+	display:block;
+	}
+	
+ol.commentlist li {
+	background-color: #ffffff;
+	border-bottom: dotted 1px #cccccc;
+	padding: 15px 10px;
+	display: block;
+	height: 1%; /* for IE6 */
+	margin: 0;
+	}
+
+ol.commentlist li.alt {
+	background-color: #f6f6f6;
+	border-bottom: dotted 1px #cccccc;
+	display: block;
+	height: 1%; /* for IE6 */
+	}
+
+ol.commentlist li.authorcomment {
+	background-color: #ffecec;
+	display: block;
+	height: 1%;
+	}
+
+ol.commentlist span.authorname {
+	font-size: 110%;
+	font-weight: bold;
+	}
+
+ol.commentlist span.commentdate {
+	color: #666666;
+	font-size: 90%;
+	margin-bottom: 5px;
+	display: block;
+	}
+
+ol.commentlist span.editcomment {
+	display: block;
+	}
+	
+ol.commentlist li p {
+	margin: 2px 0 5px 0;
+	}
+
+div.comment-number {
+	float: right; 
+	font-size: 2em; 
+	line-height: 2em; 
+	font-family: georgia, serif; 
+	font-weight: bold; 
+	color: #ddd; 
+	margin: -10px 0 0 0; 
+	position: relative; 
+	height: 1%
+	}
+
+div.comment-number a:link, 
+div.comment-number a:visited, 
+div.comment-number a:active {
+	color: #ccc;
+	}
+
+textarea.comment {
+	width: 96%; 
+	margin: 0; 
+	}
+
+
+/* ------------------------------------------------------------------
+---------- COMMENTS WP 2.7 ------------------------------------------
+------------------------------------------------------------------ */
+
+ul.commentlist {
+	margin: 15px 0 15px 0;
+	list-style-type: none;
+	padding: 0;
+	border-top: dotted 1px #cccccc;
+	display:block;
+	}
+
+ul.commentlist ul {
+	margin: 15px 0 25px 0;
+	list-style-type: none;
+	padding: 0;
+	border: none;
+	display:block;
+	}
+
+ul.commentlist li.thread-even {
+	background-color: #ffffff;
+	border-bottom: dotted 1px #cccccc;
+	padding: 15px 10px;
+	display: block;
+	clear: both;
+	height: 1%; /* for IE */
+	margin: 0;
+	}
+
+ul.commentlist li.thread-odd {
+	background-color: #f6f6f6;
+	border-bottom: dotted 1px #cccccc;
+	padding: 15px 10px;
+	display: block;
+	clear: both;
+	height: 1%; /* for IE */
+	margin: 0;
+	}
+
+ul.commentlist li.bypostauthor {
+	background-color: #ffecec;
+	}
+	
+/* reset children */
+
+ul.commentlist li ul.children, 
+ul.commentlist li ul.children li, 
+ul.commentlist li ul.children li.bypostauthor  {
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+	height: 1%;  /* for IE */
+	}
+
+ul.commentlist li ul.children li, 
+ul.commentlist li ul.children li.bypostauthor {
+	margin: 10px 0 0 30px;
+	}
+
+ul.commentlist li ul.children li.depth-2 {
+	margin: 10px 0 0 0;
+	}
+
+ul.children div.comment-container {
+	background-color: transparent;
+	border: dashed 1px #ccc;
+	padding: 8px;
+	margin: 0;
+   	/* optional rounded corners for browsers that support it */
+   	-moz-border-radius: 5px;
+   	-khtml-border-radius: 5px;
+   	-webkit-border-radius: 5px;
+   	border-radius: 5px;
+	}
+	
+ul.children div.bypostauthor {
+	background-color: #ffecec;
+	border: dashed 1px #ffbfbf;
+	}
+
+ul.commentlist li p {
+	margin: 2px 0 5px 0;
+	}
+
+ul.commentlist span.authorname {
+	font-size: 110%;
+	}
+
+div.comment-meta a:link, 
+div.comment-meta a:visited, 
+div.comment-meta a:active, 
+div.comment-meta a:hover {
+	font-weight: normal;
+	}
+
+div#cancel-comment-reply {
+	margin: -5px 0 10px 0;
+	}
+
+div.comment-number {
+	float: right; 
+	font-size: 2em; 
+	line-height: 2em; 
+	font-family: georgia, serif; 
+	font-weight: bold; 
+	color: #ddd; 
+	margin: -10px 0 0 0; 
+	position: relative; 
+	height: 1%
+	}
+
+div.comment-number a:link, 
+div.comment-number a:visited, 
+div.comment-number a:active {
+	color: #ccc;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- IMAGES ---------------------------------------------------
+------------------------------------------------------------------ */
+
+img { 
+	border: 0;
+	}
+
+.post img {
+	max-width: 96%;		/* 	resize images in the main column if needed.
+							97% so images with padding and border don't touch
+							the right sidebar while being resized. Change this 
+							to 100% if you want, if your images
+							don't have padding and a border */
+	width: auto 100%;
+	margin: 5px 0 5px 0;
+	/*overflow-x: auto;*/
+	padding: 5px;
+border: solid 1px #dddddd;
+background-color: #f3f3f3;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;	}
+
+/* hiding from IE6 which would stretch the image vertically. 
+IE6 will get width and height via jQuery */
+div[class~=post] img { 
+	height: auto; /* FF & Safari need auto */
+	}	
+
+img.alignleft {
+	float: left; 
+	margin: 10px 10px 5px 0; 
+	}
+	
+img.alignright {
+	float: right; 
+	margin: 10px 0 5px 10px; 
+	}
+
+img.aligncenter {
+	display: block;
+	margin: 10px auto;
+	}
+
+.aligncenter, 
+div.aligncenter {
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+	}
+
+.alignleft, 
+div.alignleft {
+	float: left;
+	margin: 10px 10px 5px 0;
+	}
+
+.alignright, 
+div.alignright {
+   	float: right;
+   	margin: 10px 0 5px 10px;
+	}
+
+/* feed icons on archives page */
+div.archives-page img {
+	border: 0;
+	padding: 0;
+	background: none;
+	margin-bottom: 0;
+	vertical-align: -10%;
+	}
+	
+	
+/* ------------------------------------------------------------------
+---------- IMAGE CAPTION (WP 2.6 and newer) -------------------------
+------------------------------------------------------------------ */
+
+.wp-caption {
+	max-width: 96%;		/* FF2, IE7, Opera9, Safari 3.0/3.1 will 
+							resize images in the main column if needed.
+							97% so images with padding and border don't touch
+							the right sidebar while being resized. Change this 
+							to 100% if you want, if your images
+							don't have padding and a border */
+	width: auto 100%;
+	height: auto;  /* FF3 needs "auto", IE6 needs "100%", see next style*/
+	border: 1px solid #dddddd;
+text-align: center;
+background-color: #f3f3f3;
+padding-top: 4px;
+margin: 10px 0 0 0;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;	}
+
+/* for imges inside a caption container IE6 does not
+stretch images vertically as it does with images without
+caption so we can leave this rule although it is probably not
+required as jQuery sets the height for caption'ed images too */
+* html .wp-caption {
+	height: 100%; 
+	}
+	
+.wp-caption img {
+   	margin: 0;
+   	padding: 0;
+   	border: 0 none;
+	}
+	
+.wp-caption p.wp-caption-text {
+	font-size: 0.8em;
+line-height: 13px;
+padding: 2px 4px 5px;
+margin: 0;
+color: #666666;	}
+
+
+/* ------------------------------------------------------------------
+---------- SMILEYS --------------------------------------------------
+------------------------------------------------------------------ */
+
+img.wp-smiley {
+    float: none;  
+    border: none; 
+	margin: 0 1px -1px 1px; 
+	padding: 0;
+	background: none;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- GRAVATARS ------------------------------------------------
+------------------------------------------------------------------ */
+
+img.avatar {
+	float: left; 
+	display: block;
+	margin: 0 8px 1px 0;
+padding: 3px;
+border: solid 1px #ddd;
+background-color: #f3f3f3;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;	}
+
+
+	
+
+
+
+/* ------------------------------------------------------------------
+---------- PRINT STYLE ----------------------------------------------
+------------------------------------------------------------------ */
+
+@media print {
+
+body { 
+	background: white; 
+	color: black; 
+	margin: 0; 
+	font-size: 12pt; 
+	font-family: arial, sans-serif; 
+	}
+
+a:link:after, 
+a:visited:after { 
+	content:" [" attr(href) "] "; 
+	font-weight: normal; 
+	text-decoration: none; 
+	font-size: 12pt;
+	}
+	
+a:link, a:visited {
+	text-decoration: underline; 
+	color: #000;
+	}
+	
+.postmetadata a:link:after, 
+.postmetadata a:visited:after { 
+	content: ""; 
+	}
+	
+h2 a:link:after, 
+h2 a:visited:after { 
+	content: ""; 
+	} 
+	
+h2, 
+h2 a:link, 
+h2 a:visited, 
+h2 a:active {
+	color: #000; 
+	font-size: 18pt;
+	}
+	
+h3 {
+	color: #000; 
+	font-size: 15pt;
+	}
+	
+#header, 
+#left, 
+#right, 
+#footer, 
+.navigation, 
+.wp-pagenavi-navigation, 
+#comment, 
+.remove-for-print {
+	display: none;
+	}
+
+}	
+
+
+
+/* ##################################################################
+---------------------------------------------------------------------
+---------- DROP DOWN / FLY OUT MENUS --------------------------------
+Ruthsarian's rMenu http://webhost.bridgew.edu/etribou/layouts/
+modified by Bytes For All http://wordpress.bytesforall.com/
+---------------------------------------------------------------------
+################################################################## */
+
+
+/* ------------------------------------------------------------------
+---------- GENERAL MENU MECHANICS -----------------------------------
+------------------------------------------------------------------ */
+
+ul.rMenu, ul.rMenu ul, ul.rMenu li, ul.rMenu a
+	{
+	display: block;		/* make these objects blocks so they're easier
+						to deal with */
+	margin: 0;
+	padding: 0;			/* get rid of padding/margin values that these
+						elements may have by default */
+	}
+	
+ul.rMenu, ul.rMenu li, ul.rMenu ul
+	{
+	list-style: none;	
+	}
+	
+ul.rMenu ul
+	{
+	display: none;		/* hide the sub-menus until needed */
+	}
+	
+ul.rMenu li
+	{
+	position: relative;	/* so sub-menus position relative to their 
+						parent LI element */
+	z-index: 1;
+	}
+	
+ul.rMenu li:hover
+	{
+	z-index: 999;		/* make sure this and any sub-menus that pop 
+						appear above everything else on the page */
+	}
+	
+ul.rMenu li:hover > ul	/* hide from IE5.0 because it gets confused 
+						by this selector */
+	{
+	display: block;		/* show the sub-menu */
+	position: absolute;	/* remove the sub-menus from the flow of the
+						layout so when they pop they don't cause any
+						disfiguration of the layout. */
+	}
+
+
+/* ------------------------------------------------------------------
+---------- EXTENDED MENU MECHANICS ----------------------------------
+------------------------------------------------------------------ */
+
+/* These rules exist only for specific menu types, such as horizontal 
+or vertical menus, right or left aligned menus. */
+ 
+ul.rMenu-hor li
+	{
+	float: left;
+	width: auto;
+	}
+	
+ul.rMenu-hRight li
+	{
+	float: right;		/* horizontal, right menus need their LI
+				   elements floated to get them over there */
+	}
+	
+ul.rMenu-ver li
+	{
+	float: none;		/* clear this so vertical sub-menus that are
+				   children of horizontal menus won't have
+				   their LI widths set to auto. */
+	}
+
+	
+	
+div#menu1 ul.rMenu-ver, div#menu1 ul.rMenu-ver ul
+	{
+	width: 11em;		/* sub-menus need a defined width, especially
+				   vertical sub-menus. salt to taste. */
+	}
+
+div#menu2 ul.rMenu-ver, div#menu2 ul.rMenu-ver ul
+	{
+	width: 11em;		/* sub-menus need a defined width, especially
+				   vertical sub-menus. salt to taste. */
+	}
+	
+
+	
+ul.rMenu-wide
+	{
+	width: 100%;		/* apply this rule if you want the top-level
+				   menu to go as wide as possible. this is 
+				   something you might want if your top-level
+				   is a vertical menu that spans the width
+				   of a column which has its width 
+				   pre-defined. IE/Win 5 seems to prefer
+				   a value of 100% over auto. */
+	}
+	
+ul.rMenu-vRight
+	{
+	float: right;		/* use this to float a vertical menu right. */
+	}
+	
+ul.rMenu-lFloat
+	{
+	float: left;		/* use this to float a vertical menu left. */
+	}
+	
+ul.rMenu-noFloat
+	{
+	float: none;		/* this is to cover those cases where a menu
+				   is floated by default and you have a reason
+				   to not float it. such as a menu on the
+				   right side of the screen that you want 
+				   to have drops going left but not floated.
+				   to be honest, i don't think this rule is 
+				   needed. the clearfix hack will resolve
+				   renering issues associated with a floated
+				   menu anyways. */
+	}
+
+
+/* ------------------------------------------------------------------
+---------- EXTENDED MENU MECHANICS - Center Horizontal Menu ---------
+------------------------------------------------------------------ */
+
+div.rMenu-center ul.rMenu
+	{
+	float: left;
+	position: relative;
+	left: 50%;
+	}
+	
+div.rMenu-center ul.rMenu li
+	{
+	position: relative;
+	left: -50%;
+	}
+	
+div.rMenu-center ul.rMenu li li
+	{
+	left: auto;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- DROP POSITIONS -------------------------------------------
+------------------------------------------------------------------ */
+
+ul.rMenu-hor ul
+	{
+	top: auto;		/* a value of 100% creates a problem in IE 5.0 
+				   and Opera 7.23 */
+	right: auto;
+	left: auto;		/* typically want a value of 0 here but set to
+				   auto for same reasons detailed above */
+	margin-top: -1px;	/* so the top border of the dropdown menu 
+				   overlaps the bottom border of its parent
+				   horizontal menu. */
+	}
+
+ul.rMenu-hor ul ul
+	{
+	margin-top: 0;	/* reset the above for fly out menus */
+	margin-left: 0px;
+	}
+	
+ul.rMenu-ver ul
+	{
+	/*left: 60%;*/
+	left: 100%;
+	right: auto;
+	top: auto;
+	/*margin-top: -0.5em;*/	/* i prefer top: 80% but this creates a problem
+				   in iCab so negative top margin must be used.
+				   salt to taste. */
+	top: 0;
+	}
+	
+ul.rMenu-vRight ul, ul.rMenu-hRight ul.rMenu-ver ul
+	{
+	left: -100%;
+	right: auto;
+	top: auto;
+	/*margin-top: -0.5em;*/	/* i prefer top: 80% but this creates a problem
+				   in iCab so negative top margin must be used.
+				   salt to taste. */
+	}
+	
+ul.rMenu-hRight ul
+	{
+	left: auto;
+	right: 0;		/* this doesn't work in Opera 7.23 but 7.5 and
+				   beyond work fine. this means right-aligned
+				   horizontal menus break in Opera 7.23 and
+				   earlier. no workaround has been found. */
+	top: auto;
+	margin-top: -1px;	/* so the top border of the dropdown menu 
+				   overlaps the bottom border of its parent
+				   horizontal menu. */
+	}
+
+
+/* ------------------------------------------------------------------
+---------- PRESENTATION: General ------------------------------------
+------------------------------------------------------------------ */
+
+ul.rMenu
+	{
+	background: #ffffff;
+	border: dashed 1px #cccccc;
+	border-left: none;
+	}
+/*added for darkmenu*/
+ul#rmenu
+	{
+	background: #777777;
+	border: solid 1px #000000;
+	border-left: none;
+	}
+
+
+
+ul.rMenu li a
+	{
+	border: dashed 1px #cccccc;	/* border around all anchor tags */
+	}
+/*added*/
+ul#rmenu li a
+	{
+	border: solid 1px #000000;	/* border around all anchor tags */
+	}
+
+
+
+	
+ul.rMenu-hor li
+	{
+	margin-bottom: -1px;	/* this is so if we apply a bottom border to 
+				   the UL element it will render behind, but
+				   inline with the bottom border of the LI
+				   elements. Default: -1px */
+	margin-top: -1px;	/* this is so if we apply a top border to 
+				   the UL element it will render behind, but
+				   inline with the bottom border of the LI
+				   elements. Default: -1px */				
+	margin-left: -1px;	/* negative borders on LIs to make borders on
+				   child A elements overlap. they go here and
+				   not on the A element for compatibility
+				   reasons (IE6 and earlier). Default: -1px */
+	}
+
+
+	
+ul#rmenu li
+	{	
+	/*margin-right: 3px;*/	/* set to 0 to remove the space between single, 
+				   horizontal LI elements */
+	}
+ul#rmenu li ul li
+	{	
+	/*margin-right: 0;*/	/* without this, the 2nd level horizontal LI's would get
+				   a margin-right, too. This should always be 0 */
+	}
+
+
+	
+
+ul.rMenu-hor
+	{
+	padding-left: 1px ;	/* compensate for the 1px left jog created by
+				   the above negative margin. */
+	}
+	
+ul.rMenu-ver li
+	{
+	margin-left: 0;
+	margin-top: -1px;	/* same thing above except for vertical
+				   menus */
+	}
+	
+	
+div#menu1 ul.rMenu-ver
+	{
+	border-top: dashed 1px #cccccc;	/* ditto */
+	}
+
+div#menu2 ul.rMenu-ver
+	{
+	border-top: solid 1px #000000;	/* ditto */
+	}
+	
+	
+ul.rMenu li a
+	{
+	padding: 4px 5px;	
+	}
+/* added for dark menu*/
+ul#rmenu li a
+	{
+	padding: 4px 5px;	
+	}
+
+
+	
+		
+ul.rMenu li a:link, ul.rMenu li a:hover, ul.rMenu li a:visited, ul.rMenu li a:active
+	{
+	text-decoration: none;
+	color: #777777;
+	text-transform: uppercase;
+	font: 11px Arial, Verdana, sans-serif;  
+	margin:0;
+	padding: 4px 5px;	
+	}
+
+/*added*/
+ul#rmenu li a:link, ul#rmenu li a:hover, ul#rmenu li a:visited, ul#rmenu li a:active
+	{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font: 11px Arial, Verdana, sans-serif; 
+	margin:0;
+	padding: 4px 5px;	
+	}
+
+
+/*
+ul.rMenu li.sfhover a:active,
+ul.rMenu li:hover a:active
+	{
+	color: #fff;
+	background-color: #c00;
+	}
+*/
+
+	
+ul.rMenu li
+	{
+	background-color: #ffffff;	/* default background color of menu items */
+	/*background: url(images/dropbackgr.gif) repeat-x top left;*/
+	}
+
+/*added*/
+ul#rmenu li
+	{
+	background-color: #777777;	/* default background color of menu items */
+	/*background: #777 url(images/dropbackgr.gif) repeat-x top left;*/
+	}
+
+
+
+	
+ul.rMenu li:hover,
+ul.rMenu li.sfhover
+	{
+	background-color: #dddddd;	/* background color for parent menu items of
+				   the current sub-menu. includes the sfhover
+				   class which is used in the suckerfish hack
+				   detailed later in this stylesheet. */
+
+			   
+	}
+/*added for dark menu*/
+ul#rmenu li:hover,
+ul#rmenu li.sfhover
+	{
+	background-color: #000000;	/* background color for parent menu items of
+				   the current sub-menu. includes the sfhover
+				   class which is used in the suckerfish hack
+				   detailed later in this stylesheet. */
+	}
+
+
+
+
+/* "current" page and hover */
+ul.rMenu li.current_page_item, 
+ul.rMenu li a:hover
+	{
+	background-color: #eeeeee;
+	color: #000000;
+	}
+/*added*/
+/* "current" category and hover */
+ul#rmenu li.current-cat,
+ul#rmenu li a:hover
+	{
+	background-color: #cc0000;
+	color: #ffffff;
+	}
+
+
+/* ------------------------------------------------------------------
+---------- PRESENTATION: Expand -------------------------------------
+------------------------------------------------------------------ */
+
+div#menu1 ul.rMenu li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a
+	{
+	padding-right: 15px;
+	padding-left: 5px;
+	background-image: url(images/expand-right.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	}
+/*added for dark menu*/
+div#menu2 ul.rMenu li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a
+	{
+	padding-right: 15px;
+	padding-left: 5px;
+	background-image: url(images/expand-right-white.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	}
+
+
+	
+ul.rMenu-vRight li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,
+ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a
+	{
+	padding-right: 5px;
+	padding-left: 20px;
+	background-image: url(images/expand-left.gif);
+	background-repeat: no-repeat;
+	background-position: -5px 50%;
+	}
+
+/* divs added for "IE6 & 2 menu styles" */	
+div#menu1 ul.rMenu-hor li.rMenu-expand a
+	{
+	padding-left: 5px;	/* reset padding */
+	padding-right: 15px;
+	background-image: url(images/expand-down.gif);
+	background-position: 100% 50%;
+	}
+/*added for dark menu*/
+div#menu2 ul.rMenu-hor li.rMenu-expand a
+	{
+	padding-left: 5px;	/* reset padding */
+	padding-right: 15px;
+	background-image: url(images/expand-down-white.gif);
+	background-position: 100% 50%;
+	}
+
+
+	
+div#menu1 ul.rMenu li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a
+	{
+	background-image: none;
+	padding-right: 5px;	/* reset padding */
+	padding-left: 5px;	/* reset padding */
+	}
+
+/*added for darkmenu*/
+div#menu2 ul.rMenu li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,
+div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a
+	{
+	background-image: none;
+	padding-right: 5px;	/* reset padding */
+	padding-left: 5px;	/* reset padding */
+	}
+
+
+/* ------------------------------------------------------------------
+---------- HACKS: General -------------------------------------------
+------------------------------------------------------------------ */
+
+* html ul.rMenu
+	{
+	display: inline-block;	/* this is for IE/Mac. it forces IE/Mac to 
+				   expand the element's dimensions to contain 
+				   its floating child elements without a 
+				   clearing element. */
+	/* \*/ display: block;	/* override above rule for every other 
+				   browser using IE/Mac backslash hack */
+	position: relative;	/* IE 5.0/Mac needs this or it may clip the
+				   dropdown menus */
+	/* \*/ position: static;/* reset position attribute for IE/Win as it
+				   causes z-index problems */
+	}
+	
+* html ul.rMenu ul
+	{
+	float: left;		/* IE/Mac 5.0 needs this, otherwise hidden 
+				   menus are not completely removed from the
+				   flow of the document. */
+	/* \*/ float: none;	/* reset the rule for non-Macs */
+	}
+	
+ul.rMenu ul
+	{
+	/*background-color: #fff;*/	/* IE/Win (including 7) needs this on an object 
+				   that hasLayout so that it doesn't "look through"
+				   the menu and let any object (text) below the 
+				   menu to gain focus, causing the menu to 
+				   disappear. application of this rule does not
+				   cause any rendering problems with other browsers
+				   as the background color is covered by the
+				   menu itself. */
+	}
+	
+* html ul.rMenu-ver li,
+* html ul.rMenu-hor li ul.rMenu-ver li
+	{
+				/* the second selector above is there 
+				   because of problems IE/Mac has with 
+				   inheritance and what rules should take
+				   precedence. and to serve as a reminder on
+				   how to work around the issue if it's 
+				   encountered again down the road. */
+	width: 100%;
+	float: left;
+	clear: left;		/* IE likes to stick space below any LI
+				   in :hover state with a sub-menu. floating
+				   the LIs seems to work around this issue. But
+				   note that this also triggers hasLayout 
+				   because we need a width of 100% on floats. */
+	}
+	
+*:first-child+html ul.rMenu-ver > li	/* hide from IE5.0 because 
+										it gets confused by this 
+										selector */
+	{
+	width: 100%;
+	float: left;
+	clear: left;		/* same as previous rule set except this is
+				   for IE7 and the direct child selector 
+				   make inheritence much easier and obvious */
+	}
+	
+ul.rMenu li a
+	{
+	position: relative;	/* trigger hasLayout for IE on anchor 
+				   elements. without hasLayout on anchors
+				   they would not expand the full width 
+				   of the menu. this rule may not trigger
+				   hasLayour in later versions of IE and
+				   if you find this system broken in new
+				   versions of IE, this is probably the
+				   source. */
+	min-width: 0;		/* triggers hasLayout for IE 7 */
+	}
+	
+* html ul.rMenu-hor li
+	{
+	width: 11em;		/* IE Mac doesn't do auto widths so specify a width 
+				   for the sake of IE/Mac. Salt to taste. */
+	/* \*/ width: auto;	/* now undo previous rule for non Macs by using 
+				   the IE Mac backslash comment hack */
+	}
+	
+* html div.rMenu-center
+	{
+	position: relative;
+	z-index: 1;		/* IE 6 and earlier need a little help with
+				   z-indexes on centered menus */
+	}
+
+
+/* ------------------------------------------------------------------
+---------- HACKS: Suckerfish w/ Form Field Support (IE 5.5 & 6) -----
+------------------------------------------------------------------ */
+
+* html ul.rMenu ul
+	{
+	display: block;
+	position: absolute;	/* ovewrite original functionality of hiding
+				   element so we can hide these off screen */
+	}
+	
+* html ul.rMenu ul,
+* html ul.rMenu-hor ul,
+* html ul.rMenu-ver ul,
+* html ul.rMenu-vRight ul, 
+* html ul.rMenu-hRight ul.rMenu-ver ul,
+* html ul.rMenu-hRight ul
+	{
+	left: -10000px;		/* move menus off screen. note we're ovewriting
+				   the dropdown position rules that use the 
+				   LEFT property, thus all the selectors. */
+	}
+	
+* html ul.rMenu li.sfhover
+	{
+	z-index: 999;		/* not totally needed, but keep the menu 
+				   that pops above all other elements within
+				   it's parent menu system */
+	}
+	
+* html ul.rMenu li.sfhover ul
+	{
+	left: auto;		/* pull the menus that were off-screen back 
+				   onto the screen */
+	}
+	
+* html ul.rMenu li.sfhover ul ul, 
+* html ul.rMenu li.sfhover ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul ul ul ul ul,
+* html ul.rMenu li.sfhover ul ul ul ul ul ul ul ul ul ul
+	{ 
+	display: none;		/* IE/Suckerfish alternative for browsers that
+				   don't support :hover state on LI elements */
+	}
+	
+* html ul.rMenu li.sfhover ul, 
+* html ul.rMenu li li.sfhover ul, 
+* html ul.rMenu li li li.sfhover ul,
+* html ul.rMenu li li li li.sfhover ul,
+* html ul.rMenu li li li li li.sfhover ul,
+* html ul.rMenu li li li li li li.sfhover ul,
+* html ul.rMenu li li li li li li li.sfhover ul,
+* html ul.rMenu li li li li li li li li.sfhover ul,
+* html ul.rMenu li li li li li li li li li.sfhover ul,
+* html ul.rMenu li li li li li li li li li li.sfhover ul
+	{
+	display: block;		/* ^ ditto ^ */
+	}
+
+* html ul.rMenu-ver li.sfhover ul
+	{
+	left: 100%;		/* dropdown positioning uses the left attribute
+				   for horizontal positioning. however we can't
+				   use this property until the menu is being
+				   displayed.
+
+				   note that all ULs beneath the menu item 
+				   currently in the hover state will get this
+				   value through inheritance. however all sub-
+				   menus still won't display because
+				   two rule sets up we're setting the 
+				   DISPLAY property to none.
+				 */
+	}
+	
+* html ul.rMenu-vRight li.sfhover ul, 
+* html ul.rMenu-hRight ul.rMenu-ver li.sfhover ul
+	{
+	left: -100%;		/* ^ ditto ^ */
+	}
+	
+* html ul.rMenu iframe
+{
+	/*filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0); */
+				/* the above rule is now applied in the 
+				   javascript used to generate the IFRAME this
+				   is applied to. it allows the CSS to validate
+				   while keeping the original functionality. */
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;		/* this is the IFRAME that's placed behind
+				   dropdown menus so that form elements don't
+				   show through the menus. they are not set
+				   programatically via javascript because
+				   doing so generates some lag in the display
+				   of the dropdown menu. */
+}
+
+/* ie6 fixes */
+
+* html ul.rMenu
+{
+	margin-left: 1px;
+}
+
+* html ul.rMenu ul, 
+* html ul.rMenu ul ul,
+* html ul.rMenu ul ul ul,
+* html ul.rMenu ul ul ul ul
+{
+	margin-left: 0;
+}
+
+
+/* ------------------------------------------------------------------
+---------- HACKS: Clearfix & others ---------------------------------
+------------------------------------------------------------------ */
+
+.clearfix:after
+	{
+    	content: "."; 
+    	display: block; 
+    	height: 0; 
+    	clear: both; 
+    	visibility: hidden;
+	}
+	
+.clearfix
+	{
+	min-width: 0;		/* trigger hasLayout for IE7 */
+	display: inline-block;
+	/* \*/	display: block;	/* Hide from IE Mac */
+	}
+	
+* html .clearfix
+	{
+	/* \*/  height: 1%;	/* Hide from IE Mac */ 
+	}
+
+/* Chrome and Safari don't like clearfix in some cases.
+Also, adding height and font-size for IE6 */
+.clearboth {
+	clear: both;
+	height: 1%;
+	font-size: 1%;
+	line-height: 1%;
+	display: block;
+	padding: 0;
+	margin: 0;
+	}
+
+	
+	
+/* ------------------------------------------------------------------
+---------- CUSTOM STYLES: -------------------------------------------
+------------------------------------------------------------------ */
+
