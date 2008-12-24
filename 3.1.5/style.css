@@ -1,0 +1,26 @@
+/*  
+Theme Name: Atahualpa
+Theme URI: http://wordpress.bytesforall.com/
+Description: Build your own unique and professional WordPress theme with 180 theme options, drop down menus, integrated feedburner, auto image resizing, 4 extra widgets and many other features. For WP 2.2-2.7 and WPMU.
+Version: 3.1.5
+Author: BFA WebDesign
+Author URI: http://www.bytesforall.com/
+Tags: white, one-column, two-columns, three-columns, fixed-width, flexible-width,  custom-colors, custom-header, theme-options, left-sidebar, right-sidebar, threaded-comments, sticky-post
+ */
+ 
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignleft {
+	float: left;
+	}
+
+.alignright {
+	float: right;
+	}
+	
+/* v  v  v  to create a static CSS  paste the output of 
+yoursite.com/.../style.css.php below this line:  v  v  v */
