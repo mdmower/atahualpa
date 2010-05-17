@@ -1,0 +1,24 @@
+/*
+Theme Name: Atahualpa
+Theme URI: http://wordpress.bytesforall.com/
+Description: 268 options to build your individual theme, without getting worked up over browser compatibilty issues. Up to 4 sidebars, fixed or flexible width layout, custom widget areas, drop down menus, SEO features, rotating header images and an active support forum with over 30,000 posts. New: Style import / export feature and improved speed. 
+Version: 3.4.9
+Author: BytesForAll
+Author URI: http://forum.bytesforall.com/
+Tags: white, one-column, two-columns, three-columns, four-columns, fixed-width, flexible-width, custom-colors, custom-header, theme-options, left-sidebar, right-sidebar, threaded-comments, sticky-post, translation-ready
+*/
+ 
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignleft {
+	float: left;
+	}
+
+.alignright {
+	float: right;
+	}
+	

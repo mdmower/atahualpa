@@ -1,0 +1,173 @@
+a:262:{s:11:"use_bfa_seo";s:2:"No";s:25:"homepage_meta_description";s:0:"";s:22:"homepage_meta_keywords";s:0:"";s:13:"add_blogtitle";s:23:"Page Title - Blog Title";s:20:"title_separator_code";s:1:"1";s:15:"archive_noindex";s:2:"No";s:11:"cat_noindex";s:2:"No";s:11:"tag_noindex";s:2:"No";s:18:"h1_on_single_pages";s:3:"Yes";s:8:"nofollow";s:2:"No";s:10:"body_style";s:94:"font-family: tahoma, arial, sans-serif;
+font-size: 0.8em;
+color: #000000;
+background: #ffffff;";s:10:"link_color";s:6:"666666";s:16:"link_hover_color";s:6:"cc0000";s:23:"link_default_decoration";s:4:"none";s:21:"link_hover_decoration";s:9:"underline";s:11:"link_weight";s:4:"bold";s:12:"layout_width";s:3:"99%";s:16:"layout_min_width";s:0:"";s:16:"layout_max_width";s:0:"";s:12:"layout_style";s:11:"padding: 0;";s:30:"layout_style_leftright_padding";s:1:"0";s:12:"favicon_file";s:15:"new-favicon.ico";s:16:"configure_header";s:31:"%pages %logo %bar1 %image %bar2";s:14:"logoarea_style";s:0:"";s:4:"logo";s:8:"logo.png";s:10:"logo_style";s:19:"margin: 0 10px 0 0;";s:15:"blog_title_show";s:3:"Yes";s:16:"blog_title_style";s:121:"margin: 0;
+padding: 0;
+letter-spacing: -1px;
+line-height: 1.0em;
+font-family: tahoma, arial, sans-serif;
+font-size: 240%;";s:17:"blog_title_weight";s:4:"bold";s:16:"blog_title_color";s:6:"666666";s:22:"blog_title_color_hover";s:6:"000000";s:17:"blog_tagline_show";s:3:"Yes";s:18:"blog_tagline_style";s:75:"margin: 0;
+padding: 0;
+font-size: 1.2em;
+font-weight: bold;
+color: #666666;";s:15:"show_search_box";s:3:"Yes";s:15:"searchbox_style";s:82:"border: 1px dashed #cccccc;
+border-bottom: 0;
+width: 200px;
+margin: 0;
+padding: 0;";s:14:"searchbox_text";s:0:"";s:7:"horbar1";s:65:"height: 5px;
+background: #ffffff;
+border-top: dashed 1px #cccccc;";s:7:"horbar2";s:68:"height: 5px;
+background: #ffffff;
+border-bottom: dashed 1px #cccccc;";s:23:"header_image_javascript";s:1:"0";s:31:"header_image_javascript_preload";s:3:"Yes";s:22:"header_image_clickable";s:2:"No";s:18:"headerimage_height";s:3:"150";s:21:"headerimage_alignment";s:10:"top center";s:19:"header_opacity_left";s:2:"40";s:25:"header_opacity_left_width";s:3:"200";s:25:"header_opacity_left_color";s:6:"ffffff";s:20:"header_opacity_right";s:2:"40";s:26:"header_opacity_right_width";s:3:"200";s:26:"header_opacity_right_color";s:6:"ffffff";s:18:"overlay_blog_title";s:2:"No";s:20:"overlay_blog_tagline";s:2:"No";s:17:"overlay_box_style";s:36:"margin-top: 30px;
+margin-left: 30px;";s:13:"rss_box_width";s:3:"280";s:15:"show_posts_icon";s:3:"Yes";s:14:"post_feed_link";s:5:"Posts";s:20:"post_feed_link_title";s:27:"Subscribe to the POSTS feed";s:18:"show_comments_icon";s:3:"Yes";s:17:"comment_feed_link";s:8:"Comments";s:23:"comment_feed_link_title";s:30:"Subscribe to the COMMENTS feed";s:15:"show_email_icon";s:2:"No";s:20:"email_subscribe_link";s:8:"By Email";s:26:"email_subscribe_link_title";s:18:"Subscribe by EMAIL";s:19:"feedburner_email_id";s:0:"";s:18:"feedburner_old_new";s:30:"New - at feedburner.google.com";s:18:"home_page_menu_bar";s:4:"Home";s:21:"exclude_page_menu_bar";s:0:"";s:20:"levels_page_menu_bar";s:1:"0";s:21:"sorting_page_menu_bar";s:10:"menu_order";s:20:"titles_page_menu_bar";s:2:"No";s:30:"page_menu_1st_level_not_linked";s:2:"No";s:27:"anchor_border_page_menu_bar";s:18:"dashed 1px #cccccc";s:30:"page_menu_bar_background_color";s:6:"ffffff";s:36:"page_menu_bar_background_color_hover";s:6:"eeeeee";s:37:"page_menu_bar_background_color_parent";s:6:"dddddd";s:14:"page_menu_font";s:31:"11px Arial, Verdana, sans-serif";s:24:"page_menu_bar_link_color";s:6:"777777";s:30:"page_menu_bar_link_color_hover";s:6:"000000";s:19:"page_menu_transform";s:9:"uppercase";s:16:"page_menu_arrows";s:5:"black";s:23:"page_menu_submenu_width";s:2:"11";s:17:"home_cat_menu_bar";s:0:"";s:20:"exclude_cat_menu_bar";s:0:"";s:19:"levels_cat_menu_bar";s:1:"0";s:20:"sorting_cat_menu_bar";s:2:"ID";s:18:"order_cat_menu_bar";s:3:"ASC";s:19:"titles_cat_menu_bar";s:2:"No";s:24:"add_descr_cat_menu_links";s:2:"No";s:22:"default_cat_descr_text";s:42:"View all posts filed under<br />%category%";s:26:"anchor_border_cat_menu_bar";s:17:"solid 1px #000000";s:29:"cat_menu_bar_background_color";s:6:"777777";s:35:"cat_menu_bar_background_color_hover";s:6:"cc0000";s:36:"cat_menu_bar_background_color_parent";s:6:"000000";s:13:"cat_menu_font";s:31:"11px Arial, Verdana, sans-serif";s:23:"cat_menu_bar_link_color";s:6:"ffffff";s:29:"cat_menu_bar_link_color_hover";s:6:"ffffff";s:18:"cat_menu_transform";s:9:"uppercase";s:15:"cat_menu_arrows";s:5:"white";s:22:"cat_menu_submenu_width";s:2:"11";s:19:"center_column_style";s:19:"padding: 10px 15px;";s:18:"content_above_loop";s:296:"<?php /* For MULTI post pages if activated at ATO -> Next/Previous Navigation: */
+bfa_next_previous_page_links('Top'); ?>
+
+<?php /* For the plugin Page2Cat http://wordpress.org/extend/plugins/page2cat/ */
+if( is_category() AND function_exists('page2cat_output')) { page2cat_output($cat); } ?>";s:19:"content_inside_loop";s:960:"<?php /* For SINGLE post pages if activated at ATO -> Next/Previous Navigation: */
+bfa_next_previous_post_links('Top'); ?>
+
+<?php /* Post Container starts here */
+if ( function_exists('post_class') ) { ?>
+<div <?php if ( is_page() ) { post_class('post'); } else { post_class("$odd_or_even"); } ?> id="post-<?php the_ID(); ?>">
+<?php } else { ?>
+<div class="<?php echo ( is_page() ? 'page ' : '' ) . $odd_or_even . ' post" id="post-'; the_ID(); ?>">
+<?php } ?>
+
+<?php bfa_post_kicker('<div class="post-kicker">','</div>'); ?>
+
+<?php bfa_post_headline('<div class="post-headline">','</div>'); ?>
+
+<?php bfa_post_byline('<div class="post-byline">','</div>'); ?>
+
+<?php bfa_post_bodycopy('<div class="post-bodycopy clearfix">','</div>'); ?>
+
+<?php bfa_post_pagination('<p class="post-pagination"><strong>'.__('Pages:','atahualpa').'</strong>','</p>'); ?>
+
+<?php bfa_post_footer('<div class="post-footer">','</div>'); ?>
+
+</div><!-- / Post -->";s:18:"content_below_loop";s:716:"<?php /* Displayed on SINGLE post pages if activated at ATO -> Next/Previous Navigation: */
+bfa_next_previous_post_links('Middle'); ?>
+
+<?php /* Load Comments template (on single post pages, and static pages, if set on options page): */
+bfa_get_comments(); ?>
+
+<?php /* Displayed on SINGLE post pages if activated at ATO -> Next/Previous Navigation: */
+bfa_next_previous_post_links('Bottom'); ?>
+		
+<?php /* Archives Pages. Displayed on a specific static page, if configured at ATO -> Archives Pages: */
+bfa_archives_page('<div class="archives-page">','</div>'); ?>
+			
+<?php /* Displayed on MULTI post pages if activated at ATO -> Next/Previous Navigation: */
+bfa_next_previous_page_links('Bottom'); ?>";s:17:"content_not_found";s:140:"<h2><?php _e('Not Found','atahualpa'); ?></h2>
+<p><?php _e("Sorry, but you are looking for something that isn't here.","atahualpa"); ?></p>";s:21:"next_prev_orientation";s:23:"Newer Left, Older Right";s:20:"home_multi_next_prev";s:0:"";s:21:"home_single_next_prev";s:0:"";s:21:"multi_next_prev_newer";s:21:"&laquo; Newer Entries";s:21:"multi_next_prev_older";s:21:"Older Entries &raquo;";s:22:"single_next_prev_newer";s:13:"&laquo; %link";s:22:"single_next_prev_older";s:13:"%link &raquo;";s:25:"single_next_prev_same_cat";s:2:"No";s:24:"comments_next_prev_newer";s:22:"Newer Comments &raquo;";s:24:"comments_next_prev_older";s:22:"&laquo; Older Comments";s:27:"location_comments_next_prev";s:24:"Above and Below Comments";s:30:"next_prev_style_comments_above";s:41:"margin: 0 0 10px 0;
+padding: 5px 0 5px 0;";s:30:"next_prev_style_comments_below";s:41:"margin: 0 0 10px 0;
+padding: 5px 0 5px 0;";s:29:"next_prev_comments_pagination";s:3:"Yes";s:24:"location_multi_next_prev";s:6:"Bottom";s:25:"location_single_next_prev";s:3:"Top";s:19:"next_prev_style_top";s:75:"margin: 0 0 10px 0;
+padding: 0 0 10px 0;
+border-bottom: dashed 1px #cccccc;";s:22:"next_prev_style_middle";s:113:"margin: 10px 0 20px 0;
+padding: 10px 0 10px 0;
+border-top: dashed 1px #cccccc;
+border-bottom: dashed 1px #cccccc;";s:22:"next_prev_style_bottom";s:72:"margin: 20px 0 0 0;
+padding: 10px 0 0 0;
+border-top: dashed 1px #cccccc;";s:10:"leftcol_on";a:13:{s:8:"homepage";s:2:"on";s:9:"frontpage";s:2:"on";s:6:"single";s:2:"on";s:4:"page";s:2:"on";s:8:"category";s:2:"on";s:4:"date";s:2:"on";s:3:"tag";s:2:"on";s:8:"taxonomy";s:2:"on";s:6:"search";s:2:"on";s:6:"author";s:2:"on";i:404;s:2:"on";s:10:"attachment";s:2:"on";s:19:"check-if-saved-once";b:0;}s:22:"left_col_pages_exclude";s:0:"";s:21:"left_col_cats_exclude";s:0:"";s:11:"leftcol2_on";a:1:{s:19:"check-if-saved-once";b:0;}s:23:"left_col2_pages_exclude";s:0:"";s:22:"left_col2_cats_exclude";s:0:"";s:11:"rightcol_on";a:13:{s:8:"homepage";s:2:"on";s:9:"frontpage";s:2:"on";s:6:"single";s:2:"on";s:4:"page";s:2:"on";s:8:"category";s:2:"on";s:4:"date";s:2:"on";s:3:"tag";s:2:"on";s:8:"taxonomy";s:2:"on";s:6:"search";s:2:"on";s:6:"author";s:2:"on";i:404;s:2:"on";s:10:"attachment";s:2:"on";s:19:"check-if-saved-once";b:0;}s:23:"right_col_pages_exclude";s:0:"";s:22:"right_col_cats_exclude";s:0:"";s:12:"rightcol2_on";a:1:{s:19:"check-if-saved-once";b:0;}s:24:"right_col2_pages_exclude";s:0:"";s:23:"right_col2_cats_exclude";s:0:"";s:18:"left_sidebar_width";s:3:"200";s:19:"left_sidebar2_width";s:3:"200";s:19:"right_sidebar_width";s:3:"200";s:20:"right_sidebar2_width";s:3:"200";s:18:"left_sidebar_style";s:84:"border-right: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;";s:19:"left_sidebar2_style";s:84:"border-right: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;";s:19:"right_sidebar_style";s:83:"border-left: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;";s:20:"right_sidebar2_style";s:83:"border-left: dashed 1px #CCCCCC;
+padding: 10px 10px 10px 10px;
+background: #ffffff;";s:16:"widget_container";s:19:"margin: 0 0 15px 0;";s:16:"widget_title_box";s:0:"";s:12:"widget_title";s:36:"font-size: 1.6em;
+font-weight: bold;";s:14:"widget_content";s:0:"";s:12:"widget_lists";a:8:{s:14:"li-margin-left";i:0;s:11:"link-weight";s:6:"normal";s:17:"link-padding-left";i:5;s:22:"link-border-left-width";i:7;s:10:"link-color";s:6:"666666";s:16:"link-hover-color";s:6:"000000";s:22:"link-border-left-color";s:6:"cccccc";s:28:"link-border-left-hover-color";s:6:"000000";}s:13:"widget_lists2";a:8:{s:14:"li-margin-left";i:5;s:11:"link-weight";s:6:"normal";s:17:"link-padding-left";i:5;s:22:"link-border-left-width";i:7;s:10:"link-color";s:6:"666666";s:16:"link-hover-color";s:6:"000000";s:22:"link-border-left-color";s:6:"cccccc";s:28:"link-border-left-hover-color";s:6:"000000";}s:13:"widget_lists3";a:8:{s:14:"li-margin-left";i:5;s:11:"link-weight";s:6:"normal";s:17:"link-padding-left";i:5;s:22:"link-border-left-width";i:7;s:10:"link-color";s:6:"666666";s:16:"link-hover-color";s:6:"000000";s:22:"link-border-left-color";s:6:"cccccc";s:28:"link-border-left-hover-color";s:6:"000000";}s:28:"category_widget_display_type";s:6:"inline";s:16:"select_font_size";s:7:"Default";s:16:"post_kicker_home";s:0:"";s:17:"post_kicker_multi";s:0:"";s:18:"post_kicker_single";s:0:"";s:16:"post_kicker_page";s:0:"";s:16:"post_byline_home";s:0:"";s:17:"post_byline_multi";s:0:"";s:18:"post_byline_single";s:0:"";s:16:"post_byline_page";s:0:"";s:16:"post_footer_home";s:212:"%date('F jS, Y')% | %tags-linked('Tags: ', ', ', ' | ')% Category: %categories-linked(', ')% | %comments('Leave a comment', 'One comment', '% comments', 'Comments are closed')% %edit(' | ', 'Edit this post', '')%";s:17:"post_footer_multi";s:212:"%date('F jS, Y')% | %tags-linked('Tags: ', ', ', ' | ')% Category: %categories-linked(', ')% | %comments('Leave a comment', 'One comment', '% comments', 'Comments are closed')% %edit(' | ', 'Edit this post', '')%";s:18:"post_footer_single";s:128:"%date('F jS, Y')% | %tags-linked('Tags: ', ', ', ' | ')% Category: %categories-linked(', ')% %edit(' | ', 'Edit this post', '')%";s:16:"post_footer_page";s:0:"";s:20:"post_container_style";s:19:"margin: 0 0 30px 0;";s:27:"post_container_sticky_style";s:143:"background: #eee url('<?php bloginfo('template_directory'); ?>/images/sticky.gif') 99% 5% no-repeat;
+border: dashed 1px #cccccc;
+padding: 10px;";s:17:"post_kicker_style";s:18:"margin: 0 0 5px 0;";s:23:"post_kicker_style_links";s:65:"color: #000000;
+text-decoration: none;
+text-transform: uppercase;";s:29:"post_kicker_style_links_hover";s:15:"color: #cc0000;";s:19:"post_headline_style";s:0:"";s:24:"post_headline_style_text";s:22:"padding: 0;
+margin: 0;";s:25:"post_headline_style_links";s:38:"color: #666666;
+text-decoration: none;";s:31:"post_headline_style_links_hover";s:38:"color: #000000;
+text-decoration: none;";s:17:"post_byline_style";s:21:"margin: 5px 0 10px 0;";s:23:"post_byline_style_links";s:0:"";s:29:"post_byline_style_links_hover";s:0:"";s:19:"post_bodycopy_style";s:0:"";s:17:"post_footer_style";s:77:"margin: 0;
+padding: 5px;
+background: #eeeeee;
+color: #666;
+line-height: 18px;";s:23:"post_footer_style_links";s:56:"color: #333;
+font-weight: normal;
+text-decoration: none;";s:29:"post_footer_style_links_hover";s:61:"color: #333;
+font-weight: normal;
+text-decoration: underline;";s:14:"excerpt_length";i:55;s:19:"dont_strip_excerpts";s:3:"<p>";s:16:"custom_read_more";s:5:"[...]";s:13:"excerpts_home";s:10:"Full Posts";s:19:"full_posts_homepage";i:0;s:17:"excerpts_category";s:13:"Only Excerpts";s:16:"excerpts_archive";s:13:"Only Excerpts";s:12:"excerpts_tag";s:13:"Only Excerpts";s:15:"excerpts_search";s:13:"Only Excerpts";s:15:"excerpts_author";s:13:"Only Excerpts";s:20:"post_thumbnail_width";i:150;s:21:"post_thumbnail_height";i:150;s:19:"post_thumbnail_crop";s:2:"No";s:18:"post_thumbnail_css";s:76:"float: left;
+border: 0;
+padding: 0;
+background: none;
+margin: 0 10px 5px 0;
+";s:8:"more_tag";s:29:"Continue reading %post-title%";s:16:"author_highlight";s:3:"Yes";s:22:"author_highlight_color";s:6:"ffecec";s:29:"author_highlight_border_color";s:6:"ffbfbf";s:24:"comment_background_color";s:6:"ffffff";s:28:"comment_alt_background_color";s:6:"eeeeee";s:14:"comment_border";s:18:"dotted 1px #cccccc";s:19:"comment_author_size";s:4:"110%";s:23:"comment_reply_link_text";s:15:" &middot; Reply";s:22:"comment_edit_link_text";s:14:" &middot; Edit";s:23:"comment_moderation_text";s:36:"Your comment is awaiting moderation.";s:24:"comments_are_closed_text";s:27:"<p>Comments are closed.</p>";s:17:"comments_on_pages";s:2:"No";s:19:"separate_trackbacks";s:2:"No";s:11:"avatar_size";s:2:"55";s:12:"avatar_style";s:185:"margin: 0 8px 1px 0;
+padding: 3px;
+border: solid 1px #ddd;
+background-color: #f3f3f3;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;";s:15:"show_xhtml_tags";s:3:"Yes";s:18:"comment_form_style";s:148:"margin: 25px 0;
+padding: 25px;
+background: #eee;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;";s:19:"submit_button_style";s:79:"padding: 4px 10px 4px 10px;
+font-size: 1.2em;
+line-height: 1.5em;
+height: 36px;";s:21:"comment_display_order";s:13:"Oldest on top";s:12:"footer_style";s:126:"background-color: #ffffff;
+border-top: dashed 1px #cccccc;
+padding: 10px;
+text-align: center;
+color: #777777;
+font-size: 95%;";s:18:"footer_style_links";s:59:"text-decoration: none;
+color: #777777;
+font-weight: normal;";s:24:"footer_style_links_hover";s:59:"text-decoration: none;
+color: #777777;
+font-weight: normal;";s:20:"footer_style_content";s:60:"Copyright &copy; %current-year% %home% - All Rights Reserved";s:20:"sticky_layout_footer";s:2:"No";s:19:"footer_show_queries";s:2:"No";s:5:"table";s:42:"border-collapse: collapse;
+margin: 10px 0;";s:13:"table_caption";s:71:"background: #eeeeee;
+border: #999999;
+padding: 4px 8px;
+color: #666666;";s:8:"table_th";s:139:"background: #888888;
+color: #ffffff;
+font-weight: bold;
+font-size: 90%;
+padding: 4px 8px;
+
+			border: solid 1px #ffffff;
+text-align: left;";s:8:"table_td";s:96:"padding: 4px 8px;
+background-color: #ffffff;
+border-bottom: 1px solid #dddddd;
+text-align: left;";s:14:"table_tfoot_td";s:0:"";s:19:"table_zebra_stripes";s:3:"Yes";s:14:"table_zebra_td";s:20:"background: #f4f4f4;";s:16:"table_hover_rows";s:3:"Yes";s:14:"table_hover_td";s:20:"background: #e2e2e2;";s:22:"form_input_field_style";s:145:"color: #000000;
+border-top: solid 1px #333333;
+border-left: solid 1px #333333;
+border-right: solid 1px #999999;
+border-bottom: solid 1px #cccccc;";s:27:"form_input_field_background";s:15:"inputbackgr.gif";s:15:"highlight_forms";s:3:"Yes";s:21:"highlight_forms_style";s:43:"background: #e8eff7;
+border-color: #37699f;";s:12:"button_style";s:88:"background-color: #777777;
+color: #ffffff;
+border: solid 2px #555555;
+font-weight: bold;";s:18:"button_style_hover";s:69:"background-color: #6b9c6b;
+color: #ffffff;
+border: solid 2px #496d49;";s:16:"blockquote_style";s:81:"color: #555555;
+padding: 1em 1em;
+background: #f4f4f4;
+border: solid 1px #e1e1e1;";s:26:"blockquote_style_2nd_level";s:81:"color: #444444;
+padding: 1em 1em;
+background: #e1e1e1;
+border: solid 1px #d3d3d3;";s:16:"post_image_style";s:167:"padding: 5px;
+border: solid 1px #dddddd;
+background-color: #f3f3f3;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;";s:24:"post_image_caption_style";s:211:"border: 1px solid #dddddd;
+text-align: center;
+background-color: #f3f3f3;
+padding-top: 4px;
+margin: 10px 0 0 0;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;";s:18:"image_caption_text";s:85:"font-size: 0.8em;
+line-height: 13px;
+padding: 2px 4px 5px;
+margin: 0;
+color: #666666;";s:19:"html_inserts_header";s:0:"";s:21:"html_inserts_body_tag";s:0:"";s:21:"html_inserts_body_top";s:0:"";s:24:"html_inserts_body_bottom";s:0:"";s:16:"html_inserts_css";s:0:"";s:16:"archives_page_id";s:0:"";s:18:"archives_date_show";s:3:"Yes";s:19:"archives_date_title";s:17:"Archives by Month";s:18:"archives_date_type";s:7:"monthly";s:19:"archives_date_limit";s:0:"";s:19:"archives_date_count";s:3:"Yes";s:22:"archives_category_show";s:3:"Yes";s:23:"archives_category_title";s:20:"Archives by Category";s:23:"archives_category_count";s:3:"Yes";s:23:"archives_category_depth";s:1:"0";s:25:"archives_category_orderby";s:4:"name";s:23:"archives_category_order";s:3:"ASC";s:22:"archives_category_feed";s:2:"No";s:12:"css_external";s:6:"Inline";s:19:"javascript_external";s:6:"Inline";s:16:"pngfix_selectors";s:53:"a.posts-icon, a.comments-icon, a.email-icon, img.logo";s:12:"css_compress";s:3:"Yes";s:11:"allow_debug";s:3:"Yes";}
