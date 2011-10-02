@@ -1,0 +1,21 @@
+Atahualpa 3.6.8 changelog:
+
+- esc_js added to get_search_query, XSS vulnerability
+- issue with css.php: http://forum.bytesforall.com/showthread.php?t=14143
+- Page titles doubled & 'title' attrbute missing post title: http://forum.bytesforall.com/showthread.php?t=14718
+- PHP errors when adding widget areas: http://forum.bytesforall.com/showthread.php?t=14160
+- Site Title appended after the 'WordPress SEO by Yoast' title: http://forum.bytesforall.com/showthread.php?t=14816
+- PHP was still being advertised as being available at "Edit POST/PAGE info items"
+- CSS print style would not work right in some cases
+- replaced propretiary "bfa_escape" function with WP's esc_attr
+- replaced propretiary "Tabs" javascript with jQuery -> 1 file less to be loaded in the backend
+- The internal CSS & JS files for the Ata admin area are now added through WP
+- After you imported a style, you had to reload the amdin area manually to see the new values. Now the page reloads automatically after a style was imported.
+- Removed several PHP Notices in the included widgets Recent Posts/Popular Posts/Popular in Category
+- Changed the page slug (see browser URL field) of the Atahualpa admin area from "functions.php" to "atahualpa-options"
+- Replaced <?php bloginfo('template_directory'); ?> with '/wp-content/themes/atahualpa' in the CSS image paths of all 5 included styles.
+ 
+Issues found by the theme check plugin:
+- Both DOS and UNIX style line endings were found in the file bfa_theme_options.php
+- text domain missing at some places in functions.php, comments.php, legacy.comments.php and comments-paged.php
+
