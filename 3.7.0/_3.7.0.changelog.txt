@@ -1,0 +1,6 @@
+Changelog 3.7.0:
+
+- functions.php, line 873: $homeURL = home_url() -> $homeURL = esc_url( home_url() );
+- /functions/bfa_header_config.php, line 281, 283: $bfa_ata['searchbox_text'] -> esc_attr($bfa_ata['searchbox_text'])
+- searchform.php, line 1:  home_url() -> esc_url( home_url() );
+- searchform.php, line 5: the_search_query() -> esc_attr( the_search_query() )
