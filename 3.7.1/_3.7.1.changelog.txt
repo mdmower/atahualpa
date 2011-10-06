@@ -1,0 +1,15 @@
+Changelog 3.7.1:
+
+- Removed /functions/bfa_ata_add_amin.php, lines 5-11: Editing a theme file 
+through WP Admin -> Appearance -> Editor, would strip backslashes from the edited 
+file (i.e. functions.php) and break the theme:
+http://forum.bytesforall.com/showthread.php?t=15572
+
+Removed:
+	// Since 3.6.8:
+	if ( get_magic_quotes_gpc() ) {
+		$_POST      = array_map( 'stripslashes_deep', $_POST );
+		$_GET       = array_map( 'stripslashes_deep', $_GET );
+		$_COOKIE    = array_map( 'stripslashes_deep', $_COOKIE );
+		$_REQUEST   = array_map( 'stripslashes_deep', $_REQUEST );
+	}
