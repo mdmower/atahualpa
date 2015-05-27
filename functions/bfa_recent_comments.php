@@ -43,7 +43,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 
 /* Changelog
-* Fri Aug 22 2008 - v1.0 
+* Fri Aug 22 2008 - v1.0
 - Initial release
 */
 
@@ -69,12 +69,12 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  $add_dots = $bfa_rc_options['add_dots'];
 	  $limit_by = $bfa_rc_options['limit_by'];
 	  $author_bold = $bfa_rc_options['author_bold'];
-	  $author_em = $bfa_rc_options['author_em'];	  
+	  $author_em = $bfa_rc_options['author_em'];
 	  $comment_bold = $bfa_rc_options['comment_bold'];
-	  $comment_em = $bfa_rc_options['comment_em'];	
+	  $comment_em = $bfa_rc_options['comment_em'];
 	  $post_bold = $bfa_rc_options['post_bold'];
 	  $post_em = $bfa_rc_options['post_em'];
-	  $author_nofollow = $bfa_rc_options['author_nofollow'];	
+	  $author_nofollow = $bfa_rc_options['author_nofollow'];
 	  if(isset($bfa_rc_options['bfa_rc_pre_HTML'])) $bfa_rc_pre_HTML = $bfa_rc_options['bfa_rc_pre_HTML'];
 		else $bfa_rc_pre_HTML = '';
 	  if(isset($bfa_rc_options['bfa_rc_post_HTML'])) $bfa_rc_post_HTML = $bfa_rc_options['bfa_rc_post_HTML'];
@@ -88,18 +88,18 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  $bfa_rc_display_search = $bfa_rc_options['bfa_rc_display_search'];
 	  $bfa_rc_display_author = $bfa_rc_options['bfa_rc_display_author'];
 	  $bfa_rc_display_404 = $bfa_rc_options['bfa_rc_display_404'];
-	  	  
+
 	  global $wpdb;
 
-	  if ( (is_home() && $bfa_rc_display_homepage == "on") OR 
-	  (is_category() && $bfa_rc_display_category == "on") OR 
-	  (is_single() && $bfa_rc_display_post == "on") OR 
-	  (is_page() && $bfa_rc_display_page == "on") OR 
-	  (is_date() && $bfa_rc_display_archive == "on") OR 	  
-	  (is_tag() && $bfa_rc_display_tag == "on") OR 
-	  (is_search() && $bfa_rc_display_search == "on") OR 
-	  (is_author() && $bfa_rc_display_author == "on") OR 
-	  (is_404() && $bfa_rc_display_404 == "on")) { 
+	  if ( (is_home() && $bfa_rc_display_homepage == "on") OR
+	  (is_category() && $bfa_rc_display_category == "on") OR
+	  (is_single() && $bfa_rc_display_post == "on") OR
+	  (is_page() && $bfa_rc_display_page == "on") OR
+	  (is_date() && $bfa_rc_display_archive == "on") OR
+	  (is_tag() && $bfa_rc_display_tag == "on") OR
+	  (is_search() && $bfa_rc_display_search == "on") OR
+	  (is_author() && $bfa_rc_display_author == "on") OR
+	  (is_404() && $bfa_rc_display_404 == "on")) {
 
 	  // Build the query and fetch the results
 	  $sql = "SELECT DISTINCT ID, post_title, post_password, comment_ID, comment_post_ID, comment_author, comment_author_url, comment_content, comment_date_gmt, comment_approved, comment_type, ";
@@ -108,10 +108,10 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  $sql .= "SUBSTRING(comment_content,1,$bfa_rc_src_length) AS com_excerpt "; }
 	  elseif ($limit_by == "words") {
 	  $sql .= "SUBSTRING_INDEX(comment_content,' ',$bfa_rc_src_length) AS com_excerpt "; }
-	  $sql .= "FROM $wpdb->comments 
-		LEFT OUTER JOIN $wpdb->posts ON ($wpdb->comments.comment_post_ID = $wpdb->posts.ID) 
-		WHERE comment_approved = '1' AND comment_type = '' AND post_password = '' 
-		ORDER BY comment_date_gmt DESC 
+	  $sql .= "FROM $wpdb->comments
+		LEFT OUTER JOIN $wpdb->posts ON ($wpdb->comments.comment_post_ID = $wpdb->posts.ID)
+		WHERE comment_approved = '1' AND comment_type = '' AND post_password = ''
+		ORDER BY comment_date_gmt DESC
 		LIMIT $bfa_rc_src_count";
 	  $comments = $wpdb->get_results($sql);
 
@@ -127,7 +127,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #	      if ( $bfa_rc_src_length <= strlen(strip_tags($comment->com_excerpt)) ) $dots = "...";
               if ($limit_by == "letters") {
 	      if ( $bfa_rc_src_length <= strlen(strip_tags($comment->comment_content)) ) {$dots = "...";}
-	      } 
+	      }
 	      elseif ($limit_by == "words") {
 	      if ( $bfa_rc_src_length <= count(explode(" ", strip_tags($comment->comment_content))) ) {$dots = "...";}
 	      }
@@ -137,28 +137,28 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	      $post_link = get_permalink($comment->ID);
 	      $author_link = $comment->comment_author_url;
 	      if ($author_nofollow == "on") {$author_link = $author_link . '" rel="nofollow'; }
-	      
+
 	      if ($point_first_link == "comment") {$first_link = $comment_link; }
 	      elseif ($point_first_link == "post") {$first_link = $post_link; }
 	      elseif ($point_first_link == "author") {$first_link = $author_link; }
 
 	      if ($point_second_link == "comment") {$second_link = $comment_link; }
 	      elseif ($point_second_link == "post") {$second_link = $post_link; }
-	      elseif ($point_second_link == "author") {$second_link = $author_link; }	      
-	      
+	      elseif ($point_second_link == "author") {$second_link = $author_link; }
+
 	      $comment_text = strip_tags($comment->com_excerpt);
 	      if ($add_dots == "on") {$comment_text = $comment_text . $dots; }
 	      if ($comment_bold == "on") {$comment_text2 = "<strong>$comment_text</strong>"; } else {$comment_text2 = $comment_text; }
 	      if ($comment_em == "on") {$comment_text2 = "<em>$comment_text2</em>"; }
 	      $post_text = apply_filters('the_title_rss', $comment->post_title);
 	      if ($post_bold == "on") {$post_text2 = "<strong>$post_text</strong>"; } else {$post_text2 = $post_text; }
-	      if ($post_em == "on") {$post_text2 = "<em>$post_text2</em>"; }     
+	      if ($post_em == "on") {$post_text2 = "<em>$post_text2</em>"; }
 	      $author_text = $comment->comment_author;
 	      if ($author_bold == "on") {$author_text2 = "<strong>$author_text</strong>"; } else {$author_text2 = $author_text; }
-	      if ($author_em == "on") {$author_text2 = "<em>$author_text2</em>"; }     
+	      if ($author_em == "on") {$author_text2 = "<em>$author_text2</em>"; }
 
 	      $output .= "\n\t<li class=\"bfarecentcomments\">";
-	      
+
 	      if ( $bfa_rc_linking_scheme == "Author Comment link-1" ) {
 	      $output .= "<a href=\"$first_link\" title=\"" . __('On: ','atahualpa') . "$post_text\">$author_text2</a>: $comment_text2";
 	      } elseif ( $bfa_rc_linking_scheme == "Author Comment link-2" ) {
@@ -197,11 +197,11 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  // remove empty author links
           $output = preg_replace("/<a href=\"\"(.*?)>(.*?)<\/a>/i","\\2",$output);
           $output = preg_replace("/<a href=\"http:\/\/\"(.*?)>(.*?)<\/a>/i","\\2",$output);
-	  
+
 	  // These lines generate the output
 
 	  echo $before_widget . $before_title . $bfa_rc_title . $after_title;
-	  echo $output;  
+	  echo $output;
 	  echo $after_widget;
 	}
 	}
@@ -217,19 +217,19 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	    $bfa_rc_newoptions['bfa_rc_title'] = strip_tags(stripslashes($_POST["bfa_rc_src-title"]));
 	    $bfa_rc_newoptions['bfa_rc_src_count'] = (int) $_POST["bfa_rc_src_count"];
 	    $bfa_rc_newoptions['bfa_rc_src_length'] = (int) $_POST["bfa_rc_src_length"];
-	    $bfa_rc_newoptions['bfa_rc_linking_scheme'] = strip_tags(stripslashes($_POST["bfa_rc_linking_scheme"]));	
-	    $bfa_rc_newoptions['point_first_link'] = $_POST["point_first_link"];	
+	    $bfa_rc_newoptions['bfa_rc_linking_scheme'] = strip_tags(stripslashes($_POST["bfa_rc_linking_scheme"]));
+	    $bfa_rc_newoptions['point_first_link'] = $_POST["point_first_link"];
 	    $bfa_rc_newoptions['point_second_link'] = $_POST["point_second_link"];
 #	    $bfa_rc_newoptions['add_dots'] = $_POST["add_dots"];
 	    $bfa_rc_newoptions['add_dots'] = !isset($_POST["add_dots"]) ? NULL : $_POST["add_dots"];
-	    $bfa_rc_newoptions['limit_by'] = $_POST["limit_by"];	
-	    $bfa_rc_newoptions['author_bold'] = !isset($_POST["author_bold"]) ? NULL : $_POST["author_bold"];	        	    	    
+	    $bfa_rc_newoptions['limit_by'] = $_POST["limit_by"];
+	    $bfa_rc_newoptions['author_bold'] = !isset($_POST["author_bold"]) ? NULL : $_POST["author_bold"];
 	    $bfa_rc_newoptions['author_em'] = !isset($_POST["author_em"]) ? NULL : $_POST["author_em"];
 	    $bfa_rc_newoptions['comment_bold'] = !isset($_POST["comment_bold"]) ? NULL : $_POST["comment_bold"];
-	    $bfa_rc_newoptions['comment_em'] = !isset($_POST["comment_em"]) ? NULL : $_POST["comment_em"];	    	    
+	    $bfa_rc_newoptions['comment_em'] = !isset($_POST["comment_em"]) ? NULL : $_POST["comment_em"];
 	    $bfa_rc_newoptions['post_bold'] = !isset($_POST["post_bold"]) ? NULL : $_POST["post_bold"];
-	    $bfa_rc_newoptions['post_em'] = !isset($_POST["post_em"]) ? NULL : $_POST["post_em"];	    	    
-	    $bfa_rc_newoptions['author_nofollow'] = !isset($_POST["author_nofollow"]) ? NULL : $_POST["author_nofollow"];	    	    
+	    $bfa_rc_newoptions['post_em'] = !isset($_POST["post_em"]) ? NULL : $_POST["post_em"];
+	    $bfa_rc_newoptions['author_nofollow'] = !isset($_POST["author_nofollow"]) ? NULL : $_POST["author_nofollow"];
 	    $bfa_rc_newoptions['bfa_rc_display_homepage'] = !isset($_POST["bfa_rc_display_homepage"]) ? NULL : $_POST["bfa_rc_display_homepage"];
 	    $bfa_rc_newoptions['bfa_rc_display_category'] = !isset($_POST["bfa_rc_display_category"]) ? NULL : $_POST["bfa_rc_display_category"];
 	    $bfa_rc_newoptions['bfa_rc_display_post'] = !isset($_POST["bfa_rc_display_post"]) ? NULL : $_POST["bfa_rc_display_post"];
@@ -239,7 +239,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	    $bfa_rc_newoptions['bfa_rc_display_search'] = !isset($_POST["bfa_rc_display_search"]) ? NULL : $_POST["bfa_rc_display_search"];
 	    $bfa_rc_newoptions['bfa_rc_display_author'] = !isset($_POST["bfa_rc_display_author"]) ? NULL : $_POST["bfa_rc_display_author"];
 	    $bfa_rc_newoptions['bfa_rc_display_404'] = !isset($_POST["bfa_rc_display_404"]) ? NULL : $_POST["bfa_rc_display_404"];
-	    	    	    	    
+
 	  }
 	  if ( $bfa_rc_options != $bfa_rc_newoptions ) {
 	    $bfa_rc_options = $bfa_rc_newoptions;
@@ -254,7 +254,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  if ( !isset($bfa_rc_options['point_second_link']) ) $bfa_rc_options['point_second_link'] = "comment";
 	  if ( !isset($bfa_rc_options['limit_by']) ) $bfa_rc_options['limit_by'] = "letters";
 	  if ( !isset($bfa_rc_options['author_nofollow']) ) $bfa_rc_options['author_nofollow'] = "on";
-	  
+
 	  $bfa_rc_src_count = $bfa_rc_options['bfa_rc_src_count'];
 	  $bfa_rc_src_length = $bfa_rc_options['bfa_rc_src_length'];
 	  $bfa_rc_linking_scheme = $bfa_rc_options['bfa_rc_linking_scheme'];
@@ -262,23 +262,23 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	  $point_second_link = $bfa_rc_options['point_second_link'];
 	  $add_dots = $bfa_rc_options['add_dots'];
 	  $limit_by = $bfa_rc_options['limit_by'];
-	  $author_bold = $bfa_rc_options['author_bold'];	  
-	  $author_em = $bfa_rc_options['author_em'];	  
-	  $comment_bold = $bfa_rc_options['comment_bold'];	  
-	  $comment_em = $bfa_rc_options['comment_em'];	  
-	  $post_bold = $bfa_rc_options['post_bold'];	  
-	  $post_em = $bfa_rc_options['post_em'];	  
-	  $author_nofollow = $bfa_rc_options['author_nofollow'];	  
+	  $author_bold = $bfa_rc_options['author_bold'];
+	  $author_em = $bfa_rc_options['author_em'];
+	  $comment_bold = $bfa_rc_options['comment_bold'];
+	  $comment_em = $bfa_rc_options['comment_em'];
+	  $post_bold = $bfa_rc_options['post_bold'];
+	  $post_em = $bfa_rc_options['post_em'];
+	  $author_nofollow = $bfa_rc_options['author_nofollow'];
 	  $bfa_rc_display_homepage = $bfa_rc_options['bfa_rc_display_homepage'];
 	  $bfa_rc_display_category = $bfa_rc_options['bfa_rc_display_category'];
 	  $bfa_rc_display_post = $bfa_rc_options['bfa_rc_display_post'];
 	  $bfa_rc_display_page = $bfa_rc_options['bfa_rc_display_page'];
 	  $bfa_rc_display_archive = $bfa_rc_options['bfa_rc_display_archive'];
-	  $bfa_rc_display_tag = $bfa_rc_options['bfa_rc_display_tag'];	  
+	  $bfa_rc_display_tag = $bfa_rc_options['bfa_rc_display_tag'];
 	  $bfa_rc_display_search = $bfa_rc_options['bfa_rc_display_search'];
 	  $bfa_rc_display_author = $bfa_rc_options['bfa_rc_display_author'];
 	  $bfa_rc_display_404 = $bfa_rc_options['bfa_rc_display_404'];
-	  	  
+
 	  // Deal with HTML in the parameters
 	  if(isset($bfa_rc_options['bfa_rc_pre_HTML'])) $bfa_rc_pre_HTML = htmlspecialchars($bfa_rc_options['bfa_rc_pre_HTML'], ENT_QUOTES);
 	  if(isset($bfa_rc_options['bfa_rc_post_HTML'])) $bfa_rc_post_HTML = htmlspecialchars($bfa_rc_options['bfa_rc_post_HTML'], ENT_QUOTES);
@@ -301,14 +301,14 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
             <p style="float: left; width: 195px; text-align: left;"><input id="bfa_rc_linking_scheme" name="bfa_rc_linking_scheme" type="radio" value="Post Comment link-1 link-2" <?php if($bfa_rc_linking_scheme == "Post Comment link-1 link-2"){echo " CHECKED";}?> /> <a href="#">Post Title</a>: <a href="#" title="Author Name">Comment Text</a></p>
             <p style="float: left; width: 195px; text-align: left;"><input id="bfa_rc_linking_scheme" name="bfa_rc_linking_scheme" type="radio" value="Post Comment link-all" <?php if($bfa_rc_linking_scheme == "Post Comment link-all"){echo " CHECKED";}?> /> <a href="#" title="Author Name">Post Title: Comment Text</a></p>
 	    <hr noshade size="1" style="clear:left; color: #ccc">
-            <p style="clear:left">Point the first link to:</p> 
+            <p style="clear:left">Point the first link to:</p>
             <p style="float: left; text-align: left;"><input id="point_first_link" name="point_first_link" type="radio" value="author" <?php if($point_first_link == "author"){echo " CHECKED";}?> /> the author's homepage (if any)</p>
-            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_first_link" name="point_first_link" type="radio" value="comment" <?php if($point_first_link == "comment"){echo " CHECKED";}?> /> the comments</p>            
-            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_first_link" name="point_first_link" type="radio" value="post" <?php if($point_first_link == "post"){echo " CHECKED";}?> /> the post</p>              
+            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_first_link" name="point_first_link" type="radio" value="comment" <?php if($point_first_link == "comment"){echo " CHECKED";}?> /> the comments</p>
+            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_first_link" name="point_first_link" type="radio" value="post" <?php if($point_first_link == "post"){echo " CHECKED";}?> /> the post</p>
             <p style="clear:left">Point the second link (if any) to:</p>
             <p style="float: left; text-align: left;"><input id="point_second_link" name="point_second_link" type="radio" value="author" <?php if($point_second_link == "author"){echo " CHECKED";}?> /> the author's homepage (if any)</p>
-            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_second_link" name="point_second_link" type="radio" value="comment" <?php if($point_second_link == "comment"){echo " CHECKED";}?> /> the comments</p>            
-            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_second_link" name="point_second_link" type="radio" value="post" <?php if($point_second_link == "post"){echo " CHECKED";}?> /> the post</p>              
+            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_second_link" name="point_second_link" type="radio" value="comment" <?php if($point_second_link == "comment"){echo " CHECKED";}?> /> the comments</p>
+            <p style="float: left; margin-left: 10px; text-align: left;"><input id="point_second_link" name="point_second_link" type="radio" value="post" <?php if($point_second_link == "post"){echo " CHECKED";}?> /> the post</p>
 	    <hr noshade size="1" style="clear:left; color: #ccc">
 	    <p><input id="author_nofollow" name="author_nofollow" type="checkbox" <?php if($author_nofollow == "on"){echo " CHECKED";}?> /> Set the link to the Author Homepage to "Nofollow"</p>
 	    <hr noshade size="1" style="clear:left; color: #ccc">
@@ -334,5 +334,5 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 	$widget_ops = array('classname' => 'widget_recent_comments', 'description' => __("Lists the most recent comments","atahualpa") );
 	$control_ops = array('width' => 600, 'height' => 500);
 	wp_register_sidebar_widget('recent_comments', __('BFA Recent Comments','atahualpa'), 'widget_simple_recent_comments', $widget_ops);
-	wp_register_widget_control('recent_comments',  __('BFA Recent Comments','atahualpa'), 'widget_simple_recent_comments_control', $control_ops);	
+	wp_register_widget_control('recent_comments',  __('BFA Recent Comments','atahualpa'), 'widget_simple_recent_comments_control', $control_ops);
 ?>

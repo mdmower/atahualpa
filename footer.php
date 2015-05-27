@@ -1,6 +1,6 @@
 <?php /* if index.php or another page template (copied from index.php) was not used */
 global $bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2;
-if (!isset($bfa_ata))  
+if (!isset($bfa_ata))
 list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['h_blogtitle'], $bfa_ata['h_posttitle']) = bfa_get_options();
 ?>
 </td>
@@ -17,7 +17,7 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 		</div>
 		<ul><?php wp_list_categories('show_count=1&title_li='); ?></ul>
 		</div>
-		
+
 		<div class="widget widget_archive"><div class="widget-title">
 		<h3><?php _e('Archives','atahualpa'); ?></h3>
 		</div>
@@ -27,13 +27,13 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 		<div class="widget widget_text"><div class="widget-title">
 		<h3>A sample text widget</h3></div>
 		<div class="textwidget">
-		<p>Etiam pulvinar consectetur dolor sed malesuada. Ut convallis 
+		<p>Etiam pulvinar consectetur dolor sed malesuada. Ut convallis
 		<a href="http://wordpress.org/">euismod dolor nec</a> pretium. Nunc ut tristique massa. </p>
-		<p>Nam sodales mi vitae dolor <em>ullamcorper et vulputate enim accumsan</em>. 
-		Morbi orci magna, tincidunt vitae molestie nec, molestie at mi. <strong>Nulla nulla lorem</strong>, 
+		<p>Nam sodales mi vitae dolor <em>ullamcorper et vulputate enim accumsan</em>.
+		Morbi orci magna, tincidunt vitae molestie nec, molestie at mi. <strong>Nulla nulla lorem</strong>,
 		suscipit in posuere in, interdum non magna. </p>
 		</div>
-	
+
 	<?php endif; ?>
 
 </td>
@@ -44,7 +44,7 @@ list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['
 <td id="right">
 
 	<?php if ( !dynamic_sidebar('Right Sidebar') ) : ?>
-	
+
 		<!-- Default content here -->
     	<div class="widget"><div class="widget-title"><h3>Recent Posts</h3></div>
 			<?php $r = new WP_Query(array(

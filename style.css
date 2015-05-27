@@ -9,7 +9,7 @@ Tags:  left-sidebar, right-sidebar, fluid-layout, fixed-layout, one-column, two-
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
- 
+
 .aligncenter {
 	display: block;
 	margin-left: auto;
@@ -31,13 +31,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	padding: 4px;
 	text-align: center;
 }
-	
+
 .wp-caption-text {
 	color: #888;
 	font-size: 12px;
 	margin: 5px;
 	}
-	
+
 .gallery-caption {
 	color: #888;
 	font-size: 12px;

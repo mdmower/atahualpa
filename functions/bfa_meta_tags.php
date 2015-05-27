@@ -3,9 +3,9 @@
 
 function bfa_title_tag( $title, $sep ) {
 
-	
+
 	global $bfa_ata, $post;
-		
+
 	/* check to see if any of these SEO plugins is installed.
 	   If yes, the Bytes For All SEO options will be deactivated,
 	   no matter what the option "Use Bytes For All SEO options?" is set to. */
@@ -15,12 +15,12 @@ function bfa_title_tag( $title, $sep ) {
 
 	// if "WP SEO" Plugin  is installed
 	defined('WPSEO_PATH') OR
-	 
+
 	// if "All-In-One_SEO" Plugin (http://semperfiwebdesign.com) is installed
 	class_exists('All_in_One_SEO_Pack') ) {
 
 		return $title;
-	
+
 	// if "WpSEO" Plugin (http://www.wpseo.de/) is installed
 	} elseif ( class_exists('wpSEO') OR
 
@@ -61,16 +61,16 @@ function bfa_title_tag( $title, $sep ) {
 	function_exists('SEO_wordpress') OR
 
 	// if the option "Use Bytes For All SEO options?" is set to "No"
-	$bfa_ata['use_bfa_seo'] == "No") { 
-	
+	$bfa_ata['use_bfa_seo'] == "No") {
+
 		if ( is_front_page() ) {
 			return get_bloginfo('name');
 		} else {
 			return trim( $title ) . " &#171; " . get_bloginfo('name');
 		}
 
-		
-	} else { 
+
+	} else {
 
 		if ( is_home() ) {
 			return get_bloginfo('name');
@@ -83,7 +83,7 @@ function bfa_title_tag( $title, $sep ) {
 				} else {
 					$bfa_ata_page_title = single_post_title( '', false );
 				}
-				
+
 			} elseif ( is_category() ) {
 				// cat titles don't get a filter, so htmlentities is required
 				$bfa_ata_page_title = htmlentities( single_cat_title( '', false ), ENT_QUOTES, 'UTF-8' );
@@ -105,10 +105,10 @@ function bfa_title_tag( $title, $sep ) {
 			} elseif ( is_year() ) {
 				$bfa_ata_page_title = htmlentities( get_the_time('Y'), ENT_QUOTES, 'UTF-8' );
 
-		#	elseif ( is_author() ) { 
+		#	elseif ( is_author() ) {
 		#		$bfa_ata_page_title = htmlentities(the_author(),ENT_QUOTES); }   // this won't work
 
-			} elseif ( is_404() ) { 
+			} elseif ( is_404() ) {
 				$bfa_ata_page_title = __( '404 - Page not found', 'atahualpa' );
 
 			} else {
@@ -129,7 +129,7 @@ function bfa_title_tag( $title, $sep ) {
 				case 10: $bfa_ata_title_separator = " &#8226; "; break;
 				case 11: $bfa_ata_title_separator = " &#183; "; break;
 				case 12: $bfa_ata_title_separator = " &#151; "; break;
-				case 13: $bfa_ata_title_separator = " &#124; "; 
+				case 13: $bfa_ata_title_separator = " &#124; ";
 			}
 
 			/* 3 different styles for meta title tag: (1) Blog Title - Page Title,
@@ -149,10 +149,10 @@ function bfa_title_tag( $title, $sep ) {
 		}
 
 	}
-	
 
-	
-	return $title;		
+
+
+	return $title;
 }
 
 add_filter( 'wp_title', 'bfa_title_tag', 10, 2 );
@@ -161,7 +161,7 @@ add_filter( 'wp_title', 'bfa_title_tag', 10, 2 );
 function bfa_meta_tags() {
 
 	global $bfa_ata, $post;
-		
+
 	$return = '';
 
 	// META DESCRIPTION & KEYWORDS for (only) the HOMEPAGE.
@@ -184,7 +184,7 @@ function bfa_meta_tags() {
 		}
 		if ( $bfa_meta_keywords != '' ) {
 			$return .= "<meta name=\"keywords\" content=\"" . htmlentities( $bfa_meta_keywords, ENT_QUOTES,'UTF-8' ) . "\" />\n";
-		}  
+		}
 	}
 
 	// META DESCRIPTION Tag for CATEGORY PAGES, if a category description exists:
@@ -197,13 +197,13 @@ function bfa_meta_tags() {
 
 	/* prevent duplicate content by making archive pages noindex:
 	   If it's a date, category or tag page: */
-	if ( ( $bfa_ata['archive_noindex'] == "Yes" AND is_date() ) OR 
-		( $bfa_ata['cat_noindex'] == "Yes" AND is_category() ) OR 
+	if ( ( $bfa_ata['archive_noindex'] == "Yes" AND is_date() ) OR
+		( $bfa_ata['cat_noindex'] == "Yes" AND is_category() ) OR
 		( $bfa_ata['tag_noindex'] == "Yes" AND is_tag()) ) {
 			$return .= '<meta name="robots" content="noindex, follow" />'."\n";
 	}
 
-	
+
 	return $return;
 }
 

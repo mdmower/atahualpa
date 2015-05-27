@@ -5,7 +5,7 @@ function bfa_widget_calendar($args) {
 	$title = apply_filters('widget_title', $options['title']);
 	echo $before_widget;
 	if ( !empty($title) ) { echo $before_title . $title . $after_title; }
-	echo '<div id="calendar_wrap">'; get_calendar(); echo '</div>'; 
+	echo '<div id="calendar_wrap">'; get_calendar(); echo '</div>';
 	if ( !empty( $title ) ) { echo $after_widget; } else { echo "</div>"; }
 }
 	// unregister old / register new calendar widget

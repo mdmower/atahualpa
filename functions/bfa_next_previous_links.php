@@ -12,14 +12,14 @@ function bfa_show_posts_nav() {
 function bfa_next_previous_page_links($location = "Top") {
 
 	global $bfa_ata;
-    $homeURL = get_home_url();  
-	
+    $homeURL = get_home_url();
+
 	if ( !is_single() AND !is_page() AND
     strpos($bfa_ata['location_multi_next_prev'],$location) !== FALSE AND
-    
+
     // don't display on WP Email pages
     intval(get_query_var('email')) != 1 AND
-    
+
     // display only if next/prev links actually exist
     bfa_show_posts_nav() ) {
 
@@ -30,42 +30,42 @@ function bfa_next_previous_page_links($location = "Top") {
 
 		} else {
 
-			if( $bfa_ata['home_multi_next_prev'] != '' ) { 
+			if( $bfa_ata['home_multi_next_prev'] != '' ) {
 				ob_start();
-					echo '<div class="home"><a href="' . $homeURL . '/">' . 
-					$bfa_ata['home_multi_next_prev'] . '</a></div>'; 
-					$nav_home_div_on = ob_get_contents(); 
+					echo '<div class="home"><a href="' . $homeURL . '/">' .
+					$bfa_ata['home_multi_next_prev'] . '</a></div>';
+					$nav_home_div_on = ob_get_contents();
 				ob_end_clean();
-				
+
 				// make sure this is the real homepage and not a subsequent page
 				if( is_front_page() AND !is_paged() ) {
-					$nav_home_add = ""; $nav_home_div = ""; 
+					$nav_home_add = ""; $nav_home_div = "";
 				} else {
 					$nav_home_add = '-home';
-					$nav_home_div = $nav_home_div_on; 
+					$nav_home_div = $nav_home_div_on;
 				}
 			} else {
-				$nav_home_add = ''; 
-				$nav_home_div = ''; 
+				$nav_home_add = '';
+				$nav_home_div = '';
 			}
-			
+
 			echo '<div class="clearfix navigation-'.strtolower($location).'">
 			<div class="older' . $nav_home_add . '">';
 
-			$bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right' ? 
-			next_posts_link($bfa_ata['multi_next_prev_older']) : 
+			$bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right' ?
+			next_posts_link($bfa_ata['multi_next_prev_older']) :
 			previous_posts_link($bfa_ata['multi_next_prev_newer']);
 
 			echo ' &nbsp;</div>' . $nav_home_div . '<div class="newer' .
             $nav_home_add . '">&nbsp; ';
 
-			$bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right' ? 
-			previous_posts_link($bfa_ata['multi_next_prev_newer']) : 
+			$bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right' ?
+			previous_posts_link($bfa_ata['multi_next_prev_newer']) :
 			next_posts_link($bfa_ata['multi_next_prev_older']);
 
 			echo '</div></div>';
 		}
-	} 						
+	}
 }
 
 /* Next/Previous POST Links (on single post pages)
@@ -74,10 +74,10 @@ function bfa_next_previous_page_links($location = "Top") {
 function bfa_next_previous_post_links($location = "Top") {
 
     global $bfa_ata;
-    $homeURL = get_home_url();  
+    $homeURL = get_home_url();
 
 	if ( is_single() AND strpos($bfa_ata['location_single_next_prev'],$location) !== FALSE AND
-	
+
     // don't display on WP Email pages
     intval(get_query_var('email')) != 1 )  {
 
@@ -88,19 +88,19 @@ function bfa_next_previous_post_links($location = "Top") {
 		if ($bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right') {
 			if($bfa_ata['single_next_prev_same_cat'] == "Yes") {
 				previous_post_link($bfa_ata['single_next_prev_older'], '%title', TRUE);
-			} else { 
+			} else {
 				previous_post_link($bfa_ata['single_next_prev_older']);
 			}
 		} else {
 			if($bfa_ata['single_next_prev_same_cat'] == "Yes") {
 				next_post_link($bfa_ata['single_next_prev_newer'], '%title', TRUE);
-			} else { 
+			} else {
 				next_post_link($bfa_ata['single_next_prev_newer']);
 			}
 		}
-		
+
 		echo ' &nbsp;</div>';
-		if ($bfa_ata['home_single_next_prev'] != '') { 
+		if ($bfa_ata['home_single_next_prev'] != '') {
 			echo '<div class="home"><a href="' . $homeURL . '/">' .
 			$bfa_ata['home_single_next_prev'] . '</a></div>';
 		}
@@ -113,13 +113,13 @@ function bfa_next_previous_post_links($location = "Top") {
 		if ($bfa_ata['next_prev_orientation'] == 'Older Left, Newer Right') {
 			if($bfa_ata['single_next_prev_same_cat'] == "Yes") {
 				next_post_link($bfa_ata['single_next_prev_newer'], '%title', TRUE);
-			} else { 
+			} else {
 				next_post_link($bfa_ata['single_next_prev_newer']);
 			}
 		} else {
 			if($bfa_ata['single_next_prev_same_cat'] == "Yes") {
 				previous_post_link($bfa_ata['single_next_prev_older'], '%title', TRUE);
-			} else { 
+			} else {
 				previous_post_link($bfa_ata['single_next_prev_older']);
 			}
 		}
@@ -169,7 +169,7 @@ function bfa_next_previous_comments_links($location = "Above") {
 				echo '</div></div>';
 
 			}
-			
+
 			echo '</div>';
 		}
 	}

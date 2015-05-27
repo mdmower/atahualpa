@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<?php 
-	$templateURI = get_template_directory_uri(); 
+<?php
+	$templateURI = get_template_directory_uri();
 	$homeURL = get_home_url();  ?>
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <?php // if index.php or another page template (copied from index.php) was not used
-if (!isset($bfa_ata))  
+if (!isset($bfa_ata))
 list($bfa_ata, $cols, $left_col, $left_col2, $right_col, $right_col2, $bfa_ata['h_blogtitle'], $bfa_ata['h_posttitle']) = bfa_get_options(); ?>
 <?php global $post_id; ?>
 <title><?php wp_title( '' ); ?></title>
-<?php if ( isset($bfa_ata['IEDocType']) ) { 
-switch ( $bfa_ata['IEDocType'] ) { 
+<?php if ( isset($bfa_ata['IEDocType']) ) {
+switch ( $bfa_ata['IEDocType'] ) {
 	case "None":
 		break;
 	case "EmulateIE7":
@@ -37,15 +37,15 @@ switch ( $bfa_ata['IEDocType'] ) {
 	default:
 		break;
 }} ?><?php echo bfa_meta_tags(); ?>
-<?php 
+<?php
 
-if ($bfa_ata['favicon_file'] != "") { 
+if ($bfa_ata['favicon_file'] != "") {
     if($bfa_ata['images_root'] == "atahualpa") {
            $imgdir  = get_template_directory_uri() . '/images/favicon/';
         } else {
 // at this point the images_root is 'wp-content'
-    		if(!isset($bfa_ata['ata_images_dir']) 
-    		OR ($bfa_ata['ata_images_dir'] == '') ) {	
+    		if(!isset($bfa_ata['ata_images_dir'])
+    		OR ($bfa_ata['ata_images_dir'] == '') ) {
            		$imgdir  = content_url() . '/ata-images/';
 			} else {
 				$imgdir  = content_url() . '/' . $bfa_ata['ata_images_dir'] . '/';
@@ -78,7 +78,7 @@ if ($bfa_ata['favicon_file'] != "") {
 <col class="coltwo" />
 <?php if ( $right_col2 == "on" ) { ?><col class="colthree-inner" /><?php } ?>
 <?php if ( $right_col == "on" ) { ?><col class="colthree" /><?php } ?>
-</colgroup> 
+</colgroup>
 
 <?php if ($bfa_ata['full_width_header'] == "No") { ?>
 
@@ -94,23 +94,23 @@ if ($bfa_ata['favicon_file'] != "") {
 
 	</tr>
 <?php } ?>
-	<!-- Main Body -->	
+	<!-- Main Body -->
 	<tr id="bodyrow">
 
 		<?php if ( $left_col == "on" ) { ?>
 		<!-- Left Sidebar -->
 		<td id="left">
 
-			<?php // Widgetize the Left Sidebar 
+			<?php // Widgetize the Left Sidebar
 			if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Sidebar') ) : ?>
-		
+
 				<div class="widget widget_categories">
 					<div class="widget-title">
 						<h3><?php _e('Categories','atahualpa'); ?></h3>
 					</div>
 					<ul><?php wp_list_categories('show_count=1&title_li='); ?></ul>
 				</div>
-				
+
 				<div class="widget widget_archive">
 					<div class="widget-title">
 						<h3><?php _e('Archives','atahualpa'); ?></h3>
@@ -123,14 +123,14 @@ if ($bfa_ata['favicon_file'] != "") {
 						<h3>A sample text widget</h3>
 					</div>
 					<div class="textwidget">
-						<p>Etiam pulvinar consectetur dolor sed malesuada. Ut convallis 
+						<p>Etiam pulvinar consectetur dolor sed malesuada. Ut convallis
 						<a href="http://wordpress.org/">euismod dolor nec</a> pretium. Nunc ut tristique massa. </p>
-						<p>Nam sodales mi vitae dolor <em>ullamcorper et vulputate enim accumsan</em>. 
-						Morbi orci magna, tincidunt vitae molestie nec, molestie at mi. <strong>Nulla nulla lorem</strong>, 
+						<p>Nam sodales mi vitae dolor <em>ullamcorper et vulputate enim accumsan</em>.
+						Morbi orci magna, tincidunt vitae molestie nec, molestie at mi. <strong>Nulla nulla lorem</strong>,
 						suscipit in posuere in, interdum non magna. </p>
 					</div>
 				</div>
-				
+
 			<?php endif; ?>
 
 		</td>
@@ -141,17 +141,17 @@ if ($bfa_ata['favicon_file'] != "") {
 		<!-- Left INNER Sidebar -->
 		<td id="left-inner">
 
-			<?php // Widgetize the Left Inner Sidebar 
+			<?php // Widgetize the Left Inner Sidebar
 			if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Left Inner Sidebar') ) : ?>
-		
+
 					<!-- no default content for the LEFT INNER sidebar -->
-									
+
 			<?php endif; ?>
 
 		</td>
 		<!-- / Left INNER Sidebar -->
 		<?php } ?>
-		
+
 
 		<!-- Main Column -->
 		<td id="middle">

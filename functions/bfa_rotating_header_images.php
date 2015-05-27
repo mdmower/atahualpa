@@ -5,9 +5,9 @@ function bfa_rotating_header_images() {
 	$files = array();
 	$img_folder = $bfa_ata['ata_images_dir'];
 
-    if(!isset($bfa_ata['ata_images_dir']) 
-    OR ($bfa_ata['ata_images_dir'] == '') ) {	
-       	$img_folder = 'ata-images'; } 
+    if(!isset($bfa_ata['ata_images_dir'])
+    OR ($bfa_ata['ata_images_dir'] == '') ) {
+       	$img_folder = 'ata-images'; }
 
     if($bfa_ata['images_root'] != "wp-content") {
            $imgpath = get_template_directory() . '/images/header/';
@@ -30,16 +30,16 @@ function bfa_rotating_header_images() {
 
 		if(isset($bfa_ata['header_image_sort_or_shuffle'])) {
 			if ($bfa_ata['header_image_sort_or_shuffle'] == "Sort") {
-				sort($files); } 
-			else { 
+				sort($files); }
+			else {
 				shuffle($files); }
 		}
-		
+
 		closedir($dh);
 
 		foreach($files as $value) {
 			$bfa_header_images[] = '\'' . $imgdir . $value . '\'';
-		} 
+		}
 
 return $bfa_header_images;
 }

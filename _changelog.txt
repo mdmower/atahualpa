@@ -7,24 +7,24 @@ Changelog 3.7.24:
 Changelog 3.7.23:
 - Fixed an error which caused feeds to stop working
 - Fixed an error which caused META data not to work using Atahualpa's SEO
-- Fixed a condition that could cause 'Undefined index: bfa_ata_noncename' warning messages to be displayed 
-- New screenshot size 
+- Fixed a condition that could cause 'Undefined index: bfa_ata_noncename' warning messages to be displayed
+- New screenshot size
 
 Changelog 3.7.19:
 - Fixed issue with the code added in 3.7.17 to show category names on <body> - it now work when the blog page is the front page.
 - added code to fix formatting errors when using BBPress
 - added code to handle captions used in galleries
-- bfa_meta_tags.php: Using wp_title filter 
+- bfa_meta_tags.php: Using wp_title filter
 
 Changelog 3.7.18:
 - Fixed issue with the code added in 3.7.16 for rotating/fading header images
-- added code to eliminate some php warnings when using dynamic (new) widget areas 
+- added code to eliminate some php warnings when using dynamic (new) widget areas
 - added code to allow the 'width' for new widget area to use 'px' or '%'
 - changed all references of 'new widget area' to 'dynamic widget area'
 - atahualpa.pot was empty
 
 Changelog 3.7.17:
-- Fixed 'Theme is redirected when activated.' 
+- Fixed 'Theme is redirected when activated.'
 
 Changelog 3.7.16:
 
@@ -40,10 +40,10 @@ Changelog 3.7.16:
 Changelog 3.7.15:
 
 - made default favicon_url value blank ("") as per new WP.org theme requirements
-- Replaced old tag 'fixed-width' with 'fixed-layout' 
+- Replaced old tag 'fixed-width' with 'fixed-layout'
 - Replaced old tag 'flexible-width' with 'fluid-layout'
 - replaced file '_3.7.14.changelog' with 'changelog.txt'
-- unclosed <div class="widget widget_text">... in header.php causing W3C error if default widgets were displayed (if no custom widgets in sidebar). 
+- unclosed <div class="widget widget_text">... in header.php causing W3C error if default widgets were displayed (if no custom widgets in sidebar).
 
 Changelog 3.7.14:
 
@@ -60,23 +60,23 @@ Changelog 3.7.12:
 - added new 'Center Top area widget' option code
 - added new 'Center Bottom area widget' option code
 - added option to specify folder to use for the logo, favicon and header images
-- fixed issue in 'multi column/custom query' template when using '0' 
+- fixed issue in 'multi column/custom query' template when using '0'
 - bfa_rotating_header_images.php, line 5: $files = '' -> $files = array();
-- bfa_rotating_header_images.php, line 12: if($bfa_ata['images_root'] == "atahualpa") -> if($bfa_ata['images_root'] != "wp-content") 
+- bfa_rotating_header_images.php, line 12: if($bfa_ata['images_root'] == "atahualpa") -> if($bfa_ata['images_root'] != "wp-content")
 - bfa_custom_comments, line 10 (Undefined Notice): if ( $post = get_post($post_id) ) -> removed
 - bfa_custom_comments, line 4: global $bfa_ata -> global $bfa_ata, $post
 
 Changelog 3.7.11:
 
 - fix export issue when WordPress Address and Site Address are different
-- fix small extension of %bar1 and %bar2 
+- fix small extension of %bar1 and %bar2
 - removed depreciated code checking for multisites
-- added an option to change the default directory header images are stored in. 
+- added an option to change the default directory header images are stored in.
   You can now have separate header image folders for multisites.
 
 Changelog 3.7.10:
 
-- changed access to globals $templateURI and $homeURL to support https 
+- changed access to globals $templateURI and $homeURL to support https
 - changed documentation about using 'New widget areas' in the center column
 - get_template_directory_uri() instead of get_bloginfo in /functions/bfa_get_options.php
 
@@ -102,7 +102,7 @@ Changelog 3.7.8:
 Changelog 3.7.7:
 
 Based on http://themes.trac.wordpress.org/ticket/7485#comment:2
-- removed 'function_exists' for get_avatar, dynamic_sidebar, 
+- removed 'function_exists' for get_avatar, dynamic_sidebar,
   is_front_page, is_tag, wp_list_comments, wp_nav_menu, register_sidebar_widget
 - removed files /legacy.coments.php, /functions/bfa_body_class.php, /functions/bfa_bodyclasses.php
 - namespaced many functions with 'bfa_', mainly in functions.php
@@ -132,7 +132,7 @@ Changelog 3.7.4:
 - Remove '<p>...</p>' surrounding footer to prevent validation errors
 - Make the 'Page' footer work for the archive page
 - Replaced functions 'eregi()' and 'ereg()' which are deprecated in php 5.3
-- added a new function  to allow testing for a pagetemplate 
+- added a new function  to allow testing for a pagetemplate
 - added a multi-column custom query' page template
 - enqueue scripts with add_action
 

@@ -1,6 +1,6 @@
 <?php
 function sociable_html2($display=Array()) {
-	global $sociable_known_sites, $sociablepluginpath, $wp_query; 
+	global $sociable_known_sites, $sociablepluginpath, $wp_query;
 
 	$active_sites = get_option('sociable_active_sites');
 	$html = "";
@@ -18,18 +18,18 @@ function sociable_html2($display=Array()) {
 	// Load the post's data
 	$blogname 	= urlencode(get_bloginfo('name')." ".get_bloginfo('description'));
 	$post 		= $wp_query->post;
-	
+
 	$excerpt	= $post->post_excerpt;
 	if ($excerpt == "") {
 		$excerpt = urlencode(substr(strip_tags($post->post_content),0,250));
 	}
 	$excerpt	= str_replace('+','%20',$excerpt);
-	
+
 	$permalink 	= urlencode(get_permalink($post->ID));
-	
+
 	$title 		= urlencode($post->post_title);
 	$title 		= str_replace('+','%20',$title);
-	
+
 	$rss 		= urlencode(get_bloginfo('ref_url'));
 
 	$html .= "\n<span class=\"sociable\">\n";
@@ -54,7 +54,7 @@ function sociable_html2($display=Array()) {
 		} else {
 			$description = $sitename;
 		}
-		$link = "<li>";		
+		$link = "<li>";
 		$link .= "<a rel=\"nofollow\"";
 		if (get_option('sociable_usetargetblank')) {
 			$link .= " target=\"_blank\"";
@@ -65,7 +65,7 @@ function sociable_html2($display=Array()) {
 			$link .= " sociable_{$site['class']}";
 		$link .= "\" />";
 		$link .= "</a></li>";
-		
+
 		$html .= "\t".apply_filters('sociable_link',$link)."\n";
 	}
 

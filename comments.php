@@ -13,11 +13,11 @@ global $bfa_ata;
 ?>
 
 <?php // If there are any comments
-$bfa_page_comment_open = 0;  
+$bfa_page_comment_open = 0;
 if ( is_page() and ('open' == $post->comment_status)) {
 	 $bfa_page_comment_open = 1; }
 else {
-	$bfa_page_comment_open = 0;} 
+	$bfa_page_comment_open = 0;}
 
 if ( have_comments() ) : ?>
 
@@ -31,7 +31,7 @@ if ( have_comments() ) : ?>
 
 	<!-- Comment List -->
 	<ul class="commentlist">
-		
+
 	<?php // Do this for every comment
 	if ($bfa_ata['separate_trackbacks'] == "Yes") {
 
@@ -39,7 +39,7 @@ if ( have_comments() ) : ?>
 			'avatar_size'=>$bfa_ata['avatar_size'],
 			'reply_text'=>__(' &middot; Reply','atahualpa'),
 			'login_text'=>__('Log in to Reply','atahualpa'),
-			'callback' => 'bfa_comments', 
+			'callback' => 'bfa_comments',
 			'type' => 'comment'
 			));
 
@@ -47,7 +47,7 @@ if ( have_comments() ) : ?>
 			'avatar_size'=>$bfa_ata['avatar_size'],
 			'reply_text'=>__(' &middot; Reply','atahualpa'),
 			'login_text'=>__('Log in to Reply','atahualpa'),
-			'callback' => 'bfa_comments', 
+			'callback' => 'bfa_comments',
 			'type' => 'pings'
 			));
 
@@ -57,12 +57,12 @@ if ( have_comments() ) : ?>
 			'avatar_size'=>$bfa_ata['avatar_size'],
 			'reply_text'=>__(' &middot; Reply','atahualpa'),
 			'login_text'=>__('Log in to Reply','atahualpa'),
-			'callback' => 'bfa_comments', 
+			'callback' => 'bfa_comments',
 			'type' => 'all'
 			));
 
 	} ?>
-	
+
 	</ul>
 	<!-- / Comment List -->
 
@@ -82,8 +82,8 @@ if ( ('open' == $post->comment_status) ) : ?>
 
 <?php endif; // END of "If there are NO comments" ?>
 
-<?php 
-// Since 3.6.1: Configuring the new comment_form() function, 
+<?php
+// Since 3.6.1: Configuring the new comment_form() function,
 // instead of using it with the default settings. See also http://codex.wordpress.org/Function_Reference/comment_form
 ?>
 
@@ -92,17 +92,17 @@ if ( ('open' == $post->comment_status) ) : ?>
 global $aria_req, $post_id, $required_text;
 // author, email and url fields are set in a separate variable first:
 $fields =  array(
-	'author' => '<p><input class="text author" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' tabindex="1" />' . 
+	'author' => '<p><input class="text author" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' tabindex="1" />' .
 				'&nbsp;&nbsp;<label for="author"><strong>' . __( 'Name ' ,'atahualpa') . '</strong> ' . ( $req ? __('(required)','atahualpa') : '' ) . '</label></p>',
-	'email'  => '<p><input class="text email" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . '  tabindex="2" />' . 
+	'email'  => '<p><input class="text email" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . '  tabindex="2" />' .
 				'&nbsp;&nbsp;<label for="email"><strong>' . __( 'Email' ,'atahualpa') . '</strong> ' . ( $req ? __('(will not be published) (required)','atahualpa') : '' ) . '</label></p>',
-	'url'    => '<p><input class="text url" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30"  tabindex="3" />' . 
+	'url'    => '<p><input class="text url" id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30"  tabindex="3" />' .
 				'&nbsp;&nbsp;<label for="url">' . __( 'Website','atahualpa' ) . '</label></p>'
-); 
+);
 
-if ($bfa_ata['show_xhtml_tags'] == "Yes") {	
+if ($bfa_ata['show_xhtml_tags'] == "Yes") {
 	$comment_notes_after = '
-		<p class="thesetags clearfix">' . 
+		<p class="thesetags clearfix">' .
 		sprintf(__('You can use %1$sthese HTML tags</a>','atahualpa'),
 		'<a class="xhtmltags" href="#" onclick="return false;">') . '</p>
 		<div class="xhtml-tags"><p><code>' . allowed_tags() . '
@@ -128,6 +128,6 @@ $comment_form_settings = array(
 );
 ?>
 
-<?php // Using the new function comment_form() with the custom settings $comment_form_settings 
-comment_form($comment_form_settings); 
+<?php // Using the new function comment_form() with the custom settings $comment_form_settings
+comment_form($comment_form_settings);
 ?>

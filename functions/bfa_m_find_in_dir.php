@@ -10,7 +10,7 @@ function bfa_m_find_in_dir( $base, $pattern, $recursive = true, $case_sensitive 
             return false;
         }
     }
-   
+
     return $result;
 }
 
@@ -27,7 +27,7 @@ function bfa_m_find_in_dir_( $base, $pattern, $recursive, &$result ) {
             continue;
         }
 //		Note: ereg() is depreciated in php 5.3
-//      if( false !== @ereg( $pattern, "{$base}/{$file}" )) { 
+//      if( false !== @ereg( $pattern, "{$base}/{$file}" )) {
         if( false !== @preg_match( '/'.$pattern.'/', "{$base}/{$file}" )) {
             $result[] = "{$base}/{$file}";
         }
@@ -52,7 +52,7 @@ function bfa_m_find_in_dir_i_( $base, $pattern, $recursive, &$result ) {
             continue;
         }
 //		Note: ergi() is depreciated in php 5.3
-//      if( false !== @eregi( $pattern, "{$base}/{$file}" )) { 
+//      if( false !== @eregi( $pattern, "{$base}/{$file}" )) {
         if( false !== @preg_match( '/'.$pattern.'/i', "{$base}/{$file}" )) {
             $result[] = "{$base}/{$file}";
         }

@@ -5,7 +5,7 @@ global $bfa_ata, $post;
 
    $GLOBALS['comment'] = $comment; ?>
 		<li <?php comment_class($class='clearfix') ?> id="comment-<?php comment_ID(); ?>">
-		<div id="div-comment-<?php comment_ID(); ?>" class="clearfix comment-container<?php 
+		<div id="div-comment-<?php comment_ID(); ?>" class="clearfix comment-container<?php
 		$comment = get_comment($comment_id);
 		if ( $comment->user_id === $post->post_author )
 			echo ' bypostauthor';
@@ -21,7 +21,7 @@ global $bfa_ata, $post;
 		<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
 		<?php printf(__('%1$s at %2$s','atahualpa'), get_comment_date(),  get_comment_time()) ?></a>
         <?php echo comment_reply_link(array('before' => '<span class="comment-reply-link">', 'after' => '</span>', 'reply_text' => $bfa_ata['comment_reply_link_text'], 'depth' => $depth, 'max_depth' => $args['max_depth'] ));  ?>
-		<?php edit_comment_link($bfa_ata['comment_edit_link_text'],'<span class="comment-edit-link">','</span>') ?> 
+		<?php edit_comment_link($bfa_ata['comment_edit_link_text'],'<span class="comment-edit-link">','</span>') ?>
 		</div>
 		<?php comment_text() ?>
 		</div>

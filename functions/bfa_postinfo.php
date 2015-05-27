@@ -1,9 +1,9 @@
 <?php
 // Callback function for image replacement
 function bfa_image_files($matches) {
-	$templateURI = get_template_directory_uri(); 
+	$templateURI = get_template_directory_uri();
 
-	return '<img src="' . $templateURI . 
+	return '<img src="' . $templateURI .
 	'/images/icons/' . $matches[1] . '" alt="" />';
 }
 
@@ -16,19 +16,19 @@ function bfa_meta_value($matches) {
 
 // Date callback
 function bfa_parse_date_callback( $matches ) {
-	ob_start(); 
-		the_time($matches[2]); 
-		$date = ob_get_contents(); 
-	ob_end_clean();	
+	ob_start();
+		the_time($matches[2]);
+		$date = ob_get_contents();
+	ob_end_clean();
 	return $date;
 }
 
 // Date modified callback
 function bfa_parse_date_modified_callback( $matches ) {
-	ob_start(); 
-		the_modified_time($matches[2]); 
-		$date_modified = ob_get_contents(); 
-	ob_end_clean();	
+	ob_start();
+		the_modified_time($matches[2]);
+		$date_modified = ob_get_contents();
+	ob_end_clean();
 	return $date_modified;
 }
 
@@ -48,20 +48,20 @@ function bfa_postinfo($postinfo_string) {
 
 	// Author public name
 	if ( strpos($postinfo_string,'%author%') !== FALSE ) {
-		ob_start(); 
-			the_author(); 
-			$author = ob_get_contents(); 
+		ob_start();
+			the_author();
+			$author = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author%", $author, $postinfo);
 	}
 
-	// Public name of Author who last modified a post, since WordPress 2.8. 
+	// Public name of Author who last modified a post, since WordPress 2.8.
 	// Check first if function is available (= if this is WP 2.8+)
-	if ( function_exists('the_modified_author') ) { 
+	if ( function_exists('the_modified_author') ) {
 		if ( strpos($postinfo_string,'%modified-author%') !== FALSE ) {
-			ob_start(); 
-				the_modified_author(); 
-				$modified_author = ob_get_contents(); 
+			ob_start();
+				the_modified_author();
+				$modified_author = ob_get_contents();
 			ob_end_clean();
 			$postinfo = str_replace("%modified-author%", $modified_author, $postinfo);
 		}
@@ -69,63 +69,63 @@ function bfa_postinfo($postinfo_string) {
 
 	// Author about yourself
 	if ( strpos($postinfo_string,'%author-description%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('description'); 
-			$author_description = ob_get_contents(); 
+		ob_start();
+			the_author_meta('description');
+			$author_description = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-description%", $author_description, $postinfo);
 	}
 
 	// Author login name
 	if ( strpos($postinfo_string,'%author-login%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('user_login'); 
-			$author_login = ob_get_contents(); 
+		ob_start();
+			the_author_meta('user_login');
+			$author_login = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-login%", $author_login, $postinfo);
 	}
 
 	// Author first name
 	if ( strpos($postinfo_string,'%author-firstname%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('first_name'); 
-			$author_firstname = ob_get_contents(); 
+		ob_start();
+			the_author_meta('first_name');
+			$author_firstname = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-firstname%", $author_firstname, $postinfo);
 	}
 
 	// Author last name
 	if ( strpos($postinfo_string,'%author-lastname%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('last_name'); 
-			$author_lastname = ob_get_contents(); 
+		ob_start();
+			the_author_meta('last_name');
+			$author_lastname = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-lastname%", $author_lastname, $postinfo);
 	}
 
 	// Author nickname
 	if ( strpos($postinfo_string,'%author-nickname%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('nickname'); 
-		 	$author_nickname = ob_get_contents(); 
+		ob_start();
+			the_author_meta('nickname');
+		 	$author_nickname = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-nickname%", $author_nickname, $postinfo);
 	}
 
 	// Author ID
 	if ( strpos($postinfo_string,'%author-id%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('ID'); 
-			$author_ID = ob_get_contents(); 
+		ob_start();
+			the_author_meta('ID');
+			$author_ID = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-id%", $author_ID, $postinfo);
 	}
 
 	// Author email address, clear text in HTML source code
 	if ( strpos($postinfo_string,'%author-email-clear%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('email'); 
-			$author_email_clear = ob_get_contents(); 
+		ob_start();
+			the_author_meta('email');
+			$author_email_clear = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-email-clear%", $author_email_clear, $postinfo);
 	}
@@ -137,73 +137,73 @@ function bfa_postinfo($postinfo_string) {
 
 	// Author website URL
 	if ( strpos($postinfo_string,'%author-url%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('url'); 
-			$author_url = ob_get_contents(); 
+		ob_start();
+			the_author_meta('url');
+			$author_url = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-url%", $author_url, $postinfo);
 	}
 
 	// Author website link
 	if ( strpos($postinfo_string,'%author-link%') !== FALSE ) {
-		ob_start(); 
-			the_author_link(); 
-			$author_link = ob_get_contents(); 
+		ob_start();
+			the_author_link();
+			$author_link = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-link%", $author_link, $postinfo);
 	}
 
 	// Author posts archive link
 	if ( strpos($postinfo_string,'%author-posts-link%') !== FALSE ) {
-		ob_start(); 
-			the_author_posts_link(); 
-			$author_posts_link = ob_get_contents(); 
+		ob_start();
+			the_author_posts_link();
+			$author_posts_link = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-posts-link%", $author_posts_link, $postinfo);
 	}
-	
+
 	//  LEGACY: %author-linked% replaced by %author-posts-link% in 3.3.2, but displays the same: Author posts archive link
 	if ( strpos($postinfo_string,'%author-linked%') !== FALSE ) {
-		ob_start(); 
-			the_author_posts_link(); 
-			$author_posts_link = ob_get_contents(); 
+		ob_start();
+			the_author_posts_link();
+			$author_posts_link = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-linked%", $author_posts_link, $postinfo);
 	}
 
 	// Author post count
 	if ( strpos($postinfo_string,'%author-post-count%') !== FALSE ) {
-		ob_start(); 
-			the_author_posts(); 
-			$author_post_count = ob_get_contents(); 
+		ob_start();
+			the_author_posts();
+			$author_post_count = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-post-count%", $author_post_count, $postinfo);
 	}
 
 	// Author AOL Instant Messenger screenname
 	if ( strpos($postinfo_string,'%author-aim%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('aim'); 
-			$author_aim = ob_get_contents(); 
+		ob_start();
+			the_author_meta('aim');
+			$author_aim = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-aim%", $author_aim, $postinfo);
 	}
 
 	// Author Yahoo IM ID
 	if ( strpos($postinfo_string,'%author-yim%') !== FALSE ) {
-		ob_start(); 
-			the_author_meta('yim'); 
-			$author_yim = ob_get_contents(); 
+		ob_start();
+			the_author_meta('yim');
+			$author_yim = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%author-yim%", $author_yim, $postinfo);
 	}
 
-    // Author Gravatar 
-    if (strpos($postinfo_string, '%gravatar%') !== FALSE) { 
-        $gravatar = get_avatar(get_the_author_meta('ID'), 30); 
-        $postinfo = str_replace("%gravatar%", $gravatar, $postinfo); 
-    }  
-	
+    // Author Gravatar
+    if (strpos($postinfo_string, '%gravatar%') !== FALSE) {
+        $gravatar = get_avatar(get_the_author_meta('ID'), 30);
+        $postinfo = str_replace("%gravatar%", $gravatar, $postinfo);
+    }
+
 	// Date & Time
 	if ( strpos($postinfo_string,'%date(') !== FALSE ) {
 		$postinfo = preg_replace_callback("/%date\((.*?)'(.*?)'(.*?)\)%/is","bfa_parse_date_callback",$postinfo);
@@ -212,7 +212,7 @@ function bfa_postinfo($postinfo_string) {
 	// Date & Time, last modified
 	if ( strpos($postinfo_string,'%date-modified(') !== FALSE ) {
 		$postinfo = preg_replace_callback("/%date-modified\((.*?)'(.*?)'(.*?)\)%/is","bfa_parse_date_modified_callback",$postinfo);
-	}	
+	}
 
 	// Tags, linked - since WP 2.3
 	if ( strpos($postinfo_string,'%tags-linked') !== FALSE ) {
@@ -223,7 +223,7 @@ function bfa_postinfo($postinfo_string) {
 			$tag_link_matches[6]);
 			$postinfo = preg_replace("/(.*)%tags-linked\((.*?)\)%(.*)/i", "\${1}" .
 			$tags_linked. "\${3}", $postinfo);
-		}	
+		}
 	}
 
 	// Tags, linked. If post has no tags, categories are displayed instead -  since WP 2.3
@@ -231,9 +231,9 @@ function bfa_postinfo($postinfo_string) {
 		while ( strpos($postinfo,'%tags-cats-linked') !== FALSE ) {
 			$tag_link_options = preg_match("/(.*)%tags-cats-linked\('(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*)/i",
 			$postinfo_string,$tag_link_matches);
-			ob_start(); 
-				the_tags($tag_link_matches[2], $tag_link_matches[4], $tag_link_matches[6]); 
-				$tags_cats_linked = ob_get_contents(); 
+			ob_start();
+				the_tags($tag_link_matches[2], $tag_link_matches[4], $tag_link_matches[6]);
+				$tags_cats_linked = ob_get_contents();
 			ob_end_clean();
 			$postinfo = preg_replace("/(.*)%tags-cats-linked\((.*?)\)%(.*)/i", "\${1}" .
 			$tags_cats_linked. "\${3}", $postinfo);
@@ -243,58 +243,58 @@ function bfa_postinfo($postinfo_string) {
 	// Tags, not linked - since WP 2.3
 	if ( strpos($postinfo_string,'%tags(') !== FALSE ) {
 		while ( strpos($postinfo,'%tags(') !== FALSE ) {
-		
+
 			$tag_options = preg_match("/(.*)%tags\('(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*)/i",
 			$postinfo_string,$tag_matches);
 			$posttags = get_the_tags();
-		
-			if ($posttags) { 
+
+			if ($posttags) {
 				foreach($posttags as $tag) {
-				$tag_list .= $tag->name . $tag_matches[4]; 
+				$tag_list .= $tag->name . $tag_matches[4];
 				}
 				// remove last separator
 				$tag_list = preg_replace("/".$tag_matches[4]."$/mi", "", $tag_list);
 				$tags = $tag_matches[2] . $tag_list . $tag_matches[6];
-			} else { 
-				$tags = ""; 
+			} else {
+				$tags = "";
 			}
 			$postinfo = preg_replace("/(.*)%tags\((.*?)\)%(.*)/i", "\${1}" .$tags.
 			"\${3}", $postinfo);
-		}		
+		}
 	}
 
 	// 1st category
 	if ( strpos($postinfo_string,'%category%') !== FALSE ) {
-		$all_categories = get_the_category(); 
+		$all_categories = get_the_category();
 		$category = $all_categories[0]->cat_name;
-		$category_notlinked = $category; 
+		$category_notlinked = $category;
 		$postinfo = str_replace("%category%", $category_notlinked, $postinfo);
 	}
 
 	// 1st category, linked
 	if ( strpos($postinfo_string,'%category-linked%') !== FALSE ) {
-		$all_categories = get_the_category(); 
+		$all_categories = get_the_category();
 		$category = $all_categories[0]->cat_name;
 		$category_linked = '<a class="'.$category . '" href="' . get_category_link($all_categories[0]->cat_ID) .
         '">' . $category . '</a>';
 		$postinfo = str_replace("%category-linked%", $category_linked, $postinfo);
 	}
 
-	// Categories, linked with class name added 
+	// Categories, linked with class name added
 	$categories_linked = '';
 	if ( strpos($postinfo_string,'%categories-linked') !== FALSE ) {
 		while ( strpos($postinfo,'%categories-linked') !== FALSE ) {
 			$category_linked_separator = preg_match("/(.*)%categories-linked\('(.*?)'\)(.*)/i",
 	        $postinfo_string,$category_linked_matches);
-			ob_start(); 
+			ob_start();
 			$categories = get_the_category();
 			$items_in_categories = count($categories);
 			$output = '';
 			$categories_count = $items_in_categories;
 			if($categories){
-				foreach($categories as $category) { 
+				foreach($categories as $category) {
 					$categories_count -= 1;
-					if ($categories_count) { 
+					if ($categories_count) {
 					  $seperator = $category_linked_matches[2];
 					  }
 					else {$seperator = '';}
@@ -313,9 +313,9 @@ function bfa_postinfo($postinfo_string) {
 			$category_separator = preg_match("/(.*)%categories\('(.*?)'\)(.*)/i",
 	        $postinfo_string,$category_matches);
 			$categories = "";
-			foreach((get_the_category()) as $category) { 
-				$categories .= $category->cat_name . $category_matches[2]; 
-			} 
+			foreach((get_the_category()) as $category) {
+				$categories .= $category->cat_name . $category_matches[2];
+			}
 			// remove last separator
 			$categories = preg_replace("/".$category_matches[2]."$/mi", "", $categories);
 			$postinfo = preg_replace("/(.*)%categories\((.*?)\)%(.*)/i", "\${1}" .
@@ -326,18 +326,18 @@ function bfa_postinfo($postinfo_string) {
 	// Comment link
 	if ( strpos($postinfo_string,'%comments(') !== FALSE ) {
 		while ( strpos($postinfo,'%comments(') !== FALSE ) {
-		
+
 			$comment_options = preg_match("/(.*)%comments\('(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*)/i",
 	        $postinfo_string,$comment_matches);
-        
-			if ( !comments_open() AND $comment_matches[8] == "dontshow" ) { 
-				$comment_link = ''; 
-			} else { 
-				ob_start(); 
+
+			if ( !comments_open() AND $comment_matches[8] == "dontshow" ) {
+				$comment_link = '';
+			} else {
+				ob_start();
 					comments_popup_link($comment_matches[2], $comment_matches[4],
     	     		 $comment_matches[6], 'comments-link', $comment_matches[8]);
-					$comment_link = ob_get_contents(); 
-				ob_end_clean(); 
+					$comment_link = ob_get_contents();
+				ob_end_clean();
 			}
 
 			if (!comments_open() ) {
@@ -347,10 +347,10 @@ function bfa_postinfo($postinfo_string) {
 					$comment_link = $comment_link . ' - <strong>(' . $comment_matches[8] . ')</strong>';
 					}
 			}
-			if ( !comments_open() AND $comment_matches[8] == "dontshow" ) { 
-				$comment_link = ''; 
+			if ( !comments_open() AND $comment_matches[8] == "dontshow" ) {
+				$comment_link = '';
 			}
-		
+
 			$postinfo = preg_replace("/(.*)%comments\((.*?)\)%(.*)/i", "\${1}" .
     	    $comment_link. "\${3}", $postinfo);
         }
@@ -359,19 +359,19 @@ function bfa_postinfo($postinfo_string) {
 	// Comments Feed link
 	if ( strpos($postinfo_string,'%comments-rss') !== FALSE ) {
 		while ( strpos($postinfo,'%comments-rss') !== FALSE ) {
-		
+
 			$comments_rss_link_text = preg_match("/(.*)%comments-rss\('(.*?)'(.*)/i",
 	        $postinfo_string,$comments_rss_matches);
-        
-			ob_start(); 
-				post_comments_feed_link($comments_rss_matches[2]); 
-				$comments_rss_link = ob_get_contents(); 
+
+			ob_start();
+				post_comments_feed_link($comments_rss_matches[2]);
+				$comments_rss_link = ob_get_contents();
 			ob_end_clean();
-			
+
 			// make link nofollow if set in theme options
-			if ( $bfa_ata['nofollow'] == "Yes" ) 
+			if ( $bfa_ata['nofollow'] == "Yes" )
 				$comments_rss_link = str_replace('href=', 'rel="nofollow" href=', $comments_rss_link);
-			
+
 			$postinfo = preg_replace("/(.*)%comments-rss\((.*?)\)%(.*)/i", "\${1}" .
         	$comments_rss_link. "\${3}", $postinfo);
 		}
@@ -390,12 +390,12 @@ function bfa_postinfo($postinfo_string) {
 			$trackback_link_text = preg_match("/(.*)%trackback-linked\('(.*?)'(.*)/i",
    	     $postinfo_string,$trackback_matches);
 			$trackback_link = '<a href="' . $trackback_url . '">' . $trackback_matches[2] . '</a>';
-		
+
 			// make link nofollow if set in theme options
 			if ( $bfa_ata['nofollow'] == "Yes" ) {
-				$trackback_link = str_replace('href=', 'rel="nofollow" href=', $trackback_link); 
+				$trackback_link = str_replace('href=', 'rel="nofollow" href=', $trackback_link);
 			}
-		
+
 			$postinfo = preg_replace("/(.*)%trackback-linked\((.*?)\)%(.*)/i", "\${1}" .
 	        $trackback_link. "\${3}", $postinfo);
 		}
@@ -403,36 +403,36 @@ function bfa_postinfo($postinfo_string) {
 
 	// Trackback RDF
 	if ( strpos($postinfo_string,'%trackback-rdf%') !== FALSE ) {
-		ob_start(); 
-			trackback_rdf(); 
-			$trackback_rdf = "<!-- " . ob_get_contents() . " -->"; 
+		ob_start();
+			trackback_rdf();
+			$trackback_rdf = "<!-- " . ob_get_contents() . " -->";
 		ob_end_clean();
 		$postinfo = str_replace("%trackback-rdf%", $trackback_rdf, $postinfo);
 	}
 
 	// Permalink
 	if ( strpos($postinfo_string,'%permalink%') !== FALSE ) {
-		ob_start(); 
-			the_permalink(); 
-			$permalink = ob_get_contents(); 
+		ob_start();
+			the_permalink();
+			$permalink = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%permalink%", $permalink, $postinfo);
 	}
 
 	// Post ID
 	if ( strpos($postinfo_string,'%post-id%') !== FALSE ) {
-		ob_start(); 
-			the_ID(); 
-			$post_id = ob_get_contents(); 
+		ob_start();
+			the_ID();
+			$post_id = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%post-id%", $post_id, $postinfo);
 	}
 
 	// Post Title
 	if ( strpos($postinfo_string,'%post-title%') !== FALSE ) {
-		ob_start(); 
-			the_title(); 
-			$post_title = ob_get_contents(); 
+		ob_start();
+			the_title();
+			$post_title = ob_get_contents();
 		ob_end_clean();
 		$postinfo = str_replace("%post-title%", $post_title, $postinfo);
 	}
@@ -442,7 +442,7 @@ function bfa_postinfo($postinfo_string) {
 		while ( strpos($postinfo,'%edit(') !== FALSE ) {
 			$edit_options = preg_match("/(.*)%edit\('(.*?)'(.*?)'(.*?)'(.*?)'(.*?)'(.*)/i",
 	        $postinfo_string,$edit_matches);
-			ob_start(); 
+			ob_start();
 				edit_post_link($edit_matches[4], $edit_matches[2], $edit_matches[6]);
 	        	$edit_link = ob_get_contents();
 			ob_end_clean();
@@ -490,7 +490,7 @@ function bfa_postinfo($postinfo_string) {
 
 	// For the "Sociable" plugin
 	if ( strpos($postinfo_string,'%sociable%') !== FALSE ) {
-		ob_start(); 
+		ob_start();
 			$sociable = ( (function_exists('sociable_html2') AND function_exists( do_sociable() ) ) ? do_sociable() : "");
 			$sociable = ob_get_contents();
 		ob_end_clean();
@@ -500,26 +500,26 @@ function bfa_postinfo($postinfo_string) {
 	// For the "Share This" plugin
 	if ( strpos($postinfo_string,'%share-this%') !== FALSE ) {
 		ob_start();
-			if ( function_exists('sharethis_button') ) { 
-				sharethis_button(); 
-				$share_this = ob_get_contents(); 
-			} else { 
-				$share_this = ""; 
+			if ( function_exists('sharethis_button') ) {
+				sharethis_button();
+				$share_this = ob_get_contents();
+			} else {
+				$share_this = "";
 			}
 		ob_end_clean();
 		$postinfo = str_replace("%share-this%", $share_this, $postinfo);
-	} 
+	}
 
 	// Images
-	if ( strpos($postinfo_string,'<image(') !== FALSE ) 
+	if ( strpos($postinfo_string,'<image(') !== FALSE )
 		$postinfo = preg_replace_callback("|<image\((.*?)\)>|","bfa_image_files",$postinfo);
 
 	/* The meta = ALL custom fields:values, formatted by Wordpress as
 	unordered list <ul><li>..</li><li>..</li></ul> */
 	if ( strpos($postinfo_string,'%meta%') !== FALSE ) {
-		ob_start(); 
-			the_meta(); 
-			$the_meta = ob_get_contents(); 
+		ob_start();
+			the_meta();
+			$the_meta = ob_get_contents();
 		ob_end_clean();
 		// 3.4.3.: remove bfa_ata metas */
 		$the_meta = preg_replace("/<li>(.*)bfa_ata(.*)<\/li>/i", "", $the_meta);
@@ -527,12 +527,12 @@ function bfa_postinfo($postinfo_string) {
 	}
 
 	// Single post meta values, not formatted
-	if ( strpos($postinfo_string,'%meta(') !== FALSE ) 
+	if ( strpos($postinfo_string,'%meta(') !== FALSE )
 		$postinfo = preg_replace_callback("|%meta\('(.*?)'\)%|","bfa_meta_value",$postinfo);
 
 	// Since 3.6.7, parse widget areas
-	$postinfo = bfa_parse_widget_areas($postinfo);	
-		
+	$postinfo = bfa_parse_widget_areas($postinfo);
+
 	return $postinfo;
 }
 

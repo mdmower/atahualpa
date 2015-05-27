@@ -2,14 +2,14 @@
 /*
 Plugin Name: BFA Popular Posts
 Plugin URI: http://wordpress.bytesforall.com/
-Description: Configurable WordPress widget that displays the most popular posts based on the number of comments 
+Description: Configurable WordPress widget that displays the most popular posts based on the number of comments
 Version: 1.0
 Author: BFA Webdesign
 Author URI: http://www.bytesforall.com/
 */
 /*
 Based on Plugin "Most Commented" by Nick Momrik http://mtdewvirus.com/ Version 1.5
-and the modification Last X days by DJ Chuang www.djchuang.com 
+and the modification Last X days by DJ Chuang www.djchuang.com
 */
 
 
@@ -37,21 +37,21 @@ and the modification Last X days by DJ Chuang www.djchuang.com
 	  $bfa_pp_display_search = $bfa_pp_options['bfa_pp_display_search'];
 	  $bfa_pp_display_author = $bfa_pp_options['bfa_pp_display_author'];
 	  $bfa_pp_display_404 = $bfa_pp_options['bfa_pp_display_404'];
-	  	  
+
 	  global $wpdb;
 
 
 		$bfa_pp_request = "SELECT ID, post_title, comment_count FROM $wpdb->posts";
 		$bfa_pp_request .= " WHERE post_status = 'publish' AND comment_count >= $bfa_pp_min_amount_comments";
 		$bfa_pp_request .= " AND post_password =''";
-	
+
 		if ($bfa_pp_duration !="") $bfa_pp_request .= " AND DATE_SUB(CURDATE(),INTERVAL ".$bfa_pp_duration." DAY) < post_date ";
-	
+
 		$bfa_pp_request .= " ORDER BY comment_count DESC LIMIT $bfa_pp_no_posts";
 		$bfa_pp_posts = $wpdb->get_results($bfa_pp_request);
 
 		$widget_mdv_most_commented = '';
-		
+
 		if ($bfa_pp_posts) {
 			foreach ($bfa_pp_posts as $bfa_pp_post) {
 				$bfa_pp_post_title = stripslashes($bfa_pp_post->post_title);
@@ -62,10 +62,10 @@ and the modification Last X days by DJ Chuang www.djchuang.com
 		} else {
 			$widget_mdv_most_commented = "None found";
 		}
-	
+
 
     if ($widget_mdv_most_commented != "None found") {
-    echo $before_widget . $before_title . $bfa_pp_title . $after_title;	
+    echo $before_widget . $before_title . $bfa_pp_title . $after_title;
     echo "<ul>" . $widget_mdv_most_commented . "</ul>";
     echo $after_widget;
     } else { return $widget_mdv_most_commented; }
@@ -93,7 +93,7 @@ and the modification Last X days by DJ Chuang www.djchuang.com
 	    $bfa_pp_newoptions['bfa_pp_display_search'] = !isset($_POST["bfa_pp_display_search"]) ? NULL : $_POST["bfa_pp_display_search"];
 	    $bfa_pp_newoptions['bfa_pp_display_author'] = !isset($_POST["bfa_pp_display_author"]) ? NULL : $_POST["bfa_pp_display_author"];
 	    $bfa_pp_newoptions['bfa_pp_display_404'] = !isset($_POST["bfa_pp_display_404"]) ? NULL : $_POST["bfa_pp_display_404"];
-	    	    	    	    
+
 	  }
 	  if ( $bfa_pp_options != $bfa_pp_newoptions ) {
 	    $bfa_pp_options = $bfa_pp_newoptions;
@@ -112,18 +112,18 @@ and the modification Last X days by DJ Chuang www.djchuang.com
 	  if(isset($bfa_pp_options['bfa_pp_display_post'])) $bfa_pp_display_post = $bfa_pp_options['bfa_pp_display_post'];
 	  if(isset($bfa_pp_options['bfa_pp_display_page'])) $bfa_pp_display_page = $bfa_pp_options['bfa_pp_display_page'];
 	  if(isset($bfa_pp_options['bfa_pp_display_archive'])) $bfa_pp_display_archive = $bfa_pp_options['bfa_pp_display_archive'];
-	  if(isset($bfa_pp_options['bfa_pp_display_tag'])) $bfa_pp_display_tag = $bfa_pp_options['bfa_pp_display_tag'];	  
+	  if(isset($bfa_pp_options['bfa_pp_display_tag'])) $bfa_pp_display_tag = $bfa_pp_options['bfa_pp_display_tag'];
 	  if(isset($bfa_pp_options['bfa_pp_display_search'])) $bfa_pp_display_search = $bfa_pp_options['bfa_pp_display_search'];
 	  if(isset($bfa_pp_options['bfa_pp_display_author'])) $bfa_pp_display_author = $bfa_pp_options['bfa_pp_display_author'];
 	  if(isset($bfa_pp_options['bfa_pp_display_404'])) $bfa_pp_display_404 = $bfa_pp_options['bfa_pp_display_404'];
-	  	  
+
 	  // Deal with HTML in the parameters
 	  if(isset($bfa_pp_options['bfa_pp_title'])) $bfa_pp_title = htmlspecialchars($bfa_pp_options['bfa_pp_title'], ENT_QUOTES);
 
 ?>
 	    Title: <input style="width: 450px;" id="bfa_pp_src-title" name="bfa_pp_src-title" type="text" value="<?php echo $bfa_pp_title; ?>" />
             <hr noshade size="1" style="clear:left; color: #ccc">
-            <p style="text-align: left;">Show <input style="width: 40px;" id="bfa_pp_no_posts" name="bfa_pp_no_posts" type="text" value="<?php echo $bfa_pp_no_posts; ?>" /> 
+            <p style="text-align: left;">Show <input style="width: 40px;" id="bfa_pp_no_posts" name="bfa_pp_no_posts" type="text" value="<?php echo $bfa_pp_no_posts; ?>" />
             posts not older than <input style="width: 60px;" id="bfa_pp_duration" name="bfa_pp_duration" type="text" value="<?php echo $bfa_pp_duration; ?>" /> days and with at least&nbsp;
    	    <input style="width: 40px;" id="bfa_pp_min_amount_comments" name="bfa_pp_min_amount_comments" type="text" value="<?php echo $bfa_pp_min_amount_comments; ?>" /> comment(s)
    	    </p>
@@ -142,9 +142,9 @@ and the modification Last X days by DJ Chuang www.djchuang.com
   	    <input type="hidden" id="bfa_pp_src-submit" name="bfa_pp_src-submit" value="1" />
 <?php
 	 }
-	
+
 	$widget_ops = array('classname' => 'widget_popular_posts', 'description' => __("Lists most commented posts overall","atahualpa") );
 	$control_ops = array('width' => 600, 'height' => 500);
 	wp_register_sidebar_widget('popular_posts', __('BFA Popular posts','atahualpa'), 'widget_mdv_most_commented', $widget_ops);
-	wp_register_widget_control('popular_posts', __('BFA Popular posts','atahualpa'), 'widget_mdv_most_commented_control', $control_ops);	
+	wp_register_widget_control('popular_posts', __('BFA Popular posts','atahualpa'), 'widget_mdv_most_commented_control', $control_ops);
 ?>

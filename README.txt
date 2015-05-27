@@ -1,4 +1,4 @@
-Wordpress Theme "Atahualpa" 
+Wordpress Theme "Atahualpa"
 
 VISIT THE SUPPORT FORUMS AT http://forum.bytesforall.com/
 
@@ -12,7 +12,7 @@ To manually upgrade the theme
 -------------------------
 1) download the new version of the theme
 2) unzip the file
-3) copy any images you have added in a prior release to the 'images/header' folder. If using a different folder this step is not needed. 
+3) copy any images you have added in a prior release to the 'images/header' folder. If using a different folder this step is not needed.
 See the forums for directions.
 4) if you have added any other files (templates, icons) copy them to the same folder in the new version - unless you are using the method to store them elsewhere. See the forums for directions.
 5) Make sure the Atahualpa folder is named with the version number i.e atahualpa3712
@@ -29,14 +29,14 @@ You can now check out the new version. If something is wrong, you can simply go 
 
 #####################################################################
 
-1. Extract the file "atahualpaXXX.zip", "atahualpa.zip" or similar 
+1. Extract the file "atahualpaXXX.zip", "atahualpa.zip" or similar
 on your desktop computer, i.e. with WinZip or 7-zip
 
-This will create a directory named atahualpa (or atahualpaXX) with many 
-files and subdirectories. 
+This will create a directory named atahualpa (or atahualpaXX) with many
+files and subdirectories.
 
-From now on we'll call this directory "atahualpa" although it might be 
-"atahualpa3712" or whatever for you. 
+From now on we'll call this directory "atahualpa" although it might be
+"atahualpa3712" or whatever for you.
 
 #####################################################################
 
@@ -60,11 +60,11 @@ be http://www.your-domain.com/blog/wp-admin/
 
 #####################################################################
 
-4. Reload your blog homepage and see if the theme is active. If not, 
+4. Reload your blog homepage and see if the theme is active. If not,
 repeat the steps above or post at http://forum.bytesforall.com/
 
 If it looks broken, it may be a matter of setting the theme options.
-If the sidebars look empty, you may need to add widgets. 
+If the sidebars look empty, you may need to add widgets.
 
 #####################################################################
 
@@ -90,16 +90,16 @@ Provides a Feedburner "Subscribe by Email" form, plus Posts and
 Comments RSS links & buttons
 
 A widget is a content block that you can drag and drop into one
-of the sidebars. All widgets, the 4 BFA widgets and the default 
+of the sidebars. All widgets, the 4 BFA widgets and the default
 WordPress widgets, can be found at:
 
 Your Blog -> Site Admin -> Appearance -> Widgets
- 
+
 #####################################################################
 
 7. OPTIONAL: Install additional plugins to enhance your blog
 
-Atahualpa should work with just about any plugin. Besides that it 
+Atahualpa should work with just about any plugin. Besides that it
 has improved plug & play support for these plugins:
 
 WP-PageNavi
@@ -119,16 +119,16 @@ http://wordpress.org/extend/plugins/wp-postratings/
 
 Sociable
 http://wordpress.org/extend/plugins/sociable/
-Go to the settings page at Settings -> Sociable and 
+Go to the settings page at Settings -> Sociable and
 uncheck all boxes in the sections "Position:" and "Use CSS:"
 
 LMB^Box Comment Quicktags
 http://wordpress.org/extend/plugins/lmbbox-comment-quicktags/
 
-Optional: Edit lmbbox-comment-quicktags.php: 
+Optional: Edit lmbbox-comment-quicktags.php:
 1) To remove the link "Quicktags", delete the line 243
 <a href="http://codex.wordpress.org/index.php/Write_Post_SubPanel#Quicktags" title="Help With Quicktags">Quicktags</a>:
-2) To fix a not validating tag, change line 276 
+2) To fix a not validating tag, change line 276
 <script type="text/javascript" language="javascript" src="<?php echo get_settings('siteurl'); ?>/wp-content/plugins/lmbbox-comment-quicktags.php"></script>
 to
 <script type="text/javascript" src="<?php echo get_settings('siteurl'); ?>/wp-content/plugins/lmbbox-comment-quicktags.php"></script>
@@ -178,9 +178,9 @@ All in one SEO (many Atahualpa users are using it)
 and other SEO plugins
 
 
-- When you add CSS through "CSS Inserts" or other theme options: Absolute paths must be used, such as 
+- When you add CSS through "CSS Inserts" or other theme options: Absolute paths must be used, such as
 url(http://www.yoursite.com/wp-content/themes/atahualpa/images/myimage.gif).
-A relative path such as url(images/myimage.gif) will NOT work in the theme options. 
+A relative path such as url(images/myimage.gif) will NOT work in the theme options.
 
 #####################################################################
 
