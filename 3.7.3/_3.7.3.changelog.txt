@@ -1,5 +1,0 @@
-Changelog 3.7.3:
-
-- Replaced (.*) with less greedy (.*?) pattern for 'custom widgets areas' preg_replace across multiple lines, too: /functions.php, line 1013
-- Replaced preg_match_all with preg_replace_callback for 'date postinfo' so that multiple items can be used, /functions/bfa_postinfo.php, line 191-199
-- New function bfa_parse_date_callback, /functions/bfa_postinfo.php, line 17
